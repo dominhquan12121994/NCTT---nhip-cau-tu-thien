@@ -421,24 +421,29 @@ tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName("script")[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
+var src1, src2, src3;
+src1 = document.getElementById("carousel-video-1").getAttribute("src");
+src2 = document.getElementById("carousel-video-2").getAttribute("src");
+src3 = document.getElementById("carousel-video-3").getAttribute("src");
+
 var player1, player2, player3;
 function onYouTubeIframeAPIReady() {
     player1 = new YT.Player("video-1", {
         width: '100%',
         height: '280',
-        videoId: "-ImHO1_3wzo"
+        videoId: src1
     });
 
     player2 = new YT.Player("video-2", {
         width: '100%',
         height: '280',
-        videoId: "UfEmLdv0eBY"
+        videoId: src2
     });
 
     player3 = new YT.Player("video-3", {
         width: '100%',
         height: '280',
-        videoId: "klCUG4-NOcA"
+        videoId: src3
     });
 }
 
