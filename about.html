@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 	<link rel="stylesheet" href="scss/style.css" />
-	<!-- <link rel="stylesheet" href="scss/responsive.css" /> -->
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="scss/bootstrap-4-3-1.css">
 	<!-- Font Awesome -->
@@ -19,49 +18,51 @@
 
 <body>
 	<div id="wrapper">
-		<!-- ----Header--- -->
-		<div id="header">
-			<div class="row">
-				<div id="logo" class="col-4 col-lg-2 col-md-2 col-sm-4">
-					<a href="index.html"><img src="images/logo-header.png" alt="logo" /></a>
-				</div>
-				<div class="col-8 col-lg-5 col-md-5 col-sm-8 justify-content-center">
+		<!-- header-quan -->
+		<div id="header" class="header-quan container px-0">
+			<div class="row my-3">
+				<div class="header-logo-brand col-12 col-sm-12 col-lg-6 px-0">
+					<a id="logo" href="index.html"><img class="header-logo" src="images/logo-header.png"
+							alt="logo" /></a>
 					<a href="index.html" style="background-color: transparent;">
-						<h4>Từ trái tim đến trái tim</h4>
+						<span class="header-title d-inline-block ml-2">Từ trái tim đến trái tim</span>
 					</a>
 				</div>
-				<div id="header-left" class="col-lg-5 col-md-5 col-sm-12 p-0">
-					<input type="text" value="" placeholder="Tìm kiếm" />
-					<a id="search" class="ml-2 mr-2 pl-3 pr-3">
-						<img src="images/search-icon-origin.png" alt="search-icon" />
-					</a>
-					<a class="mr-2 rounded pl-2 pr-2 login_hover-form" href="#">
-						<!-- ---login--- -->
-						<form class="form-login">
-							<div class="form-group">
-								<label for="Email1">Tên người dùng hoặc Địa chỉ</label>
-								<label for="Email1">Email</label>
-								<input type="email" class="form-control" id="InputEmail1">
-							</div>
-							<div class="form-group">
-								<label for="exampleInputPassword1">Mật khẩu</label>
-								<input type="password" class="form-control" id="exampleInputPassword1">
-							</div>
-							<div class="form-group form-check">
-								<label class="form-check-label">
-									<input class="form-check-input" type="checkbox"> Tự động đăng nhập
-								</label>
-							</div>
-							<button type="submit" class="btn btn-color">Đăng nhập</button>
-						</form>
-						<!-- ---login--- -->
-						<div class="form_login-icon">
-							<i class="fa fa-user"></i>Login
+				<div class="header-search col-12 col-sm-12 col-lg-6 px-0">
+					<div id="header-left" class="justify-content-end">
+						<div class="search-panel position-relative">
+							<input class="input-search form-control pl-2" type="text" value="" placeholder="Tìm kiếm" />
+							<a id="search" class="px-3 py-0 position-absolute">
+								<i class="fas fa-search"></i>
+							</a>
 						</div>
-					</a>
-					<a id="language">
-						<img src="images/vn-icon.png" alt="vn-icon" />
-					</a>
+						<a class="login_hover-form mx-2 px-2 rounded" href="#">
+							<!-- ---login--- -->
+							<form class="form-login">
+								<div class="form-group">
+									<label for="Email1">Tên người dùng hoặc Địa chỉ</label>
+									<label for="Email1">Email</label>
+									<input type="email" class="form-control" id="InputEmail1">
+								</div>
+								<div class="form-group">
+									<label for="exampleInputPassword1">Mật khẩu</label>
+									<input type="password" class="form-control" id="exampleInputPassword1">
+								</div>
+								<div class="form-group form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox"> Tự động đăng nhập
+									</label>
+								</div>
+								<button type="submit" class="btn btn-color">Đăng nhập</button>
+							</form>
+							<!-- ---login--- -->
+							<button class="form_login-icon btn btn-primary px-3 py-0 h-100 border-0" type="button"><i
+									class="fa fa-user mr-2"></i>Login</button>
+						</a>
+						<a id="language">
+							<img class="language-icon" src="images/vn-icon.png" alt="vn-icon" />
+						</a>
+					</div>
 				</div>
 			</div>
 			<ul id="nav-header">
@@ -89,8 +90,10 @@
 				</div>
 			</div>
 		</div>
-		<!-- ----End Header---- -->
-		<div class="main">
+		<!-- ..header-quan -->
+
+		<!-- main -->
+		<div class="main about-main-quan">
 			<!-- ---start-fixed-left-logo--- -->
 			<div class="fix-home-button">
 				<a href="#">
@@ -98,70 +101,48 @@
 				</a>
 			</div>
 			<!-- ---end-fixed-left-logo--- -->
+
 			<!-- -----start-about-banner----- -->
-			<div id="about-banner">
-				<img src="images/banner-about.jpg" alt="" width="100%">
+			<div id="about-banner" class="about-banner-quan">
+				<img class="banner-img" src="images/banner-about.jpg" alt="" width="100%">
 			</div>
 			<!-- -----end-about-banner----- -->
+
 			<!-- ----start-about-main---- -->
-			<div id="about-main">
-				<div class="row align-items-center">
-					<div class="col-4">
-						<ul id="about_tab-control">
-							<li><a id="tab-1" class="tablinks">
-									<p class="about_tablink-active-color">Chúng tôi là ai</p>
-									<img src="images/we-icon.png" alt="">
-								</a>
-							</li>
-							<li><a id="tab-2" class="tablinks">
-									<p>Sứ mệnh</p>
-									<img src="images/we-icon.png" alt="">
-								</a>
-							</li>
-							<li><a id="tab-3" class="tablinks">
-									<p>Tầm nhìn</p>
-									<img src="images/we-icon.png" alt="">
-								</a>
-							</li>
-							<li><a id="tab-4" class="tablinks">
-									<p>Giá trị cốt lõi</p>
-									<img src="images/we-icon.png" alt="">
-								</a>
-							</li>
-							<li><a id="tab-5" class="tablinks">
-									<p>Mục tiêu</p>
-									<img src="images/we-icon.png" alt="">
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-8">
-						<div id="about_tab-content">
-							<div id="tab1" class="tabcontent">
-								<h3>Chúng tôi là ai</h3>
-								<p>Chúng tôi luôn đồng hành cùng các bạn, là cầu nối chuyên nghiệp, tận tâm và trao lợi
+			<div id="about-main" class="about-us-quan container px-0">
+				<div id="accordion">
+					<div class="row">
+						<div class="col-12 col-sm-12 col-lg-4">
+							<button class="about-main-btn btn btn-primary w-100 text-uppercase my-2" data-toggle="collapse" href="#collapse-one">Chúng tôi là ai</button>
+							<button class="about-main-btn btn btn-primary w-100 text-uppercase my-2" data-toggle="collapse" href="#collapse-two">Sứ mệnh</button>
+							<button class="about-main-btn btn btn-primary w-100 text-uppercase my-2" data-toggle="collapse" href="#collapse-three">Tầm nhìn</button>
+							<button class="about-main-btn btn btn-primary w-100 text-uppercase my-2" data-toggle="collapse" href="#collapse-four">Giá trị cốt lõi</button>
+							<button class="about-main-btn btn btn-primary w-100 text-uppercase my-2" data-toggle="collapse" href="#collapse-five">Mục tiêu</button>
+						</div>
+						<div class="col-12 col-sm-12 col-lg-8 py-4">
+							<div id="collapse-one" class="collapse show" data-parent="#accordion">
+								<h3 class="about-title text-uppercase text-center">Chúng tôi là ai</h3>
+								<p class="text-justify">Chúng tôi luôn đồng hành cùng các bạn, là cầu nối chuyên nghiệp, tận tâm và trao lợi
 									ích giữa người trao từ thiện và người nhận từ thiện, mang đến cho tất cả các bên cơ
-									hội chia sẻ, đồng cảm và kết nối phù hợp với nhu cầu và hoàn cảnh.<br><br></p>
+									hội chia sẻ, đồng cảm và kết nối phù hợp với nhu cầu và hoàn cảnh.</p>
 							</div>
-							<div id="tab2" class="tabcontent">
-								<h3>Sứ mệnh</h3>
+							<div id="collapse-two" class="collapse" data-parent="#accordion">
+								<h3 class="about-title text-uppercase">Sứ mệnh</h3>
 								<p>Chúng tôi là cầu nối chuyên nghiệp, tận tâm, tạo giá trị vượt trội cho Quá trình Trao
 									– Nhận từ thiện. Chia sẻ yêu thương và khơi gợi tinh thần “dám cho đi” của tất cả
 									chúng ta, mang trái tim của tất cả con người trên thế giới về bên nhau gần nhất có
-									thể.<br><br></p>
+									thể.</p>
 							</div>
-							<div id="tab3" class="tabcontent">
-								<h3>Tầm nhìn</h3>
-								<p><br>
-									– Trở thành Nhà tổ chức các Hoạt động và Sự kiện từ thiện thành công và giá trị khác
-									biệt nhất Việt Nam và thế giới!<br>
+							<div id="collapse-three" class="collapse" data-parent="#accordion">
+								<h3 class="about-title text-uppercase">Tầm nhìn</h3>
+								<p>– Trở thành Nhà tổ chức các Hoạt động và Sự kiện từ thiện thành công và giá trị khác
+									biệt nhất Việt Nam và thế giới!
 									– Trở thành cầu nối ngắn nhất giữa Trái tim đến Trái tim và từ Trái tim đến Cuộc
-									sống!
-									<br><br></p>
+									sống!</p>
 							</div>
-							<div id="tab4" class="tabcontent">
-								<h3>Giá trị cốt lõi</h3>
-								<p><br>
+							<div id="collapse-four" class="collapse" data-parent="#accordion">
+								<h3 class="about-title text-uppercase">Giá trị cốt lõi</h3>
+								<p>
 									– Lợi ích trung thực<br>
 									– Chuyên nghiệp<br>
 									– Giàu tính nhân văn và lòng nhân ái<br>
@@ -169,8 +150,8 @@
 									– Nâng cao tinh thần sẻ chia từ trái tim và trao giá trị cho cuộc sống cộng đồng
 									<br><br></p>
 							</div>
-							<div id="tab5" class="tabcontent">
-								<h3>Mục tiêu</h3>
+							<div id="collapse-five" class="collapse" data-parent="#accordion">
+								<h3 class="about-title text-uppercase">Mục tiêu</h3>
 								<p>Chúng tôi luôn đồng hành cùng các bạn, là cầu nối chuyên nghiệp, tận tâm và trao lợi
 									ích giữa người trao từ thiện và người nhận từ thiện, mang đến cho tất cả các bên cơ
 									hội chia sẻ, đồng cảm và kết nối phù hợp với nhu cầu và hoàn cảnh.<br><br></p>
@@ -180,6 +161,7 @@
 				</div>
 			</div>
 			<!-- ----end-about-main---- -->
+
 			<!-- ---start-section-1--- -->
 			<section class="index-Section-1 positon-relative">
 				<h2 class="mb-4 our-team-title" style="text-align: center;">Đội ngũ của chúng tôi</h2>
@@ -197,6 +179,8 @@
 			</section>
 			<!-- ---end-section-1--- -->
 		</div>
+		<!-- ..main -->
+
 		<!------Footer---- -->
 		<div id="footer">
 			<div class="row">

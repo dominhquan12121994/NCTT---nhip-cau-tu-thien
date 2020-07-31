@@ -6033,6 +6033,72 @@ li {
   }
 }
 
+#header #logo img {
+  width: 30%;
+  height: auto;
+}
+
+@media screen and (max-width: 991px) {
+  #header #logo img {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #header .header-logo-brand {
+    text-align: center;
+  }
+}
+
+#header .header-title {
+  font-family: "NeoBold";
+  font-size: 22px;
+  color: #ec268f;
+}
+
+#header #header-left {
+  margin-top: 8%;
+}
+
+@media screen and (max-width: 991px) {
+  #header #header-left {
+    margin-top: 3%;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #header #header-left .search-panel {
+    display: block;
+  }
+}
+
+#header #header-left #search {
+  top: 0px;
+  left: 100%;
+  -webkit-transform: translate(-100%, 0px);
+          transform: translate(-100%, 0px);
+  height: 100%;
+  border-radius: 4px;
+}
+
+#header #header-left .input-search {
+  width: 100%;
+  height: 100%;
+}
+
+#header #header-left .form_login-icon {
+  font-size: 20px;
+  background-color: transparent;
+}
+
+#header #header-left .language-icon {
+  border-radius: 4px;
+  width: 100% !important;
+}
+
 @media screen and (max-width: 767px) {
   #dang-ky-nhan-quan #form-nhan,
   #dang-ky-nhan-quan #form-trao,
@@ -6200,5 +6266,166 @@ li {
   #dang-ky-trao-quan .main-trao {
     padding: 0px !important;
   }
+}
+
+#user-admin-main {
+  padding: 5%;
+  background-color: #959595;
+}
+
+#user-admin-main .main-block {
+  background-color: white;
+  padding: 5%;
+  border-radius: 20px;
+}
+
+#user-admin-main .btn {
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  background-color: #48b852;
+  border: 0px;
+}
+
+#user-admin-main .btn:hover {
+  background-color: #03bdf2;
+}
+
+#contact-main-quan .title {
+  font-size: 24px;
+  color: #48b852;
+}
+
+@media screen and (max-width: 991px) {
+  #contact-main-quan .title {
+    margin-top: 5%;
+    font-size: 18px;
+  }
+}
+
+#contact-main-quan .send-btn {
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  background-color: #48b852;
+  border: 0px;
+}
+
+@media screen and (max-width: 991px) {
+  #contact-main-quan .send-btn {
+    font-size: 16px;
+  }
+}
+
+#contact-main-quan .send-btn:hover {
+  background-color: #03bdf2;
+}
+
+#contact-main-quan .address,
+#contact-main-quan .tel,
+#contact-main-quan .email,
+#contact-main-quan .hotline {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  #contact-main-quan .address,
+  #contact-main-quan .tel,
+  #contact-main-quan .email,
+  #contact-main-quan .hotline {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #contact-main-quan .address,
+  #contact-main-quan .tel,
+  #contact-main-quan .email,
+  #contact-main-quan .hotline {
+    font-size: 14px;
+  }
+}
+
+#contact-main-quan .address,
+#contact-main-quan .icon-address {
+  color: #ee529e;
+}
+
+#contact-main-quan .tel,
+#contact-main-quan .hotline,
+#contact-main-quan .icon-tel {
+  color: #03bdf2;
+}
+
+#contact-main-quan .email,
+#contact-main-quan .icon-email {
+  color: #48b852;
+}
+
+#contact-main-quan .icon-address,
+#contact-main-quan .icon-tel,
+#contact-main-quan .icon-email {
+  font-size: 2rem;
+  top: 15%;
+  left: 65%;
+}
+
+#contact-main-quan .icon-email {
+  left: 50%;
+}
+
+#contact-main-quan .aside-top {
+  height: 40%;
+}
+
+@media screen and (max-width: 991px) {
+  #contact-main-quan .aside-top {
+    padding-top: 0px !important;
+  }
+}
+
+#contact-main-quan .aside-bottom {
+  height: 60%;
+}
+
+@media screen and (max-width: 1199px) {
+  #contact-main-quan .aside-bottom {
+    margin-top: 6%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #contact-main-quan form .input-name,
+  #contact-main-quan form .input-phone,
+  #contact-main-quan form .input-address,
+  #contact-main-quan form .input-email,
+  #contact-main-quan form .input-content {
+    font-size: 14px;
+  }
+}
+
+.about-main-quan #about-banner {
+  min-height: auto;
+}
+
+.about-main-quan .about-us-quan {
+  margin: 40px 0px;
+}
+
+.about-main-quan .about-main-btn {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #48b852;
+  border: 0px;
+  border-radius: 0px;
+}
+
+.about-main-quan .about-main-btn:hover {
+  background-color: #03bdf2;
+}
+
+.about-main-quan .about-title {
+  font-size: 24px;
+  color: #03bdf2;
 }
 /*# sourceMappingURL=style.css.map */
