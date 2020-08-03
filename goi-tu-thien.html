@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 	<link rel="stylesheet" href="scss/style.css" />
-	<!-- <link rel="stylesheet" href="scss/responsive.css" /> -->
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="scss/bootstrap-4-3-1.css">
 	<!-- Font Awesome -->
@@ -92,8 +91,8 @@
 			</div>
 		</div>
 		<!-- ..header-quan -->
-
-		<div class="main">
+		<!-- main -->
+		<div class="main goi-tu-thien-quan">
 			<!-- ---start-fixed-left-logo--- -->
 			<div class="fix-home-button">
 				<a href="#">
@@ -232,41 +231,55 @@
 								</div>
 							</div>
 						</div>
-						
-					</div>
 
+					</div>
 				</div>
 				<div id="more-news" class="text-center">
 					<!-- <a class="btn btn-primary border-0 d-block text-center" href="news.html" ></a> -->
-					<a id="more-quan" class="d-block my-4" href="./news.html"><button class="more-quan-btn btn btn-primary px-3 border-0 text-uppercase font-weight-bold">Xem thêm</button></a>
+					<a id="more-quan" class="d-block my-4" href="./news.html"><button
+							class="more-quan-btn btn btn-primary px-3 border-0 text-uppercase font-weight-bold">Xem
+							thêm</button></a>
 				</div>
 			</section>
 			<!-- end keu goi ung ho-->
 
 			<!-- start link-rise-->
-			<section id="link-rise">
-				<div class="link-content col-lg-9">
-					<div class="link-item">
-						<div class="link-title">Thông tin của gói từ thiện</div>
-						<input type="text" placeholder="Tên Gói">
-						<a href="#"><img src="images/arrow-icon.png" alt="arrow"></a>
+			<div class="link-rise-quan">
+				<div class="container py-4">
+					<div class="row">
+						<div class="col-12 col-sm-7 px-0">
+							<button class="rise-btn btn btn-primary w-100">Thông tin của gói từ thiện</button>
+						</div>
+						<div class="rise-item col-12 col-sm-5 px-2">
+							<input class="form-control w-50 d-inline-block" type="text" placeholder="Tên Gói">
+							<a href="#"><img class="img-icon" src="images/arrow-icon.png" alt="arrow"></a>
+						</div>
 					</div>
-					<div class="link-item">
-						<div class="link-title link-title-2">Các hoạt động của Nhịp cầu từ thiện</div>
-						<a href="news.html"><img src="images/arrow-icon.png" alt="arrow"></a>
+					<div class="row mt-4">
+						<div class="col-12 col-sm-7 px-0">
+							<a href="news.html"><button class="rise-btn btn btn-primary w-100">Các hoạt động của Nhịp
+									cầu từ thiện</button></a>
+						</div>
+						<div class="col-12 col-sm-5 px-0">
+							<a href="news.html"><img class="img-icon-1 ml-3" src="images/arrow-icon.png"
+									alt="arrow"></a>
+						</div>
 					</div>
-					<div class="link-item">
-						<div class="link-title link-title-3">Quy trình thực hiện của gói hoạt động từ thiện</div>
-						<a href="hay-tham-gia.html"><img src="images/arrow-icon.png" alt="arrow"></a>
+					<div class="row mt-4">
+						<div class="col-12 col-sm-7 px-0">
+							<a href="hay-tham-gia.html"><button class="rise-btn btn btn-primary w-100">Quy trình thực
+									hiện của gói hoạt động từ thiện</button></a>
+						</div>
+						<div class="col-12 col-sm-5 px-0">
+							<a href="hay-tham-gia.html"><img class="img-icon-1 ml-3" src="images/arrow-icon.png"
+									alt="arrow"></a>
+						</div>
 					</div>
 				</div>
-			</section>
-			<!-- end link-rise-->
-
+			</div>
 		</div>
 		<!--end main-->
 		<!------Footer---- -->
-
 		<div id="footer">
 			<div class="row">
 				<div class="contact-info col-lg-4 pr-5 col-md-5 col-sm-6">
@@ -329,6 +342,7 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="Plugin/slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<!-- Script -->
 </body>
 
 </html>

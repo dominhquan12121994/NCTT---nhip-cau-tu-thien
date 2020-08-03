@@ -2950,7 +2950,7 @@ body {
 /* ---end-cauchuyencuachungtoi--- */
 /* ---start-gioithieuchung--- */
 #Gioi-thieu-chung {
-  margin: 2% 12%;
+  margin: 2% 5%;
   font-family: "Open";
   margin-bottom: 30px;
 }
@@ -6168,6 +6168,17 @@ li {
   padding-bottom: 70px;
 }
 
+@media screen and (max-width: 767px) {
+  #dang-ky-nhan-quan #form-nhan .content-form,
+  #dang-ky-nhan-quan #form-trao .content-form,
+  #dang-ky-trao-quan #form-nhan .content-form,
+  #dang-ky-trao-quan #form-trao .content-form {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 20px !important;
+  }
+}
+
 #dang-ky-nhan-quan #form-nhan .content-form .input-text,
 #dang-ky-nhan-quan #form-trao .content-form .input-text,
 #dang-ky-trao-quan #form-nhan .content-form .input-text,
@@ -6212,7 +6223,16 @@ li {
   #dang-ky-trao-quan #form-nhan .footer-form .form-btn,
   #dang-ky-trao-quan #form-trao .footer-form .form-btn {
     padding: 12px 12px !important;
-    font-size: 12px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #dang-ky-nhan-quan #form-nhan .footer-form .form-btn,
+  #dang-ky-nhan-quan #form-trao .footer-form .form-btn,
+  #dang-ky-trao-quan #form-nhan .footer-form .form-btn,
+  #dang-ky-trao-quan #form-trao .footer-form .form-btn {
+    padding: 10px !important;
   }
 }
 
@@ -6229,6 +6249,24 @@ li {
 #dang-ky-trao-quan #form-trao .footer-form a {
   position: unset !important;
   padding: 0px !important;
+}
+
+@media screen and (max-width: 991px) {
+  #dang-ky-nhan-quan #form-nhan .footer-form .column-btn,
+  #dang-ky-nhan-quan #form-trao .footer-form .column-btn,
+  #dang-ky-trao-quan #form-nhan .footer-form .column-btn,
+  #dang-ky-trao-quan #form-trao .footer-form .column-btn {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #dang-ky-nhan-quan #form-nhan .footer-form .column-btn,
+  #dang-ky-nhan-quan #form-trao .footer-form .column-btn,
+  #dang-ky-trao-quan #form-nhan .footer-form .column-btn,
+  #dang-ky-trao-quan #form-trao .footer-form .column-btn {
+    padding: 0px;
+  }
 }
 
 #dang-ky-nhan-quan #form-nhan .title .title-btn,
@@ -6289,7 +6327,9 @@ li {
   #dang-ky-nhan-quan #form-trao .title .title-btn,
   #dang-ky-trao-quan #form-nhan .title .title-btn,
   #dang-ky-trao-quan #form-trao .title .title-btn {
-    font-size: 16px;
+    font-size: 15px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 }
 
@@ -6461,6 +6501,12 @@ li {
   color: #48b852;
 }
 
+@media screen and (max-width: 575px) {
+  .about-main-quan .index-Section-1-title {
+    font-size: 24px;
+  }
+}
+
 .about-main-quan .index-Section-1-carousel-img {
   height: auto;
 }
@@ -6471,6 +6517,12 @@ li {
 
 .about-main-quan .about-us-quan {
   margin: 40px 0px !important;
+}
+
+@media screen and (max-width: 575px) {
+  .about-main-quan .about-us-quan {
+    margin-bottom: 0px !important;
+  }
 }
 
 .about-main-quan .about-main-btn {
@@ -6514,6 +6566,12 @@ li {
   height: 100%;
 }
 
+@media screen and (max-width: 575px) {
+  .bai-viet-main-quan .title {
+    font-size: 24px;
+  }
+}
+
 #my-Story-banner {
   min-height: auto !important;
 }
@@ -6535,6 +6593,12 @@ li {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
+}
+
+@media screen and (max-width: 575px) {
+  #keu-goi-ung-ho .keu-goi-ung-ho-content {
+    padding: 0px 10%;
+  }
 }
 
 #keu-goi-ung-ho .keu-goi-ung-ho-content .card-body {
@@ -6590,6 +6654,94 @@ li {
   .hay-tham-gia-content .hay-tham-gia-content-text {
     text-align: center !important;
   }
+}
+
+.tai-tro-quan .icon {
+  width: 100px;
+}
+
+.tai-tro-quan .item-left {
+  background-image: url(../images/truc-tiep-img.jpg);
+  background-size: cover;
+}
+
+.tai-tro-quan .item-right {
+  background-color: #03bdf2;
+}
+
+.tai-tro-quan .left-btn {
+  background-color: #03bdf2;
+}
+
+.tai-tro-quan .right-btn {
+  background-color: #48b852;
+}
+
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 {
+  width: 20%;
+  -webkit-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 10% 50%, 0 0);
+          clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 10% 50%, 0 0);
+  background-color: #03bdf2;
+}
+
+@media screen and (max-width: 991px) {
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 {
+    width: 100%;
+    -webkit-clip-path: none;
+            clip-path: none;
+    background-color: #ebebeb;
+    text-align: center;
+    color: black !important;
+  }
+}
+
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 .title {
+  font-size: 48px;
+}
+
+@media screen and (max-width: 991px) {
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 .title {
+    color: #48b852;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 .description {
+    text-align: center !important;
+  }
+}
+
+.receiver-quan .receiver-quan-item {
+  text-align: center;
+  width: 20%;
+}
+
+@media screen and (max-width: 991px) {
+  .receiver-quan .receiver-quan-item {
+    width: 100%;
+  }
+}
+
+.receiver-quan .receiver-quan-item .item-1 {
+  height: 100%;
+  background-color: #48b852;
+}
+
+.receiver-quan .receiver-quan-item .item-1 .title {
+  font-size: 48px;
+  font-family: "MyriadBold";
+}
+
+.receiver-quan .receiver-quan-item .item-1 .receiver-btn {
+  width: 100%;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -100%);
+          transform: translate(-50%, -100%);
+}
+
+.receiver-quan .receiver-quan-item .item-1 .description {
+  margin-bottom: 70px;
 }
 
 .index-Section-1-quan .index-Section-1-carousel-img {
@@ -6699,5 +6851,51 @@ li {
   left: 100%;
   -webkit-transform: translate(-100%, 0%);
           transform: translate(-100%, 0%);
+}
+
+.gioi-thieu-chung-quan #Gioi-thieu-chung .title {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 575px) {
+  .gioi-thieu-chung-quan #Gioi-thieu-chung .title {
+    font-size: 24px;
+  }
+}
+
+.gioi-thieu-chung-quan #Gioi-thieu-chung .description {
+  font-size: 16px;
+}
+
+.goi-tu-thien-quan .link-rise-quan {
+  background-image: url(../images/link-rise-bg.jpg);
+  background-size: cover;
+}
+
+.goi-tu-thien-quan .link-rise-quan .img-icon,
+.goi-tu-thien-quan .link-rise-quan .img-icon-1 {
+  height: 40px;
+}
+
+@media screen and (max-width: 575px) {
+  .goi-tu-thien-quan .link-rise-quan .img-icon-1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .goi-tu-thien-quan .link-rise-quan .rise-item {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+.goi-tu-thien-quan .link-rise-quan .rise-btn {
+  background-color: #03bdf2;
+  border: 0px;
+}
+
+.goi-tu-thien-quan .link-rise-quan .rise-btn:hover {
+  background-color: #48b852;
 }
 /*# sourceMappingURL=style.css.map */

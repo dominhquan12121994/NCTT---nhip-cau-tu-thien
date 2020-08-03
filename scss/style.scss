@@ -2917,7 +2917,7 @@ body {
 
 /* ---start-gioithieuchung--- */
 #Gioi-thieu-chung {
-    margin: 2% 12%;
+    margin: 2% 5%;
     font-family: "Open";
     margin-bottom: 30px;
 }
@@ -5912,11 +5912,14 @@ $color-five: #48b852;
         @include under767() {
             border-radius: 0px;
         }
-
         .content-form {
             padding-top: 50px;
             padding-bottom: 70px;
-
+            @include under767() {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+                padding-top: 20px !important;
+            }
             .input-text {
                 width: 100%;
                 border: none;
@@ -5924,13 +5927,11 @@ $color-five: #48b852;
                 padding: 10px 0;
             }
         }
-
         .input-checkbox {
             -webkit-transform: scale(2);
             transform: scale(2);
             margin-left: 8px;
         }
-
         .footer-form {
             .form-btn {
                 color: white;
@@ -5940,10 +5941,12 @@ $color-five: #48b852;
                 @include under1099() {
                     font-size: 16px;
                 }
-
                 @include under991() {
                     padding: 12px 12px !important;
-                    font-size: 12px;
+                    font-size: 14px;
+                }
+                @include under575() {
+                    padding: 10px !important;
                 }
             }
 
@@ -5954,6 +5957,14 @@ $color-five: #48b852;
             a {
                 position: unset !important;
                 padding: 0px !important;
+            }
+            .column-btn {
+                @include under991() {
+                    padding: 5px;
+                }
+                @include under575() {
+                    padding: 0px;
+                }
             }
         }
 
@@ -5987,7 +5998,9 @@ $color-five: #48b852;
                 }
 
                 @include under575() {
-                    font-size: 16px;
+                    font-size: 15px;
+                    padding-left: 0px !important;
+                    padding-right: 0px !important;
                 }
             }
         }
@@ -6137,6 +6150,9 @@ $color-five: #48b852;
     .index-Section-1-title {
         font-size: 30px;
         color: $color-five;
+        @include under575() {
+            font-size: 24px;
+        }
     }
 
     .index-Section-1-carousel-img {
@@ -6149,6 +6165,9 @@ $color-five: #48b852;
 
     .about-us-quan {
         margin: 40px 0px !important;
+        @include under575() {
+            margin-bottom: 0px !important;
+        }
     }
 
     .about-main-btn {
@@ -6191,6 +6210,11 @@ $color-five: #48b852;
         border: 0px;
         height: 100%;
     }
+    .title {
+        @include under575() {
+            font-size: 24px;
+        }
+    }
 }
 // ..BAI VIET-QUAN
 
@@ -6215,6 +6239,9 @@ $color-five: #48b852;
     }
     .keu-goi-ung-ho-content {
         display: flex !important;
+        @include under575() {
+            padding: 0px 10%;
+        }
         .card-body {
             background-color: $color-four;
         }
@@ -6260,6 +6287,75 @@ $color-five: #48b852;
     .hay-tham-gia-content-text {
         @include under991() {
             text-align: center !important;
+        }
+    }
+}
+.tai-tro-quan {
+    .icon {
+        width: 100px;
+    }
+    .item-left {
+        background-image: url(../images/truc-tiep-img.jpg);
+        background-size: cover;
+    }
+    .item-right {
+        background-color: $color-four;
+    }
+    .left-btn {
+        background-color: $color-four;
+    }
+    .right-btn {
+        background-color: $color-five;
+    }
+}
+.tro-thanh-nguoi-tai-tro-quan {
+    .tai-tro-item-1 {
+        width: 20%;
+        clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 10% 50%, 0 0);
+        background-color: $color-four;
+        @include under991() {
+            width: 100%;
+            clip-path: none;
+            background-color: #ebebeb;
+            text-align: center;
+            color: black !important;
+        }
+        .title {
+            font-size: 48px;
+            @include under991() {
+                color: $color-five;
+            }
+        }
+        .description {
+            @include under991() {
+                text-align: center !important;
+            }
+        }
+    }
+}
+.receiver-quan {
+    .receiver-quan-item {
+        text-align: center;
+        width: 20%;
+        @include under991() {
+            width: 100%;
+        }
+        .item-1 {
+            height: 100%;
+            background-color: $color-five;
+            .title {
+                font-size: 48px;
+                font-family: "MyriadBold";
+            }
+            .receiver-btn {
+                width: 100%;
+                top: 100%;
+                left: 50%;
+                transform: translate(-50%, -100%);
+            }
+            .description {
+                margin-bottom: 70px;
+            }
         }
     }
 }
@@ -6369,4 +6465,52 @@ $color-five: #48b852;
     }
 }
 // ..NEWS-QUAN
+// GIOI THIEU CHUNG-QUAN
+.gioi-thieu-chung-quan {
+    #Gioi-thieu-chung {
+        .title {
+            font-size: 30px;
+            @include under575() {
+                font-size: 24px;
+            }
+        }
+        .description {
+            font-size: 16px;
+        }
+    }
+}
+// ..GIOI THIEU CHUNG-QUAN
+// GOI TU THIEN-QUAN
+.goi-tu-thien-quan {
+    .link-rise-quan {
+        background-image: url(../images/link-rise-bg.jpg);
+        background-size: cover;
+        .img-icon,
+        .img-icon-1 {
+            height: 40px;
+        }
+        .img-icon-1 {
+            @include under575() {
+                display: none;
+            }
+        }
+        .rise-item {
+            @include under575() {
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+        .rise-btn {
+            background-color: $color-four;
+            border: 0px;
+        }
+        .rise-btn:hover {
+            background-color: $color-five;
+        }
+    }
+}
+// ..GOI TU THIEN-QUAN
+.quan-item-1 {
+    
+}
 // dominhquan
