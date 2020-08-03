@@ -17,7 +17,7 @@
 </head>
 
 <body>
-	<div class="container">
+	<div id="wrapper">
 		<!-- header-quan -->
 		<div id="header" class="header-quan container px-0">
 			<div class="row my-3">
@@ -91,43 +91,52 @@
 			</div>
 		</div>
 		<!-- ..header-quan -->
+
 		<!-- main -->
-		<div class="main" style="background-color: #959595;padding: 40px 80px;">
+		<div class="main my-account-main-quan" style="background-color: #959595;padding: 40px 80px;">
 			<div id="form-nhan">
-				<div class="title">
-					<img id="header-form-bg" src="images/title-bg.png" alt="title" />
-					<h1>MY ACCOUNT</h1>
+				<div class="title text-center">
+					<button class="title-btn font-weight-bold btn display-2 py-3 px-5 mt-5">ĐỔI MẬT KHẨU ĐĂNG NHẬP</button>
 				</div>
 				<div class="content-form">
 					<div id="form-2" class="form-item">
 						<div class="row">
-							<div class="col-lg-7 title-form">
-								<p id="text-2" class="text">Nhập mật khẩu mới:</p>
+							<div class="col-lg-6 title-form">
+								<p id="text-2" class="text px-0">Nhập mật khẩu mới:</p>
 							</div>
-							<div class="col-lg-5 option">
-								<input type="password" name="password" placeholder="Ô điền mật khẩu mới">
+							<div class="col-lg-6 option">
+								<input class="form-control" type="password" name="password" placeholder="Ô điền mật khẩu mới">
 							</div>
 						</div>
 					</div>
 					<div id="form-2" class="form-item">
 						<div class="row">
-							<div class="col-lg-7 title-form">
-								<p id="text-2" class="text">Nhập lại mật khẩu mới:</p>
+							<div class="col-lg-6 title-form">
+								<p id="text-2" class="text px-0">Nhập lại mật khẩu mới:</p>
 							</div>
-							<div class="col-lg-5 option">
-								<input type="password" name="password2" placeholder="Ô nhập lại mật khẩu mới">
+							<div class="col-lg-6 option">
+								<input class="form-control" type="password" name="password2" placeholder="Ô nhập lại mật khẩu mới">
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="footer-form">
-					<img id="footer-form-bg" src="images/footer-dangky-bg.png" alt="footer-bg">
-					<a href="index.html">Lưu</a>
-					<a href="index.html" style="float: left;">Quay về trang chủ</a>
+				<div class="container pb-5">
+					<div class="row">
+						<div class="col-6 col-sm-6 text-center">
+							<button type="submit"
+								class="form-btn btn btn-light px-4 py-2 text-uppercase font-weight-bold display-4">Lưu mật khẩu mới</button>
+						</div>
+						<div class="col-6 col-sm-6 text-center">
+							<a href="./index.html"><button
+									class="form-btn btn btn-light px-4 py-2 text-uppercase font-weight-bold display-4">Quay
+									về trang chủ</button></a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 		<!-- main -->
+
 		<!------Footer---- -->
 		<div id="footer">
 			<div class="row">

@@ -6027,9 +6027,35 @@ li {
   /*----Partner Page----*/
 }
 /* ..responsive tu file cu hieu gui */
+.display-5 {
+  font-size: 14px !important;
+}
+
+.display-4 {
+  font-size: 18px !important;
+}
+
+.display-3 {
+  font-size: 24px !important;
+}
+
+.display-2 {
+  font-size: 30px !important;
+}
+
+.display-1 {
+  font-size: 36px !important;
+}
+
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #wrapper {
+    padding: 0px 10px;
   }
 }
 
@@ -6089,6 +6115,26 @@ li {
   height: 100%;
 }
 
+#header #header-left .input-search::-webkit-input-placeholder {
+  padding-left: 0px;
+  font-size: 14px;
+}
+
+#header #header-left .input-search:-ms-input-placeholder {
+  padding-left: 0px;
+  font-size: 14px;
+}
+
+#header #header-left .input-search::-ms-input-placeholder {
+  padding-left: 0px;
+  font-size: 14px;
+}
+
+#header #header-left .input-search::placeholder {
+  padding-left: 0px;
+  font-size: 14px;
+}
+
 #header #header-left .form_login-icon {
   font-size: 20px;
   background-color: transparent;
@@ -6097,6 +6143,12 @@ li {
 #header #header-left .language-icon {
   border-radius: 4px;
   width: 100% !important;
+}
+
+@media screen and (max-width: 575px) {
+  #header #header-left .login_hover-form {
+    padding: 0px !important;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -6598,5 +6650,54 @@ li {
   .index-Section-7-quan .left-item img {
     height: auto;
   }
+}
+
+.my-account-main-quan .title-btn {
+  border-radius: 20px;
+  color: white !important;
+  background-color: #48b852;
+}
+
+@media screen and (max-width: 991px) {
+  .my-account-main-quan .title-btn {
+    font-size: 24px !important;
+  }
+}
+
+.my-account-main-quan .content-form {
+  padding-top: 6% !important;
+  padding-bottom: 0% !important;
+}
+
+.my-account-main-quan .form-btn {
+  background-color: #48b852;
+  border-radius: 20px;
+  color: white;
+}
+
+@media screen and (max-width: 991px) {
+  .my-account-main-quan .form-btn {
+    font-size: 16px !important;
+  }
+}
+
+.my-account-main-quan .form-btn:hover {
+  color: white;
+  background-color: #03bdf2;
+}
+
+.my-account-main-quan .content-form #text-2 {
+  font-size: 18px;
+}
+
+.news-main-quan #news-banner {
+  min-height: auto;
+}
+
+.news-main-quan #search-tintuc {
+  top: 0px;
+  left: 100%;
+  -webkit-transform: translate(-100%, 0%);
+          transform: translate(-100%, 0%);
 }
 /*# sourceMappingURL=style.css.map */
