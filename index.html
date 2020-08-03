@@ -19,50 +19,51 @@
 
 <body>
 	<div id="wrapper">
-		<!-- ----Header--- -->
-		<div id="header">
-			<div class="row">
-				<div id="logo" class="col-4 col-lg-2 col-md-2 col-sm-4">
-					<a href="index.html"><img src="images/logo-header.png" alt="logo" /></a>
-				</div>
-				<div class="col-8 col-lg-5 col-md-5 col-sm-8 justify-content-center">
+		<!-- header-quan -->
+		<div id="header" class="header-quan container px-0">
+			<div class="row my-3">
+				<div class="header-logo-brand col-12 col-sm-12 col-lg-6 px-0">
+					<a id="logo" href="index.html"><img class="header-logo" src="images/logo-header.png"
+							alt="logo" /></a>
 					<a href="index.html" style="background-color: transparent;">
-						<h4>Từ trái tim đến trái tim</h4>
+						<span class="header-title d-inline-block ml-2">Từ trái tim đến trái tim</span>
 					</a>
 				</div>
-				<div id="header-left" class="col-lg-5 col-md-5 col-sm-12 p-0">
-					<input type="text" value="" placeholder="Tìm kiếm" />
-					<a id="search" class="ml-2 mr-2 pl-3 pr-3">
-						<img src="images/search-icon-origin.png" alt="search-icon" />
-					</a>
-					<a class="mr-2 rounded pl-2 pr-2 login_hover-form" href="#">
-						<!-- ---login--- -->
-						<form class="form-login">
-							<div class="form-group">
-								<label for="Email1">Tên người dùng hoặc Địa chỉ</label>
-								<label for="Email1">Email</label>
-								<input type="email" class="form-control" id="InputEmail1">
-							</div>
-							<div class="form-group">
-								<label for="exampleInputPassword1">Mật khẩu</label>
-								<input type="password" class="form-control" id="exampleInputPassword1">
-							</div>
-							<div class="form-group form-check">
-								<label class="form-check-label">
-									<input class="form-check-input" type="checkbox"> Tự động đăng nhập
-								</label>
-							</div>
-							<button type="submit" class="btn btn-color">Đăng nhập</button>
-						</form>
-						<!-- ---login--- -->
-						<div class="form_login-icon">
-							<i class="fa fa-user"></i>Login
+				<div class="header-search col-12 col-sm-12 col-lg-6 px-0">
+					<div id="header-left" class="justify-content-end">
+						<div class="search-panel position-relative">
+							<input class="input-search form-control pl-2" type="text" value="" placeholder="Tìm kiếm" />
+							<a id="search" class="px-3 py-0 position-absolute">
+								<i class="fas fa-search"></i>
+							</a>
 						</div>
-
-					</a>
-					<a id="language">
-						<img src="images/vn-icon.png" alt="vn-icon" />
-					</a>
+						<a class="login_hover-form mx-2 px-2 rounded" href="#">
+							<!-- ---login--- -->
+							<form class="form-login">
+								<div class="form-group">
+									<label for="Email1">Tên người dùng hoặc Địa chỉ</label>
+									<label for="Email1">Email</label>
+									<input type="email" class="form-control" id="InputEmail1">
+								</div>
+								<div class="form-group">
+									<label for="exampleInputPassword1">Mật khẩu</label>
+									<input type="password" class="form-control" id="exampleInputPassword1">
+								</div>
+								<div class="form-group form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox"> Tự động đăng nhập
+									</label>
+								</div>
+								<button type="submit" class="btn btn-color">Đăng nhập</button>
+							</form>
+							<!-- ---login--- -->
+							<button class="form_login-icon btn btn-primary px-3 py-0 h-100 border-0" type="button"><i
+									class="fa fa-user mr-2"></i>Login</button>
+						</a>
+						<a id="language">
+							<img class="language-icon" src="images/vn-icon.png" alt="vn-icon" />
+						</a>
+					</div>
 				</div>
 			</div>
 			<ul id="nav-header">
@@ -90,7 +91,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- ----End Header---- -->
+		<!-- ..header-quan -->
 
 		<div class="main p-0">
 			<!-- ---start-fixed-left-logo--- -->
@@ -372,11 +373,13 @@
 									<div id="video-3"></div>
 								</div>
 							</div>
-							<a onclick="pauseVid()" id="carousel-prev-button" class="carousel-control-prev" href="#bg_index-video" role="button" data-slide="prev">
+							<a onclick="pauseVid()" id="carousel-prev-button" class="carousel-control-prev"
+								href="#bg_index-video" role="button" data-slide="prev">
 								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 								<span class="sr-only">Previous</span>
 							</a>
-							<a onclick="pauseVid()" id="carousel-next-button" class="carousel-control-next" href="#bg_index-video" role="button" data-slide="next">
+							<a onclick="pauseVid()" id="carousel-next-button" class="carousel-control-next"
+								href="#bg_index-video" role="button" data-slide="next">
 								<span class="carousel-control-next-icon" aria-hidden="true"></span>
 								<span class="sr-only">Next</span>
 							</a>

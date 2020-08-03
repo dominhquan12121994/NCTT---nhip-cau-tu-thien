@@ -6113,12 +6113,21 @@ $color-five: #48b852;
 
 // ABOUT-QUAN
 .about-main-quan {
+    .index-Section-1-title {
+        font-size: 30px;
+        color: $color-five;
+    }
+
+    .index-Section-1-carousel-img {
+        height: auto;
+    }
+
     #about-banner {
         min-height: auto;
     }
 
     .about-us-quan {
-        margin: 40px 0px;
+        margin: 40px 0px !important;
     }
 
     .about-main-btn {
@@ -6139,4 +6148,99 @@ $color-five: #48b852;
     }
 }
 // ..ABOUT-QUAN
+
+// BAI VIET-QUAN
+.bai-viet-main-quan {
+    .bai-viet-list {
+        background-color: $color-five !important;
+    }
+    .widget-title {
+        font-size: 24px !important;
+        color: $color-four !important;
+    }
+    .bai-viet-main-quan-search {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bai-viet-main-quan-btn {
+        top: 0px;
+        left: 100%;
+        transform: translate(-100%, 0px);
+        background-color: $color-four;
+        border: 0px;
+        height: 100%;
+    }
+}
+// ..BAI VIET-QUAN
+
+// CAU CHUYEN CUA CHUNG TOI-QUAN
+#my-Story-banner {
+    min-height: auto !important;
+}
+// ..CAU CHUYEN CUA CHUNG TOI-QUAN
+
+// GUI TU THIEN-QUAN
+#goituthien-btn-nhan-tu-thien:hover {
+    background-color: $color-five;
+}
+
+#keu-goi-ung-ho {
+    .more-quan-btn {
+        background-color: $color-four;
+        border-radius: 4px;
+    }
+    .more-quan-btn:hover {
+        background-color: $color-five;
+    }
+    .keu-goi-ung-ho-content {
+        display: flex !important;
+        .card-body {
+            background-color: $color-four;
+        }
+    }
+    .keu-goi-ung-ho-title-heading {
+        color: $color-four;
+        font-size: 30px;
+    }
+}
+// GUI TU THIEN-QUAN
+
+// HAY THAM GIA-QUAN
+#hay-tham-gia-banner {
+    min-height: auto;
+}
+#hay-tham-gia {
+    .hay-tham-gia-title-heading {
+        color: $color-five;
+    }
+}
+.hay-tham-gia-content{
+    display: flex;
+    .hay-tham-gia-content-item-quan {
+        @include under991() {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    }
+    .hay-tham-gia-content-title {
+        color: $color-five;
+    }
+    .hay-tham-gia-content-btn {
+        background-color: $color-five;
+    }
+    .hay-tham-gia-content-btn:hover {
+        background-color: $color-four;
+    }
+    .hay-tham-gia-content-link {
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -150%);
+    }
+    .hay-tham-gia-content-text {
+        @include under991() {
+            text-align: center !important;
+        }
+    }
+}
+// ..HAY THAM GIA-QUAN
 // dominhquan

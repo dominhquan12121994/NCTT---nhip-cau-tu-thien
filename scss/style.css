@@ -6404,12 +6404,21 @@ li {
   }
 }
 
+.about-main-quan .index-Section-1-title {
+  font-size: 30px;
+  color: #48b852;
+}
+
+.about-main-quan .index-Section-1-carousel-img {
+  height: auto;
+}
+
 .about-main-quan #about-banner {
   min-height: auto;
 }
 
 .about-main-quan .about-us-quan {
-  margin: 40px 0px;
+  margin: 40px 0px !important;
 }
 
 .about-main-quan .about-main-btn {
@@ -6427,5 +6436,107 @@ li {
 .about-main-quan .about-title {
   font-size: 24px;
   color: #03bdf2;
+}
+
+.bai-viet-main-quan .bai-viet-list {
+  background-color: #48b852 !important;
+}
+
+.bai-viet-main-quan .widget-title {
+  font-size: 24px !important;
+  color: #03bdf2 !important;
+}
+
+.bai-viet-main-quan .bai-viet-main-quan-search {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bai-viet-main-quan .bai-viet-main-quan-btn {
+  top: 0px;
+  left: 100%;
+  -webkit-transform: translate(-100%, 0px);
+          transform: translate(-100%, 0px);
+  background-color: #03bdf2;
+  border: 0px;
+  height: 100%;
+}
+
+#my-Story-banner {
+  min-height: auto !important;
+}
+
+#goituthien-btn-nhan-tu-thien:hover {
+  background-color: #48b852;
+}
+
+#keu-goi-ung-ho .more-quan-btn {
+  background-color: #03bdf2;
+  border-radius: 4px;
+}
+
+#keu-goi-ung-ho .more-quan-btn:hover {
+  background-color: #48b852;
+}
+
+#keu-goi-ung-ho .keu-goi-ung-ho-content {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+#keu-goi-ung-ho .keu-goi-ung-ho-content .card-body {
+  background-color: #03bdf2;
+}
+
+#keu-goi-ung-ho .keu-goi-ung-ho-title-heading {
+  color: #03bdf2;
+  font-size: 30px;
+}
+
+#hay-tham-gia-banner {
+  min-height: auto;
+}
+
+#hay-tham-gia .hay-tham-gia-title-heading {
+  color: #48b852;
+}
+
+.hay-tham-gia-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .hay-tham-gia-content .hay-tham-gia-content-item-quan {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.hay-tham-gia-content .hay-tham-gia-content-title {
+  color: #48b852;
+}
+
+.hay-tham-gia-content .hay-tham-gia-content-btn {
+  background-color: #48b852;
+}
+
+.hay-tham-gia-content .hay-tham-gia-content-btn:hover {
+  background-color: #03bdf2;
+}
+
+.hay-tham-gia-content .hay-tham-gia-content-link {
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -150%);
+          transform: translate(-50%, -150%);
+}
+
+@media screen and (max-width: 991px) {
+  .hay-tham-gia-content .hay-tham-gia-content-text {
+    text-align: center !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
