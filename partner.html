@@ -1,468 +1,596 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="scss/style.css" />
-    <!-- <link rel="stylesheet" href="scss/responsive.css" /> -->
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="scss/bootstrap-4-3-1.css">
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-    />
-    <!-- Slick -->
-    <link rel="stylesheet" type="text/css" href="Plugin/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="Plugin/slick/slick-theme.css"/>
 
-    <title>Từ trái tim đến trái tim</title>
-  </head>
-  <body>
-    <div id="wrapper">
-    <!-- ----Header--- -->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="scss/style.css" />
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="scss/bootstrap-4-3-1.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+	<!-- Slick -->
+	<link rel="stylesheet" type="text/css" href="Plugin/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="Plugin/slick/slick-theme.css" />
+	<title>Từ trái tim đến trái tim</title>
+</head>
 
-    <div id="header">
-      <div class="row">
-        <div id="logo" class="col-4 col-lg-2 col-md-2 col-sm-4">
-          <a href="index.html"><img src="images/logo-header.png" alt="logo" /></a>
-        </div>
-        <div class="col-8 col-lg-5 col-md-5 col-sm-8 justify-content-center">
-          <a href="index.html" style="background-color: transparent;"><h4>Từ trái tim đến trái tim</h4></a>
-        </div>
-        <div id="header-left" class="col-lg-5 col-md-5 col-sm-12 p-0">
-          <input type="text" value="" placeholder="Tìm kiếm" />
-          <a id="search" class="ml-2 mr-2 pl-3 pr-3">
-            <img src="images/search-icon-origin.png" alt="search-icon" />
-          </a>
-          <a class = "mr-2 rounded pl-2 pr-2 login_hover-form" href="#">
-              <!-- ---login--- -->
-              <form class="form-login">
-                <div class="form-group">
-                    <label for="Email1">Tên người dùng hoặc Địa chỉ</label>
-                  <label for="Email1">Email</label>
-                  <input type="email" class="form-control" id="InputEmail1" >
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Mật khẩu</label>
-                  <input type="password" class="form-control"  id="exampleInputPassword1">
-                </div>
-                <div class="form-group form-check">
-                    <label class="form-check-label">
-                      <input class="form-check-input" type="checkbox"> Tự động đăng nhập  
-                    </label>
-                  </div>
-                <button type="submit" class="btn btn-color">Đăng nhập</button>
-              </form>
-             <!-- ---login--- -->
-             <div class="form_login-icon">
-              <i class="fa fa-user"></i>Login
-             </div>
-           
-        </a>
-          <a id="language">
-            <img src="images/vn-icon.png" alt="vn-icon" />
-          </a>
-        </div>
-      </div>
-      <ul id="nav-header">
-        <li><a href="index.html">Trang chủ</a></li>
-        <li><a href="about.html">Về chúng tôi</a></li>
-        <li><a href="partner.html">Đối tác</a></li>
-        <li><a href="news.html">Tin tức</a></li>
-        <li><a href="contact.html">Liên hệ</a></li>
-      </ul>
-      <div id="nav-header-collapse">
-        <nav class="navbar">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#collapse"
-            aria-controls="collapse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
-        </nav>
-        <div class="collapse" id="collapse">
-          <ul id="nav-collapse">
-            <li><a href="index.html">Trang chủ</a></li>
-            <li><a href="about.html">Về chúng tôi</a></li>
-            <li><a href="partner.html">Đối tác</a></li>
-            <li><a href="news.html">Tin tức</a></li>
-            <li><a href="contact.html">Liên hệ</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  <!-- ----End Header---- -->
-      <div class="main">
-        <!-- ---start-fixed-left-logo--- -->
-        <div class="fix-home-button">
-          <a href="#">
-              <img src="images/logo-header.png" alt="home">
-          </a>
-      </div>
-      <!-- ---end-fixed-left-logo--- -->
-      <!-- ---start-banner--- -->
-      <div id="partner-banner">
-        <img src="images/banner-partner.jpg" alt="" style="width: 100%;">
-      </div>
-       <!-- ---end-banner--- -->
-       <!-- ---start-partner-main--- -->
-       <section id="partner_section-1">
-         <div class="title">
-          <h2 style="text-align:center" class="bg-section-title"><strong>LỢI ÍCH KHI THAM GIA</strong></h2>
-         </div>
-        <div id="partner_tab-1">
-          <ul class="tabs">
-            <li><a  id="loi-ich-tab1" class="partner-tablinks partner_tablinks-active ">
-              <img src="images/li1.png" alt="">
-              <div class="title">
-                <p>Minh bạch đúng người đúng đối tượng</p>
-              </div>
-            </a></li>
-            <li><a  id="loi-ich-tab2" class="partner-tablinks">
-              <img src="images/li2.png" alt="img1">
-              <div class="title">
-                <p>Lan tỏa ý nghĩa</p>
-              </div>
-            </a></li>
-            <li><a  id="loi-ich-tab3" class="partner-tablinks">
-              <img src="images/li3.png" alt="img1">
-              <div class="title">
-                <p>Cho đi là còn mãi</p>
-              </div>
-            </a></li>
-          </ul>
-          <!-- end tab link -->
-          <div class="tab_content">
-            <div id="loi-ich-content-1" class="partner-tab-item">
-              <div class="loi-ich-item">
-                <div class="icon">
-                  <img src="images/stick-done-icon.png" alt="stick">
-                </div>
-                <p>
-                  Bạn cảm nhận được sự thông suốt, minh bạch trong suốt quá trình
-                  làm từ thiện của mình.
-                </p>
-              </div>
-              <div class="loi-ich-item">
-                <div class="icon">
-                  <img src="images/stick-done-icon.png" alt="stick">
-                </div>
-                <p>
-                  Bạn được làm từ thiện theo cách mình mong muốn, trao đúng đối
-                  tượng mà mình quan tâm.
-                </p>
-              </div>
-            </div>
-            <div id="loi-ich-content-2"  class="partner-tab-item">
-              <div class="loi-ich-item">
-                <div class="icon">
-                  <img src="images/stick-done-icon.png" alt="stick">
-                </div>
-                <p>        
-                Hoạt động từ thiện của bạn được truyền thông, báo chí và các tổ chức ghi nhận, vinh danh và lan tỏa.
-                </p>
-              </div>
-              <div class="loi-ich-item">
-                <div class="icon">
-                  <img src="images/stick-done-icon.png" alt="stick">
-                </div>
-                <p>
-                  Thông qua đó, thương hiệu, sản phẩm bạn đang sở hữu được nâng tầm lên một vị thế mới, được quảng bá rộng
-                  rãi đến nhiều đối tượng và khách hàng.
-                </p>
-              </div>
-            </div>
-            <div id="loi-ich-content-3"  class="partner-tab-item">
-              <div class="loi-ich-item">
-                <div class="icon">
-                  <img src="images/stick-done-icon.png" alt="stick">
-                </div>
-                <p>
-                  Giúp bạn thoải mái và cảm thấy vui vẻ, hạnh phúc
-              </p>
-              </div>
-              <div class="loi-ich-item">
-                <div class="icon">
-                  <img src="images/stick-done-icon.png" alt="stick">
-                </div>
-                <p>
-                  Trở thành tấm gương tốt cho gia đình và con cái
-              </p>
-              </div>
-            </div>
-          </div>
-        </div>
-          <!-- tab -->
-        <div class="row"></div>
-       </section>
-       <section id="partner_section-2">
-          <div class="title">
-            <h2 style="text-align:center" class="bg-section-title"><strong>LỢI ÍCH KHI THAM GIA</strong></h2>
-          </div>
-          <p style="font-size:25px;text-align:center" class="mb-1 tieu-bieu-text">Top 10 những đối tác tiêu biểu<br>
-            tham gia tích cực và đồng hành với chương trình của chúng tôi</p>
-        <!-- ---start-bottom-tab--- -->
-         <!-- tablink -->
-        <div id="partner_tab-2">
-          
-          <ul class="tabs">
-            <button id="show-all" class="tablinks partner_tab2-active">Show All</button>
-            <button id="tai-chinh" class="tablinks">Tài chính</button>
-            <button id="hang-hoa" class="tablinks">Hàng hóa</button>
-            <button id="to-chuc" class="tablinks">Tổ chức</button>
-            <button id="dong-hanh" class="tablinks">Đồng hành</button>
-            <button id="truyen-thong" class="tablinks">Truyền thông</button>
-            <button id="khac" class="tablinks">Khác</button>
-          </ul>
-          <!-- end tablink -->
-          <div class="tab_content">
-            <div id="tab_content-item-1" class="tab_item">
-              <div class="showAll tab_content-edit align-items-center">
-                <div class="partner_slick-items">
-                  <img src="images/VNCEE.jpg">
-                  <div class="client-content"><p><a href="https://vinacee.com/" target="_blank" rel="noreferrer noopener" aria-label="VINACEE (mở trong tab mới)" tabindex="0">VINACEE</a></p></div>
-                </div>
-                <div class="partner_slick-items">
-                  <img src="images/betachmo.png">
-                  <div class="client-content"><p><a href="https://betachmo.vn/" target="_blank" rel="noreferrer noopener" aria-label="Betachmo(mở trong tab mới)" tabindex="0">BeTachMo</a></p></div>
-                </div>
-                <div class="partner_slick-items">
-                  <img src="images/doanTN.png">
-                  <div class="client-content"><p><a href="http://doanthanhnien.vn/" target="_blank" rel="noreferrer noopener" aria-label="DoanThanhNien(mở trong tab mới)" tabindex="0">Đoàn Thanh Niên</a></p></div>
-                </div>
-                <div class="partner_slick-items">
-                  <img src="images/chung_tay.jpg">
-                  <div class="client-content"><p><a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener" aria-label="ChungTay(mở trong tab mới)" tabindex="0">Chung Tay</a></p></div>
-                </div>
-                <div class="partner_slick-items">
-                  <img src="images/chu-thap-do.png">
-                  <div class="client-content"><p><a href="http://www.redcross.org.vn/" target="_blank" rel="noreferrer noopener" aria-label="HoiChuThapDo(mở trong tab mới)" tabindex="0">Hội Chữ Thập Đỏ</a></p></div>
-                </div>
-                <div class="partner_slick-items">
-                  <img src="images/3m.png">
-                  <div class="client-content"><p><a rel="noreferrer noopener" aria-label="(mở trong tab mới)" href="https://www.google.com/" target="_blank" tabindex="0">Google</a></p></div>
-                </div>
-              </div>
-          </div>
-          <div id="tab_content-item-2" class="tab_item">
-            <div class="taiChinh tab_content-edit align-items-center">
-              <div class="partner_slick-items">
-                <img src="images/VNCEE.jpg">
-                <div class="client-content"><p><a href="https://vinacee.com/" target="_blank" rel="noreferrer noopener" aria-label="VINACEE (mở trong tab mới)" tabindex="0">VINACEE</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/betachmo.png">
-                <div class="client-content"><p><a href="https://betachmo.vn/" target="_blank" rel="noreferrer noopener" aria-label="Betachmo(mở trong tab mới)" tabindex="0">BeTachMo</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/doanTN.png">
-                <div class="client-content"><p><a href="http://doanthanhnien.vn/" target="_blank" rel="noreferrer noopener" aria-label="DoanThanhNien(mở trong tab mới)" tabindex="0">Đoàn Thanh Niên</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/chung_tay.jpg">
-                <div class="client-content"><p><a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener" aria-label="ChungTay(mở trong tab mới)" tabindex="0">Chung Tay</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/chu-thap-do.png">
-                <div class="client-content"><p><a href="http://www.redcross.org.vn/" target="_blank" rel="noreferrer noopener" aria-label="HoiChuThapDo(mở trong tab mới)" tabindex="0">Hội Chữ Thập Đỏ</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/3m.png">
-                <div class="client-content"><p><a rel="noreferrer noopener" aria-label="(mở trong tab mới)" href="https://www.google.com/" target="_blank" tabindex="0">Google</a></p></div>
-              </div>
-            </div>
-          </div>
-          <div id="tab_content-item-3" class="tab_item">
-            <div class="hangHoa tab_content-edit align-items-center">
-              <div class="partner_slick-items">
-                <img src="images/VNCEE.jpg">
-                <div class="client-content"><p><a href="https://vinacee.com/" target="_blank" rel="noreferrer noopener" aria-label="VINACEE (mở trong tab mới)" tabindex="0">VINACEE</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/doanTN.png">
-                <div class="client-content"><p><a href="http://doanthanhnien.vn/" target="_blank" rel="noreferrer noopener" aria-label="DoanThanhNien(mở trong tab mới)" tabindex="0">Đoàn Thanh Niên</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/chung_tay.jpg">
-                <div class="client-content"><p><a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener" aria-label="ChungTay(mở trong tab mới)" tabindex="0">Chung Tay</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/chu-thap-do.png">
-                <div class="client-content"><p><a href="http://www.redcross.org.vn/" target="_blank" rel="noreferrer noopener" aria-label="HoiChuThapDo(mở trong tab mới)" tabindex="0">Hội Chữ Thập Đỏ</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/3m.png">
-                <div class="client-content"><p><a rel="noreferrer noopener" aria-label="(mở trong tab mới)" href="https://www.google.com/" target="_blank" tabindex="0">Google</a></p></div>
-              </div>
-            </div>
-          </div>
-          <div id="tab_content-item-4" class="tab_item">
-            <div class="toChuc tab_content-edit align-items-center">
-              <div class="partner_slick-items">
-                <img src="images/VNCEE.jpg">
-                <div class="client-content"><p><a href="https://vinacee.com/" target="_blank" rel="noreferrer noopener" aria-label="VINACEE (mở trong tab mới)" tabindex="0">VINACEE</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/betachmo.png">
-                <div class="client-content"><p><a href="https://betachmo.vn/" target="_blank" rel="noreferrer noopener" aria-label="Betachmo(mở trong tab mới)" tabindex="0">BeTachMo</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/chung_tay.jpg">
-                <div class="client-content"><p><a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener" aria-label="ChungTay(mở trong tab mới)" tabindex="0">Chung Tay</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/chu-thap-do.png">
-                <div class="client-content"><p><a href="http://www.redcross.org.vn/" target="_blank" rel="noreferrer noopener" aria-label="HoiChuThapDo(mở trong tab mới)" tabindex="0">Hội Chữ Thập Đỏ</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/3m.png">
-                <div class="client-content"><p><a rel="noreferrer noopener" aria-label="(mở trong tab mới)" href="https://www.google.com/" target="_blank" tabindex="0">Google</a></p></div>
-              </div>
-            </div>
-          </div>
-          <div id="tab_content-item-5" class="tab_item">
-            <div class="dongHanh tab_content-edit align-items-center">
-              <div class="partner_slick-items">
-                <img src="images/VNCEE.jpg">
-                <div class="client-content"><p><a href="https://vinacee.com/" target="_blank" rel="noreferrer noopener" aria-label="VINACEE (mở trong tab mới)" tabindex="0">VINACEE</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/betachmo.png">
-                <div class="client-content"><p><a href="https://betachmo.vn/" target="_blank" rel="noreferrer noopener" aria-label="Betachmo(mở trong tab mới)" tabindex="0">BeTachMo</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/doanTN.png">
-                <div class="client-content"><p><a href="http://doanthanhnien.vn/" target="_blank" rel="noreferrer noopener" aria-label="DoanThanhNien(mở trong tab mới)" tabindex="0">Đoàn Thanh Niên</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/chu-thap-do.png">
-                <div class="client-content"><p><a href="http://www.redcross.org.vn/" target="_blank" rel="noreferrer noopener" aria-label="HoiChuThapDo(mở trong tab mới)" tabindex="0">Hội Chữ Thập Đỏ</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/3m.png">
-                <div class="client-content"><p><a rel="noreferrer noopener" aria-label="(mở trong tab mới)" href="https://www.google.com/" target="_blank" tabindex="0">Google</a></p></div>
-              </div>
-            </div>
-          </div>
-          <div id="tab_content-item-6" class="tab_item">
-            <div class="truyenThong tab_content-edit align-items-center">
-              <div class="partner_slick-items">
-                <img src="images/VNCEE.jpg">
-                <div class="client-content"><p><a href="https://vinacee.com/" target="_blank" rel="noreferrer noopener" aria-label="VINACEE (mở trong tab mới)" tabindex="0">VINACEE</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/betachmo.png">
-                <div class="client-content"><p><a href="https://betachmo.vn/" target="_blank" rel="noreferrer noopener" aria-label="Betachmo(mở trong tab mới)" tabindex="0">BeTachMo</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/doanTN.png">
-                <div class="client-content"><p><a href="http://doanthanhnien.vn/" target="_blank" rel="noreferrer noopener" aria-label="DoanThanhNien(mở trong tab mới)" tabindex="0">Đoàn Thanh Niên</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/chung_tay.jpg">
-                <div class="client-content"><p><a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener" aria-label="ChungTay(mở trong tab mới)" tabindex="0">Chung Tay</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/3m.png">
-                <div class="client-content"><p><a rel="noreferrer noopener" aria-label="(mở trong tab mới)" href="https://www.google.com/" target="_blank" tabindex="0">Google</a></p></div>
-              </div>
-            </div>
-          </div>
-          <div id="tab_content-item-7" class="tab_item">
-            <div class="khac tab_content-edit align-items-center">
-              <div class="partner_slick-items">
-                <img src="images/VNCEE.jpg">
-                <div class="client-content"><p><a href="https://vinacee.com/" target="_blank" rel="noreferrer noopener" aria-label="VINACEE (mở trong tab mới)" tabindex="0">VINACEE</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/betachmo.png">
-                <div class="client-content"><p><a href="https://betachmo.vn/" target="_blank" rel="noreferrer noopener" aria-label="Betachmo(mở trong tab mới)" tabindex="0">BeTachMo</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/doanTN.png">
-                <div class="client-content"><p><a href="http://doanthanhnien.vn/" target="_blank" rel="noreferrer noopener" aria-label="DoanThanhNien(mở trong tab mới)" tabindex="0">Đoàn Thanh Niên</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/chung_tay.jpg">
-                <div class="client-content"><p><a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener" aria-label="ChungTay(mở trong tab mới)" tabindex="0">Chung Tay</a></p></div>
-              </div>
-              <div class="partner_slick-items">
-                <img src="images/chu-thap-do.png">
-                <div class="client-content"><p><a href="http://www.redcross.org.vn/" target="_blank" rel="noreferrer noopener" aria-label="HoiChuThapDo(mở trong tab mới)" tabindex="0">Hội Chữ Thập Đỏ</a></p></div>
-              </div>
-            </div>
-          </div>
-        </div>
-       <!-- ---end-bottom-tab--- -->
-       </section>
-      <!-- ---end-partner-main--- -->
-    </div>
-      <!------Footer---- -->
-      <div id="footer">
-        <div class="row">
-          <div class="contact-info col-lg-4 pr-5 col-md-5 col-sm-6">
-            <h4>LIÊN HỆ</h4>
-            <p><strong>Công Ty CP Kỹ Thuật Môi Trường Và Xây Dựng VINACEE Việt Nam</strong></p>
-            <p>Phòng 412, Nơ 9, KĐT Pháp Vân,
-              quận Hoàng Mai, Hà Nội</p>
-              <p>Email: <a class="text-is-email" href="mailto:nhipcaututhienvn@gmail.com">nhipcaututhienvn@gmail.com</a></p>
-              <p>Fanpage: <a href="https://www.facebook.com/Nh%E1%BB%8Bp-c%E1%BA%A7u-t%E1%BB%AB-thi%E1%BB%87n-111554506928605/" target="_blank" rel="noopener noreferrer">Nhịp Cầu Từ Thiện</a></p>
-              <p>Website: <a href="https://nhipcaututhien.vn/">nhipcaututhien.vn</a></p>
-              <p>Tel: 024 3537 8620 - Fax: 024 3537 8623</p>
-            <h4>Tìm Chúng Tôi</h4>
-            <div class="social">
-              <a href="#"><img class="social-item " src="images/facebook.png" alt="fb"></a>
-              <a href="#"><img class="social-item " src="images/gmail.png" alt="gmail"></a>
-              <a href="#"><img class="social-item " src="images/messenger.png" alt="mess"></a>
-              <a href="#"><img class="social-item " src="images/Logo_Zalo.png" alt="zalo"></a>
-              <a href="#"><img class="social-item " src="images/bank-icon.png" alt="bank"></a>
-          </div>
-          </div>
-          <div class="link-footer col-lg-2 col-md-2 col-sm-12">
-            <a href="index.html">Trang chủ</a>
-            <a href="about.html">Về chúng tôi</a>
-            <a href="partner.html">Đối tác</a>
-            <a href="news.html">Tin tức</a>
-            <a href="contact.html">Liên hệ</a>
-          </div>
-          <div class="img-footer col-lg-6 col-md-5 col-sm-6">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7451.844712167416!2d105.84678100000001!3d20.955633!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb083b1a40f8a2743!2zVMOyYSAwOSAtIEtodSDEkcO0IHRo4buLIHBow6FwIHbDom4gLSBU4bupIEhp4buHcCAtIFBoxrDhu51uZyBIb8OgbmcgTGnhu4d0IC0gUS5Ib8OgbmcgTWFpIC0gSE4u!5e0!3m2!1svi!2sus!4v1592035960988!5m2!1svi!2sus" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          </div>
-        </div>
-      </div>
-    <!------End Footer------>
-    </div>
-       <!-- -------messenger ------- -->
-       <div class="messenger">
-        <img src="./images/messagerbtn.png" alt="" style="width:100%">
-      <div id='fb-root'></div>
-      <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-      <div class='fb-customerchat'
-        attribution="wordpress"
-        page_id='111554506928605'
-        logged_in_greeting='Xin chào? Bạn cần chúng tôi hỗ trợ gì không?'
-        logged_out_greeting='Xin chào? Bạn cần chúng tôi hỗ trợ gì không?'
-        >
-    </div> 
-    </div> 
-    <!-- -------end-messenger------- -->
-    <!-- Script -->
-    <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="Plugin/slick/slick.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
+<body>
+	<div id="wrapper">
+		<!-- header-quan -->
+		<div id="header" class="header-quan container px-0">
+			<div class="row my-3">
+				<div class="header-logo-brand col-12 col-sm-12 col-lg-6 px-0">
+					<a id="logo" href="index.html"><img class="header-logo" src="images/logo-header.png"
+							alt="logo" /></a>
+					<a href="index.html" style="background-color: transparent;">
+						<span class="header-title d-inline-block ml-2">Từ trái tim đến trái tim</span>
+					</a>
+				</div>
+				<div class="header-search col-12 col-sm-12 col-lg-6 px-0">
+					<div id="header-left" class="justify-content-end">
+						<div class="search-panel position-relative">
+							<input class="input-search form-control pl-2" type="text" value="" placeholder="Tìm kiếm" />
+							<a id="search" class="px-3 py-0 position-absolute">
+								<i class="fas fa-search"></i>
+							</a>
+						</div>
+						<a class="login_hover-form mx-2 px-2 rounded" href="#">
+							<!-- ---login--- -->
+							<form class="form-login">
+								<div class="form-group">
+									<label for="Email1">Tên người dùng hoặc Địa chỉ</label>
+									<label for="Email1">Email</label>
+									<input type="email" class="form-control" id="InputEmail1">
+								</div>
+								<div class="form-group">
+									<label for="exampleInputPassword1">Mật khẩu</label>
+									<input type="password" class="form-control" id="exampleInputPassword1">
+								</div>
+								<div class="form-group form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox"> Tự động đăng nhập
+									</label>
+								</div>
+								<button type="submit" class="btn btn-color">Đăng nhập</button>
+							</form>
+							<!-- ---login--- -->
+							<button class="form_login-icon btn btn-primary px-3 py-0 h-100 border-0" type="button"><i
+									class="fa fa-user mr-2"></i>Login</button>
+						</a>
+						<a id="language">
+							<img class="language-icon" src="images/vn-icon.png" alt="vn-icon" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<ul id="nav-header">
+				<li><a href="index.html">Trang chủ</a></li>
+				<li><a href="about.html">Về chúng tôi</a></li>
+				<li><a href="partner.html">Đối tác</a></li>
+				<li><a href="news.html">Tin tức</a></li>
+				<li><a href="contact.html">Liên hệ</a></li>
+			</ul>
+			<div id="nav-header-collapse">
+				<nav class="navbar">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse"
+						aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
+						<i class="fas fa-bars"></i>
+					</button>
+				</nav>
+				<div class="collapse" id="collapse">
+					<ul id="nav-collapse">
+						<li><a href="index.html">Trang chủ</a></li>
+						<li><a href="about.html">Về chúng tôi</a></li>
+						<li><a href="partner.html">Đối tác</a></li>
+						<li><a href="news.html">Tin tức</a></li>
+						<li><a href="contact.html">Liên hệ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- ..header-quan -->
+		<div class="main">
+			<!-- ---start-fixed-left-logo--- -->
+			<div class="fix-home-button">
+				<a href="#">
+					<img src="images/logo-header.png" alt="home">
+				</a>
+			</div>
+			<!-- ---end-fixed-left-logo--- -->
+			<!-- ---start-banner--- -->
+			<div id="partner-banner">
+				<img src="images/banner-partner.jpg" alt="" style="width: 100%;">
+			</div>
+			<!-- ---end-banner--- -->
+			<!-- ---start-partner-main--- -->
+			<section id="partner_section-1">
+				<div class="title">
+					<h2 style="text-align:center" class="bg-section-title"><strong>LỢI ÍCH KHI THAM GIA</strong></h2>
+				</div>
+				<div id="partner_tab-1">
+					<ul class="tabs">
+						<li><a id="loi-ich-tab1" class="partner-tablinks partner_tablinks-active ">
+								<img src="images/li1.png" alt="">
+								<div class="title">
+									<p>Minh bạch đúng người đúng đối tượng</p>
+								</div>
+							</a></li>
+						<li><a id="loi-ich-tab2" class="partner-tablinks">
+								<img src="images/li2.png" alt="img1">
+								<div class="title">
+									<p>Lan tỏa ý nghĩa</p>
+								</div>
+							</a></li>
+						<li><a id="loi-ich-tab3" class="partner-tablinks">
+								<img src="images/li3.png" alt="img1">
+								<div class="title">
+									<p>Cho đi là còn mãi</p>
+								</div>
+							</a></li>
+					</ul>
+					<!-- end tab link -->
+					<div class="tab_content">
+						<div id="loi-ich-content-1" class="partner-tab-item">
+							<div class="loi-ich-item">
+								<div class="icon">
+									<img src="images/stick-done-icon.png" alt="stick">
+								</div>
+								<p>
+									Bạn cảm nhận được sự thông suốt, minh bạch trong suốt quá trình
+									làm từ thiện của mình.
+								</p>
+							</div>
+							<div class="loi-ich-item">
+								<div class="icon">
+									<img src="images/stick-done-icon.png" alt="stick">
+								</div>
+								<p>
+									Bạn được làm từ thiện theo cách mình mong muốn, trao đúng đối
+									tượng mà mình quan tâm.
+								</p>
+							</div>
+						</div>
+						<div id="loi-ich-content-2" class="partner-tab-item">
+							<div class="loi-ich-item">
+								<div class="icon">
+									<img src="images/stick-done-icon.png" alt="stick">
+								</div>
+								<p>
+									Hoạt động từ thiện của bạn được truyền thông, báo chí và các tổ chức ghi nhận, vinh
+									danh và lan tỏa.
+								</p>
+							</div>
+							<div class="loi-ich-item">
+								<div class="icon">
+									<img src="images/stick-done-icon.png" alt="stick">
+								</div>
+								<p>
+									Thông qua đó, thương hiệu, sản phẩm bạn đang sở hữu được nâng tầm lên một vị thế
+									mới, được quảng bá rộng
+									rãi đến nhiều đối tượng và khách hàng.
+								</p>
+							</div>
+						</div>
+						<div id="loi-ich-content-3" class="partner-tab-item">
+							<div class="loi-ich-item">
+								<div class="icon">
+									<img src="images/stick-done-icon.png" alt="stick">
+								</div>
+								<p>
+									Giúp bạn thoải mái và cảm thấy vui vẻ, hạnh phúc
+								</p>
+							</div>
+							<div class="loi-ich-item">
+								<div class="icon">
+									<img src="images/stick-done-icon.png" alt="stick">
+								</div>
+								<p>
+									Trở thành tấm gương tốt cho gia đình và con cái
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- tab -->
+				<div class="row"></div>
+			</section>
+			<section id="partner_section-2">
+				<div class="title">
+					<h2 style="text-align:center" class="bg-section-title"><strong>LỢI ÍCH KHI THAM GIA</strong></h2>
+				</div>
+				<p style="font-size:25px;text-align:center" class="mb-1 tieu-bieu-text">Top 10 những đối tác tiêu
+					biểu<br>
+					tham gia tích cực và đồng hành với chương trình của chúng tôi</p>
+				<!-- ---start-bottom-tab--- -->
+				<!-- tablink -->
+				<div id="partner_tab-2">
+					<ul class="tabs">
+						<button id="show-all" class="tablinks partner_tab2-active">Show All</button>
+						<button id="tai-chinh" class="tablinks">Tài chính</button>
+						<button id="hang-hoa" class="tablinks">Hàng hóa</button>
+						<button id="to-chuc" class="tablinks">Tổ chức</button>
+						<button id="dong-hanh" class="tablinks">Đồng hành</button>
+						<button id="truyen-thong" class="tablinks">Truyền thông</button>
+						<button id="khac" class="tablinks">Khác</button>
+					</ul>
+					<!-- end tablink -->
+					<div class="tab_content">
+						<div id="tab_content-item-1" class="tab_item">
+							<div class="showAll tab_content-edit align-items-center">
+								<div class="partner_slick-items">
+									<img src="images/VNCEE.jpg">
+									<div class="client-content">
+										<p><a href="https://vinacee.com/" target="_blank" rel="noreferrer noopener"
+												aria-label="VINACEE (mở trong tab mới)" tabindex="0">VINACEE</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/betachmo.png">
+									<div class="client-content">
+										<p><a href="https://betachmo.vn/" target="_blank" rel="noreferrer noopener"
+												aria-label="Betachmo(mở trong tab mới)" tabindex="0">BeTachMo</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/doanTN.png">
+									<div class="client-content">
+										<p><a href="http://doanthanhnien.vn/" target="_blank" rel="noreferrer noopener"
+												aria-label="DoanThanhNien(mở trong tab mới)" tabindex="0">Đoàn Thanh
+												Niên</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/chung_tay.jpg">
+									<div class="client-content">
+										<p><a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener"
+												aria-label="ChungTay(mở trong tab mới)" tabindex="0">Chung Tay</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/chu-thap-do.png">
+									<div class="client-content">
+										<p><a href="http://www.redcross.org.vn/" target="_blank"
+												rel="noreferrer noopener" aria-label="HoiChuThapDo(mở trong tab mới)"
+												tabindex="0">Hội Chữ Thập Đỏ</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/3m.png">
+									<div class="client-content">
+										<p><a rel="noreferrer noopener" aria-label="(mở trong tab mới)"
+												href="https://www.google.com/" target="_blank" tabindex="0">Google</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="tab_content-item-2" class="tab_item">
+							<div class="taiChinh tab_content-edit align-items-center">
+								<div class="partner_slick-items">
+									<img src="images/VNCEE.jpg">
+									<div class="client-content">
+										<p><a href="https://vinacee.com/" target="_blank" rel="noreferrer noopener"
+												aria-label="VINACEE (mở trong tab mới)" tabindex="0">VINACEE</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/betachmo.png">
+									<div class="client-content">
+										<p><a href="https://betachmo.vn/" target="_blank" rel="noreferrer noopener"
+												aria-label="Betachmo(mở trong tab mới)" tabindex="0">BeTachMo</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/doanTN.png">
+									<div class="client-content">
+										<p><a href="http://doanthanhnien.vn/" target="_blank" rel="noreferrer noopener"
+												aria-label="DoanThanhNien(mở trong tab mới)" tabindex="0">Đoàn Thanh
+												Niên</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/chung_tay.jpg">
+									<div class="client-content">
+										<p><a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener"
+												aria-label="ChungTay(mở trong tab mới)" tabindex="0">Chung Tay</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/chu-thap-do.png">
+									<div class="client-content">
+										<p><a href="http://www.redcross.org.vn/" target="_blank"
+												rel="noreferrer noopener" aria-label="HoiChuThapDo(mở trong tab mới)"
+												tabindex="0">Hội Chữ Thập Đỏ</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/3m.png">
+									<div class="client-content">
+										<p><a rel="noreferrer noopener" aria-label="(mở trong tab mới)"
+												href="https://www.google.com/" target="_blank" tabindex="0">Google</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="tab_content-item-3" class="tab_item">
+							<div class="hangHoa tab_content-edit align-items-center">
+								<div class="partner_slick-items">
+									<img src="images/VNCEE.jpg">
+									<div class="client-content">
+										<p><a href="https://vinacee.com/" target="_blank" rel="noreferrer noopener"
+												aria-label="VINACEE (mở trong tab mới)" tabindex="0">VINACEE</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/doanTN.png">
+									<div class="client-content">
+										<p><a href="http://doanthanhnien.vn/" target="_blank" rel="noreferrer noopener"
+												aria-label="DoanThanhNien(mở trong tab mới)" tabindex="0">Đoàn Thanh
+												Niên</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/chung_tay.jpg">
+									<div class="client-content">
+										<p><a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener"
+												aria-label="ChungTay(mở trong tab mới)" tabindex="0">Chung Tay</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/chu-thap-do.png">
+									<div class="client-content">
+										<p><a href="http://www.redcross.org.vn/" target="_blank"
+												rel="noreferrer noopener" aria-label="HoiChuThapDo(mở trong tab mới)"
+												tabindex="0">Hội Chữ Thập Đỏ</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/3m.png">
+									<div class="client-content">
+										<p><a rel="noreferrer noopener" aria-label="(mở trong tab mới)"
+												href="https://www.google.com/" target="_blank" tabindex="0">Google</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="tab_content-item-4" class="tab_item">
+							<div class="toChuc tab_content-edit align-items-center">
+								<div class="partner_slick-items">
+									<img src="images/VNCEE.jpg">
+									<div class="client-content">
+										<p><a href="https://vinacee.com/" target="_blank" rel="noreferrer noopener"
+												aria-label="VINACEE (mở trong tab mới)" tabindex="0">VINACEE</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/betachmo.png">
+									<div class="client-content">
+										<p><a href="https://betachmo.vn/" target="_blank" rel="noreferrer noopener"
+												aria-label="Betachmo(mở trong tab mới)" tabindex="0">BeTachMo</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/chung_tay.jpg">
+									<div class="client-content">
+										<p><a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener"
+												aria-label="ChungTay(mở trong tab mới)" tabindex="0">Chung Tay</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/chu-thap-do.png">
+									<div class="client-content">
+										<p><a href="http://www.redcross.org.vn/" target="_blank"
+												rel="noreferrer noopener" aria-label="HoiChuThapDo(mở trong tab mới)"
+												tabindex="0">Hội Chữ Thập Đỏ</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/3m.png">
+									<div class="client-content">
+										<p><a rel="noreferrer noopener" aria-label="(mở trong tab mới)"
+												href="https://www.google.com/" target="_blank" tabindex="0">Google</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="tab_content-item-5" class="tab_item">
+							<div class="dongHanh tab_content-edit align-items-center">
+								<div class="partner_slick-items">
+									<img src="images/VNCEE.jpg">
+									<div class="client-content">
+										<p><a href="https://vinacee.com/" target="_blank" rel="noreferrer noopener"
+												aria-label="VINACEE (mở trong tab mới)" tabindex="0">VINACEE</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/betachmo.png">
+									<div class="client-content">
+										<p><a href="https://betachmo.vn/" target="_blank" rel="noreferrer noopener"
+												aria-label="Betachmo(mở trong tab mới)" tabindex="0">BeTachMo</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/doanTN.png">
+									<div class="client-content">
+										<p><a href="http://doanthanhnien.vn/" target="_blank" rel="noreferrer noopener"
+												aria-label="DoanThanhNien(mở trong tab mới)" tabindex="0">Đoàn Thanh
+												Niên</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/chu-thap-do.png">
+									<div class="client-content">
+										<p><a href="http://www.redcross.org.vn/" target="_blank"
+												rel="noreferrer noopener" aria-label="HoiChuThapDo(mở trong tab mới)"
+												tabindex="0">Hội Chữ Thập Đỏ</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/3m.png">
+									<div class="client-content">
+										<p><a rel="noreferrer noopener" aria-label="(mở trong tab mới)"
+												href="https://www.google.com/" target="_blank" tabindex="0">Google</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="tab_content-item-6" class="tab_item">
+							<div class="truyenThong tab_content-edit align-items-center">
+								<div class="partner_slick-items">
+									<img src="images/VNCEE.jpg">
+									<div class="client-content">
+										<p><a href="https://vinacee.com/" target="_blank" rel="noreferrer noopener"
+												aria-label="VINACEE (mở trong tab mới)" tabindex="0">VINACEE</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/betachmo.png">
+									<div class="client-content">
+										<p><a href="https://betachmo.vn/" target="_blank" rel="noreferrer noopener"
+												aria-label="Betachmo(mở trong tab mới)" tabindex="0">BeTachMo</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/doanTN.png">
+									<div class="client-content">
+										<p><a href="http://doanthanhnien.vn/" target="_blank" rel="noreferrer noopener"
+												aria-label="DoanThanhNien(mở trong tab mới)" tabindex="0">Đoàn Thanh
+												Niên</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/chung_tay.jpg">
+									<div class="client-content">
+										<p><a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener"
+												aria-label="ChungTay(mở trong tab mới)" tabindex="0">Chung Tay</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/3m.png">
+									<div class="client-content">
+										<p><a rel="noreferrer noopener" aria-label="(mở trong tab mới)"
+												href="https://www.google.com/" target="_blank" tabindex="0">Google</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="tab_content-item-7" class="tab_item">
+							<div class="khac tab_content-edit align-items-center">
+								<div class="partner_slick-items">
+									<img src="images/VNCEE.jpg">
+									<div class="client-content">
+										<p><a href="https://vinacee.com/" target="_blank" rel="noreferrer noopener"
+												aria-label="VINACEE (mở trong tab mới)" tabindex="0">VINACEE</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/betachmo.png">
+									<div class="client-content">
+										<p><a href="https://betachmo.vn/" target="_blank" rel="noreferrer noopener"
+												aria-label="Betachmo(mở trong tab mới)" tabindex="0">BeTachMo</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/doanTN.png">
+									<div class="client-content">
+										<p><a href="http://doanthanhnien.vn/" target="_blank" rel="noreferrer noopener"
+												aria-label="DoanThanhNien(mở trong tab mới)" tabindex="0">Đoàn Thanh
+												Niên</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/chung_tay.jpg">
+									<div class="client-content">
+										<p><a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener"
+												aria-label="ChungTay(mở trong tab mới)" tabindex="0">Chung Tay</a></p>
+									</div>
+								</div>
+								<div class="partner_slick-items">
+									<img src="images/chu-thap-do.png">
+									<div class="client-content">
+										<p><a href="http://www.redcross.org.vn/" target="_blank"
+												rel="noreferrer noopener" aria-label="HoiChuThapDo(mở trong tab mới)"
+												tabindex="0">Hội Chữ Thập Đỏ</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- ---end-bottom-tab--- -->
+			</section>
+			<!-- ---end-partner-main--- -->
+		</div>
+		<!------Footer---- -->
+		<div id="footer">
+			<div class="row">
+				<div class="contact-info col-lg-4 pr-5 col-md-5 col-sm-6">
+					<h4>LIÊN HỆ</h4>
+					<p><strong>Công Ty CP Kỹ Thuật Môi Trường Và Xây Dựng VINACEE Việt Nam</strong></p>
+					<p>Phòng 412, Nơ 9, KĐT Pháp Vân,
+						quận Hoàng Mai, Hà Nội</p>
+					<p>Email: <a class="text-is-email"
+							href="mailto:nhipcaututhienvn@gmail.com">nhipcaututhienvn@gmail.com</a></p>
+					<p>Fanpage: <a
+							href="https://www.facebook.com/Nh%E1%BB%8Bp-c%E1%BA%A7u-t%E1%BB%AB-thi%E1%BB%87n-111554506928605/"
+							target="_blank" rel="noopener noreferrer">Nhịp Cầu Từ Thiện</a></p>
+					<p>Website: <a href="https://nhipcaututhien.vn/">nhipcaututhien.vn</a></p>
+					<p>Tel: 024 3537 8620 - Fax: 024 3537 8623</p>
+					<h4>Tìm Chúng Tôi</h4>
+					<div class="social">
+						<a href="#"><img class="social-item " src="images/facebook.png" alt="fb"></a>
+						<a href="#"><img class="social-item " src="images/gmail.png" alt="gmail"></a>
+						<a href="#"><img class="social-item " src="images/messenger.png" alt="mess"></a>
+						<a href="#"><img class="social-item " src="images/Logo_Zalo.png" alt="zalo"></a>
+						<a href="#"><img class="social-item " src="images/bank-icon.png" alt="bank"></a>
+					</div>
+				</div>
+				<div class="link-footer col-lg-2 col-md-2 col-sm-12">
+					<a href="index.html">Trang chủ</a>
+					<a href="about.html">Về chúng tôi</a>
+					<a href="partner.html">Đối tác</a>
+					<a href="news.html">Tin tức</a>
+					<a href="contact.html">Liên hệ</a>
+				</div>
+				<div class="img-footer col-lg-6 col-md-5 col-sm-6">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7451.844712167416!2d105.84678100000001!3d20.955633!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb083b1a40f8a2743!2zVMOyYSAwOSAtIEtodSDEkcO0IHRo4buLIHBow6FwIHbDom4gLSBU4bupIEhp4buHcCAtIFBoxrDhu51uZyBIb8OgbmcgTGnhu4d0IC0gUS5Ib8OgbmcgTWFpIC0gSE4u!5e0!3m2!1svi!2sus!4v1592035960988!5m2!1svi!2sus"
+						width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+						aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</div>
+		<!------End Footer------>
+	</div>
+	<!-- -------messenger ------- -->
+	<div class="messenger">
+		<img src="./images/messagerbtn.png" alt="" style="width:100%">
+		<div id='fb-root'></div>
+		<script>(function (d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+		<div class='fb-customerchat' attribution="wordpress" page_id='111554506928605'
+			logged_in_greeting='Xin chào? Bạn cần chúng tôi hỗ trợ gì không?'
+			logged_out_greeting='Xin chào? Bạn cần chúng tôi hỗ trợ gì không?'>
+		</div>
+	</div>
+	<!-- -------end-messenger------- -->
+	<!-- Script -->
+	<script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="Plugin/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- Script -->
+</body>
+
 </html>

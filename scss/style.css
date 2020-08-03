@@ -6539,4 +6539,64 @@ li {
     text-align: center !important;
   }
 }
+
+.index-Section-1-quan .index-Section-1-carousel-img {
+  height: auto;
+}
+
+.index-Section-2-quan .title {
+  font-size: 30px;
+  color: #48b852;
+}
+
+.index-Section-2-quan .description {
+  color: #48b852;
+  font-size: 18px;
+}
+
+.index-Section-2-quan a {
+  background-color: transparent;
+}
+
+.index-Section-2-quan .index-Section-2-quan-btn {
+  background-color: #03bdf2;
+  font-size: 18px;
+}
+
+.index-Section-2-quan .index-Section-2-quan-btn:hover {
+  background-color: #48b852;
+}
+
+.index-Section-3-quan a {
+  background-color: transparent;
+  padding: 0px;
+}
+
+.index-Section-3-quan .index-Section-3-quan-btn {
+  background-color: #03bdf2;
+  font-size: 18px;
+}
+
+.index-Section-3-quan .index-Section-3-quan-btn:hover {
+  background-color: #48b852;
+}
+
+.index-Section-4-quan .title {
+  font-size: 24px;
+  top: 45%;
+  text-shadow: 0px 0px 5px #888;
+}
+
+.index-Section-7-quan .left-item img {
+  height: 280px;
+}
+
+@media screen and (max-width: 991px) {
+  .index-Section-7-quan .left-item {
+    margin-bottom: 3%;
+  }
+  .index-Section-7-quan .left-item img {
+    height: auto;
+  }
+}
 /*# sourceMappingURL=style.css.map */
