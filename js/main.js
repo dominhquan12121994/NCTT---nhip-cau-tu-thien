@@ -411,6 +411,9 @@ $(document).ready(function () {
 
 // start news index style flex
 $(document).ready(function () {
+    $("#demo-btn").click(function(){
+        $("#demo").toggle();
+    });
     document.querySelectorAll(".index-Section-5 .index-news-box")[0].style.flexDirection = "column";
 })
 // end news index style flex
@@ -452,4 +455,27 @@ function pauseVid() {
     player2.pauseVideo();
     player3.pauseVideo();
 }
-// dominhquan - set pause youtube
+// ..dominhquan - set pause youtube
+
+// dominhquan - toggle login
+$(document).ready(function () {
+    $("#login-btn-quan").click(function(){
+        $("#login-quan").toggleClass("d-block");
+    });
+})
+// ..dominhquan - toggle login
+
+// dominhquan-show password
+$(document).ready(function () {
+    $("#show-password-icon").click(function(){
+        console.log("clicked");
+        console.log($("#exampleInputPassword1"));
+        if ($("#exampleInputPassword1").attr("type") == "password") {
+            $("#exampleInputPassword1").attr("type", "text");
+        } else {
+            $("#exampleInputPassword1").attr("type", "password");
+        }
+    });
+})
+// ..dominhquan-show password
+

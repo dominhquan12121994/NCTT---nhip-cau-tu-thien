@@ -2595,13 +2595,13 @@ body {
     position: absolute;
     background-color: white;
     top: 100%;
-    left: 0;
+    left: -20%;
     transform: translateX(-27%);
-    z-index: 1;
+    z-index: 10;
     min-width: 250px;
     color: black;
     padding: 20px;
-    display: none;
+    display: block;
     font-size: 0.7em;
 }
 .form-login input {
@@ -5842,6 +5842,15 @@ $color-five: #48b852;
     }
 }
 #header {
+    #login-btn-quan {
+        height: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+        background-color: #00a859;
+        border: 0px;
+        display: flex;
+        align-items: center;
+    }
     #logo {
         img {
             width: 30%;
@@ -5900,6 +5909,12 @@ $color-five: #48b852;
                 padding: 0px !important;
             }
         }
+    }
+    #show-password-icon {
+        font-size: 20px;
+        top: 50%;
+        left: 95%;
+        transform: translate(-100%, -50%);
     }
 }
 // ..HEADER-QUAN

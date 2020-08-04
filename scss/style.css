@@ -2531,14 +2531,14 @@ body {
   position: absolute;
   background-color: white;
   top: 100%;
-  left: 0;
+  left: -20%;
   -webkit-transform: translateX(-27%);
           transform: translateX(-27%);
-  z-index: 1;
+  z-index: 10;
   min-width: 250px;
   color: black;
   padding: 20px;
-  display: none;
+  display: block;
   font-size: 0.7em;
 }
 
@@ -6059,6 +6059,20 @@ li {
   }
 }
 
+#header #login-btn-quan {
+  height: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #00a859;
+  border: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 #header #logo img {
   width: 30%;
   height: auto;
@@ -6149,6 +6163,14 @@ li {
   #header #header-left .login_hover-form {
     padding: 0px !important;
   }
+}
+
+#header #show-password-icon {
+  font-size: 20px;
+  top: 50%;
+  left: 95%;
+  -webkit-transform: translate(-100%, -50%);
+          transform: translate(-100%, -50%);
 }
 
 @media screen and (max-width: 767px) {
