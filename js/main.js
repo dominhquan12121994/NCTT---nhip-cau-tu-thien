@@ -425,9 +425,11 @@ var firstScriptTag = document.getElementsByTagName("script")[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 var src1, src2, src3;
-src1 = document.getElementById("carousel-video-1").getAttribute("src");
-src2 = document.getElementById("carousel-video-2").getAttribute("src");
-src3 = document.getElementById("carousel-video-3").getAttribute("src");
+if (document.getElementById("carousel-video-1")) {
+    src1 = document.getElementById("carousel-video-1").getAttribute("src");
+    src2 = document.getElementById("carousel-video-2").getAttribute("src");
+    src3 = document.getElementById("carousel-video-3").getAttribute("src");
+}
 
 var player1, player2, player3;
 function onYouTubeIframeAPIReady() {
@@ -477,5 +479,6 @@ $(document).ready(function () {
         }
     });
 })
+console.log("js loaded");
 // ..dominhquan-show password
 

@@ -2603,6 +2603,7 @@ body {
     padding: 20px;
     display: block;
     font-size: 0.7em;
+    box-shadow: 0px 5px 10px #333;
 }
 .form-login input {
     width: 100% !important;
@@ -6525,7 +6526,16 @@ $color-five: #48b852;
     }
 }
 // ..GOI TU THIEN-QUAN
-.quan-item-1 {
-    
+// PARTNER-QUAN
+.partner-quan {
+    #partner-banner {
+        min-height: auto;
+    }
+    .tieu-bieu-text {
+        @include under575() {
+            font-size: 20px !important;
+        }
+    }
 }
+// ..PARTNER-QUAN
 // dominhquan

@@ -2540,6 +2540,8 @@ body {
   padding: 20px;
   display: block;
   font-size: 0.7em;
+  -webkit-box-shadow: 0px 5px 10px #333;
+          box-shadow: 0px 5px 10px #333;
 }
 
 .form-login input {
@@ -6919,5 +6921,15 @@ li {
 
 .goi-tu-thien-quan .link-rise-quan .rise-btn:hover {
   background-color: #48b852;
+}
+
+.partner-quan #partner-banner {
+  min-height: auto;
+}
+
+@media screen and (max-width: 575px) {
+  .partner-quan .tieu-bieu-text {
+    font-size: 20px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
