@@ -113,48 +113,64 @@
 			<!-- -----end-about-banner----- -->
 
 			<!-- ----start-about-main---- -->
-			<div id="about-main" class="about-us-quan container px-0">
-				<div id="accordion">
-					<div class="row">
-						<div class="col-12 col-sm-12 col-lg-4">
-							<button class="about-main-btn btn btn-primary w-100 text-uppercase my-2"
-								data-toggle="collapse" href="#collapse-one">Chúng tôi là ai</button>
-							<button class="about-main-btn btn btn-primary w-100 text-uppercase my-2"
-								data-toggle="collapse" href="#collapse-two">Sứ mệnh</button>
-							<button class="about-main-btn btn btn-primary w-100 text-uppercase my-2"
-								data-toggle="collapse" href="#collapse-three">Tầm nhìn</button>
-							<button class="about-main-btn btn btn-primary w-100 text-uppercase my-2"
-								data-toggle="collapse" href="#collapse-four">Giá trị cốt lõi</button>
-							<button class="about-main-btn btn btn-primary w-100 text-uppercase my-2"
-								data-toggle="collapse" href="#collapse-five">Mục tiêu</button>
-						</div>
-						<div class="col-12 col-sm-12 col-lg-8 py-4">
-							<div id="collapse-one" class="collapse show" data-parent="#accordion">
-								<h3 class="about-title text-uppercase text-center">Chúng tôi là ai</h3>
-								<p class="text-justify">Chúng tôi luôn đồng hành cùng các bạn, là cầu nối chuyên nghiệp,
-									tận tâm và trao lợi
+			<div id="about-main">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-4">
+						<ul id="about_tab-control">
+							<li><a id="tab-1" class="tablinks">
+									<p class="about_tablink-active-color">Chúng tôi là ai</p>
+									<img src="images/we-icon.png" alt="">
+								</a>
+							</li>
+							<li><a id="tab-2" class="tablinks">
+									<p>Sứ mệnh</p>
+									<img src="images/we-icon.png" alt="">
+								</a>
+							</li>
+							<li><a id="tab-3" class="tablinks">
+									<p>Tầm nhìn</p>
+									<img src="images/we-icon.png" alt="">
+								</a>
+							</li>
+							<li><a id="tab-4" class="tablinks">
+									<p>Giá trị cốt lõi</p>
+									<img src="images/we-icon.png" alt="">
+								</a>
+							</li>
+							<li><a id="tab-5" class="tablinks">
+									<p>Mục tiêu</p>
+									<img src="images/we-icon.png" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-8">
+						<div id="about_tab-content">
+							<div id="tab1" class="tabcontent">
+								<h3>Chúng tôi là ai</h3>
+								<p>Chúng tôi luôn đồng hành cùng các bạn, là cầu nối chuyên nghiệp, tận tâm và trao lợi
 									ích giữa người trao từ thiện và người nhận từ thiện, mang đến cho tất cả các bên cơ
-									hội chia sẻ, đồng cảm và kết nối phù hợp với nhu cầu và hoàn cảnh.</p>
+									hội chia sẻ, đồng cảm và kết nối phù hợp với nhu cầu và hoàn cảnh.<br><br></p>
 							</div>
-							<div id="collapse-two" class="collapse" data-parent="#accordion">
-								<h3 class="about-title text-uppercase text-center">Sứ mệnh</h3>
-								<p class="text-justify">Chúng tôi là cầu nối chuyên nghiệp, tận tâm, tạo giá trị vượt
-									trội cho Quá trình Trao
+							<div id="tab2" class="tabcontent">
+								<h3>Sứ mệnh</h3>
+								<p>Chúng tôi là cầu nối chuyên nghiệp, tận tâm, tạo giá trị vượt trội cho Quá trình Trao
 									– Nhận từ thiện. Chia sẻ yêu thương và khơi gợi tinh thần “dám cho đi” của tất cả
 									chúng ta, mang trái tim của tất cả con người trên thế giới về bên nhau gần nhất có
-									thể.</p>
+									thể.<br><br></p>
 							</div>
-							<div id="collapse-three" class="collapse" data-parent="#accordion">
-								<h3 class="about-title text-uppercase text-center">Tầm nhìn</h3>
-								<p class="text-justify">– Trở thành Nhà tổ chức các Hoạt động và Sự kiện từ thiện thành
-									công và giá trị khác
-									biệt nhất Việt Nam và thế giới! <br>
+							<div id="tab3" class="tabcontent">
+								<h3>Tầm nhìn</h3>
+								<p><br>
+									– Trở thành Nhà tổ chức các Hoạt động và Sự kiện từ thiện thành công và giá trị khác
+									biệt nhất Việt Nam và thế giới!<br>
 									– Trở thành cầu nối ngắn nhất giữa Trái tim đến Trái tim và từ Trái tim đến Cuộc
-									sống!</p>
+									sống!
+									<br><br></p>
 							</div>
-							<div id="collapse-four" class="collapse" data-parent="#accordion">
-								<h3 class="about-title text-uppercase text-center">Giá trị cốt lõi</h3>
-								<p class="text-justify">
+							<div id="tab4" class="tabcontent">
+								<h3>Giá trị cốt lõi</h3>
+								<p><br>
 									– Lợi ích trung thực<br>
 									– Chuyên nghiệp<br>
 									– Giàu tính nhân văn và lòng nhân ái<br>
@@ -162,10 +178,9 @@
 									– Nâng cao tinh thần sẻ chia từ trái tim và trao giá trị cho cuộc sống cộng đồng
 									<br><br></p>
 							</div>
-							<div id="collapse-five" class="collapse" data-parent="#accordion">
-								<h3 class="about-title text-uppercase text-center">Mục tiêu</h3>
-								<p class="text-justify">Chúng tôi luôn đồng hành cùng các bạn, là cầu nối chuyên nghiệp,
-									tận tâm và trao lợi
+							<div id="tab5" class="tabcontent">
+								<h3>Mục tiêu</h3>
+								<p>Chúng tôi luôn đồng hành cùng các bạn, là cầu nối chuyên nghiệp, tận tâm và trao lợi
 									ích giữa người trao từ thiện và người nhận từ thiện, mang đến cho tất cả các bên cơ
 									hội chia sẻ, đồng cảm và kết nối phù hợp với nhu cầu và hoàn cảnh.<br><br></p>
 							</div>

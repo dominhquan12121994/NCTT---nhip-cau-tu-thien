@@ -2986,6 +2986,12 @@ body {
   padding-left: 0;
 }
 
+@media screen and (max-width: 575px) {
+  #about-main ul {
+    text-align: center;
+  }
+}
+
 #about-main li {
   list-style: none;
   position: relative;
@@ -3009,6 +3015,12 @@ body {
   font-size: 18px;
   letter-spacing: 1px;
   color: white;
+}
+
+@media screen and (max-width: 575px) {
+  #about-main li p {
+    left: 55%;
+  }
 }
 
 #about-main li img {
@@ -3074,6 +3086,13 @@ body {
   padding-bottom: 40px;
 }
 
+@media screen and (max-width: 575px) {
+  #about_tab-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 #about_tab-content h3 {
   color: #00a859;
   margin-bottom: 30px;
@@ -3082,9 +3101,21 @@ body {
   font-weight: 600;
 }
 
+@media screen and (max-width: 575px) {
+  #about_tab-content h3 {
+    text-align: center;
+  }
+}
+
 #about_tab-content p {
   text-indent: 30px;
   font-size: 16px;
+}
+
+@media screen and (max-width: 575px) {
+  #about_tab-content p {
+    text-align: justify;
+  }
 }
 
 /* ---end-section-2--- */
@@ -3126,8 +3157,22 @@ body {
   margin-left: 10%;
 }
 
+@media screen and (max-width: 575px) {
+  #contact-main .block-img {
+    position: relative;
+    max-width: 100%;
+    margin-left: 0%;
+  }
+}
+
 #contact-main img {
   width: 90%;
+}
+
+@media screen and (max-width: 575px) {
+  #contact-main img {
+    width: 100%;
+  }
 }
 
 #contact-main figcaption {
@@ -6422,6 +6467,12 @@ li {
   color: #1aa5dd;
 }
 
+#contact-main-quan .block-img {
+  position: relative;
+  max-width: 100%;
+  margin-left: 0px;
+}
+
 #contact-main-quan .title {
   font-size: 24px;
   color: #00a859;
@@ -6579,15 +6630,6 @@ li {
 .about-main-quan .about-title {
   font-size: 24px;
   color: #1aa5dd;
-}
-
-.bai-viet-main-quan .bai-viet-list {
-  background-color: #00a859 !important;
-}
-
-.bai-viet-main-quan .widget-title {
-  font-size: 24px !important;
-  color: #1aa5dd !important;
 }
 
 .bai-viet-main-quan .bai-viet-main-quan-search {

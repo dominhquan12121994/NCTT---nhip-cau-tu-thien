@@ -55,6 +55,43 @@
 }
 
 /*----Color----*/
+// mixin
+@mixin under1920 {
+    @media screen and (max-width: 1920px) {
+        @content;
+    }
+}
+
+@mixin under1199 {
+    @media screen and (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin under1099 {
+    @media screen and (max-width: 1099px) {
+        @content;
+    }
+}
+
+@mixin under991 {
+    @media screen and (max-width: 991px) {
+        @content;
+    }
+}
+
+@mixin under767 {
+    @media screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin under575 {
+    @media screen and (max-width: 575px) {
+        @content;
+    }
+}
+// ..mixin
 /*----End Color----*/
 /*----Header---*/
 #header {
@@ -2947,6 +2984,9 @@ body {
 }
 #about-main ul {
     padding-left: 0;
+    @include under575() {
+        text-align: center;
+    }
 }
 #about-main li {
     list-style: none;
@@ -2968,6 +3008,9 @@ body {
     font-size: 18px;
     letter-spacing: 1px;
     color: white;
+    @include under575() {
+        left: 55%;
+    }
 }
 #about-main li img {
     width: 70%;
@@ -3019,6 +3062,10 @@ body {
     background-color: #efa6cc;
     position: relative;
     padding-bottom: 40px;
+    @include under575() {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 #about_tab-content h3 {
     color: #00a859;
@@ -3026,10 +3073,16 @@ body {
     font-size: 24px;
     letter-spacing: 2px;
     font-weight: 600;
+    @include under575() {
+        text-align: center;
+    }
 }
 #about_tab-content p {
     text-indent: 30px;
     font-size: 16px;
+    @include under575() {
+        text-align: justify;
+    }
 }
 /* ---end-section-2--- */
 /* ---start-section-3--- */
@@ -3058,9 +3111,17 @@ body {
     position: relative;
     max-width: 80%;
     margin-left: 10%;
+    @include under575() {
+        position: relative;
+        max-width: 100%;
+        margin-left: 0%;
+    }
 }
 #contact-main img {
     width: 90%;
+    @include under575() {
+        width: 100%;
+    }
 }
 #contact-main figcaption {
     position: absolute;
@@ -5802,44 +5863,6 @@ $color-five: #00a859;
     }
 }
 
-// mixin
-@mixin under1920 {
-    @media screen and (max-width: 1920px) {
-        @content;
-    }
-}
-
-@mixin under1199 {
-    @media screen and (max-width: 1199px) {
-        @content;
-    }
-}
-
-@mixin under1099 {
-    @media screen and (max-width: 1099px) {
-        @content;
-    }
-}
-
-@mixin under991 {
-    @media screen and (max-width: 991px) {
-        @content;
-    }
-}
-
-@mixin under767 {
-    @media screen and (max-width: 767px) {
-        @content;
-    }
-}
-
-@mixin under575 {
-    @media screen and (max-width: 575px) {
-        @content;
-    }
-}
-// ..mixin
-
 // HEADER-QUAN
 #wrapper {
     @include under575() {
@@ -6091,6 +6114,11 @@ $color-five: #00a859;
 
 // CONTACT-MAIN-QUAN
 #contact-main-quan {
+    .block-img {
+        position: relative;
+        max-width: 100%;
+        margin-left: 0px;
+    }
     .title {
         font-size: 24px;
         color: $color-five;
@@ -6231,11 +6259,11 @@ $color-five: #00a859;
 // BAI VIET-QUAN
 .bai-viet-main-quan {
     .bai-viet-list {
-        background-color: $color-five !important;
+        // background-color: $color-five !important;
     }
     .widget-title {
-        font-size: 24px !important;
-        color: $color-four !important;
+        // font-size: 24px !important;
+        // color: $color-four !important;
     }
     .bai-viet-main-quan-search {
         padding-left: 15px;
