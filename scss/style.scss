@@ -5789,8 +5789,12 @@ li {
 $color-one: #ebebeb;
 $color-two: #959595;
 $color-three: #ee529e;
-$color-four: #03bdf2;
-$color-five: #48b852;
+$color-four: #1aa5dd;
+$color-five: #00a859;
+
+.color-main {
+    color: $color-four;
+}
 
 @media screen and (min-width: 1200px) {
     .container {
@@ -6043,25 +6047,44 @@ $color-five: #48b852;
 
 // USER-ADMIN
 #user-admin-main {
-    padding: 5%;
+    // padding: 5%;
     background-color: #959595;
 
     .main-block {
         background-color: white;
-        padding: 5%;
-        border-radius: 20px;
+        // padding: 5%;
+        // border-radius: 20px;
     }
 
     .btn {
-        color: white;
-        font-size: 18px;
-        border-radius: 20px;
-        background-color: $color-five;
+        // color: white;
+        // font-size: 18px;
+        // border-radius: 20px;
+        background-color: $color-four;
         border: 0px;
     }
 
     .btn:hover {
         background-color: $color-four;
+    }
+
+    .main-block-table {
+        th, td {
+            padding: 0px 2px;
+            text-align: left;
+        }
+    }
+    .user-admin-search {
+        // width: auto;
+    }
+    .user-admin-search-btn {
+        height: 100%;
+        top: 0px;
+        left: 100%;
+        transform: translate(-100%, 0px);
+    }
+    .title {
+        color: $color-four;
     }
 }
 // ..USER-ADMIN
