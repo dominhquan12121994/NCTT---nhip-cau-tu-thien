@@ -2348,6 +2348,12 @@ h2.bg-section-title::after {
   background-color: #fff;
 }
 
+@media screen and (max-width: 767px) {
+  #form-nhan {
+    border-radius: 0px !important;
+  }
+}
+
 #form-trao .row,
 #form-nhan .row {
   position: relative;
@@ -3537,6 +3543,23 @@ body {
   padding: 15px 0;
 }
 
+#news_section-2 .carousel-item {
+  background-color: #8a0438 !important;
+  border-radius: 10px;
+  padding: 50px 100px;
+}
+
+#news_section-2 #news_section-2-carousel .thamgia-btn {
+  background-color: #00afef !important;
+  border-radius: 10px !important;
+}
+
+@media screen and (max-width: 575px) {
+  #news_section-2 #news_section-2-carousel .carousel-item {
+    padding: 10px !important;
+  }
+}
+
 #news_section-2 .news_section-2-title {
   background-color: #d81460;
   display: -webkit-box;
@@ -3659,6 +3682,10 @@ body {
   padding: 5px;
   color: #fff;
   padding-right: 10%;
+}
+
+#news_section-3 .carousel-item-title {
+  color: #d81460;
 }
 
 #news_section-3 .tile img {
@@ -6216,6 +6243,10 @@ li {
   }
 }
 
+#header #header-left #login-quan label {
+  font-size: 12px;
+}
+
 #header #show-password-icon {
   font-size: 20px;
   top: 50%;
@@ -6433,29 +6464,36 @@ li {
   }
 }
 
-#user-admin-main {
+#user-admin-main,
+#user-search-main {
   background-color: #959595;
 }
 
-#user-admin-main .main-block {
+#user-admin-main .main-block,
+#user-search-main .main-block {
   background-color: white;
 }
 
-#user-admin-main .btn {
+#user-admin-main .btn,
+#user-search-main .btn {
   background-color: #1aa5dd;
   border: 0px;
 }
 
-#user-admin-main .btn:hover {
+#user-admin-main .btn:hover,
+#user-search-main .btn:hover {
   background-color: #1aa5dd;
 }
 
-#user-admin-main .main-block-table th, #user-admin-main .main-block-table td {
+#user-admin-main .main-block-table th, #user-admin-main .main-block-table td,
+#user-search-main .main-block-table th,
+#user-search-main .main-block-table td {
   padding: 0px 2px;
   text-align: left;
 }
 
-#user-admin-main .user-admin-search-btn {
+#user-admin-main .user-admin-search-btn,
+#user-search-main .user-admin-search-btn {
   height: 100%;
   top: 0px;
   left: 100%;
@@ -6463,8 +6501,32 @@ li {
           transform: translate(-100%, 0px);
 }
 
-#user-admin-main .title {
+#user-admin-main .title,
+#user-search-main .title {
   color: #1aa5dd;
+}
+
+@media screen and (max-width: 575px) {
+  #user-admin-main .title,
+  #user-search-main .title {
+    font-size: 30px !important;
+  }
+}
+
+.user-search-result .search-result-title {
+  color: #8a0438;
+}
+
+@media screen and (max-width: 575px) {
+  .user-search-result .search-result-title {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .user-search-result .search-result-img {
+    padding-top: 20px;
+  }
 }
 
 #contact-main-quan .block-img {
@@ -6758,15 +6820,51 @@ li {
   background-color: #00a859;
 }
 
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 {
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1,
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2,
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3,
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4,
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 {
   width: 20%;
   -webkit-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 10% 50%, 0 0);
           clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 10% 50%, 0 0);
   background-color: #1aa5dd;
 }
 
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 .title,
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2 .title,
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3 .title,
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4 .title,
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 .title {
+  font-size: 48px;
+}
+
 @media screen and (max-width: 991px) {
-  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 {
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 .title,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2 .title,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3 .title,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4 .title,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 .title {
+    color: #00a859;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 .description,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2 .description,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3 .description,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4 .description,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 .description {
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 {
     width: 100%;
     -webkit-clip-path: none;
             clip-path: none;
@@ -6776,44 +6874,120 @@ li {
   }
 }
 
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 .title {
-  font-size: 48px;
-}
-
-@media screen and (max-width: 991px) {
-  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 .title {
-    color: #00a859;
+@media screen and (max-width: 575px) {
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 {
+    margin: 30px 50px;
+    border-radius: 5px;
   }
 }
 
-@media screen and (max-width: 991px) {
-  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 .description {
-    text-align: center !important;
-  }
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 {
+  background-color: #038ABB;
 }
 
-.receiver-quan .receiver-quan-item {
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2 {
+  background-color: #009DD6;
+}
+
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3 {
+  background-color: #03AEEF;
+}
+
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4 {
+  background-color: #0DBCFF;
+}
+
+.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 {
+  background-color: #25C5FE;
+}
+
+.receiver-quan .receiver-quan-item-1,
+.receiver-quan .receiver-quan-item-2,
+.receiver-quan .receiver-quan-item-3,
+.receiver-quan .receiver-quan-item-4,
+.receiver-quan .receiver-quan-item-5 {
   text-align: center;
   width: 20%;
 }
 
 @media screen and (max-width: 991px) {
-  .receiver-quan .receiver-quan-item {
+  .receiver-quan .receiver-quan-item-1,
+  .receiver-quan .receiver-quan-item-2,
+  .receiver-quan .receiver-quan-item-3,
+  .receiver-quan .receiver-quan-item-4,
+  .receiver-quan .receiver-quan-item-5 {
     width: 100%;
   }
 }
 
-.receiver-quan .receiver-quan-item .item-1 {
-  height: 100%;
+.receiver-quan .receiver-quan-item-1 .title,
+.receiver-quan .receiver-quan-item-2 .title,
+.receiver-quan .receiver-quan-item-3 .title,
+.receiver-quan .receiver-quan-item-4 .title,
+.receiver-quan .receiver-quan-item-5 .title {
+  font-size: 48px;
+  font-family: "MyriadBold";
+  color: #00a859;
+}
+
+.receiver-quan .receiver-quan-item-1 .item-1,
+.receiver-quan .receiver-quan-item-1 .item-2,
+.receiver-quan .receiver-quan-item-1 .item-3,
+.receiver-quan .receiver-quan-item-1 .item-4,
+.receiver-quan .receiver-quan-item-1 .item-5,
+.receiver-quan .receiver-quan-item-2 .item-1,
+.receiver-quan .receiver-quan-item-2 .item-2,
+.receiver-quan .receiver-quan-item-2 .item-3,
+.receiver-quan .receiver-quan-item-2 .item-4,
+.receiver-quan .receiver-quan-item-2 .item-5,
+.receiver-quan .receiver-quan-item-3 .item-1,
+.receiver-quan .receiver-quan-item-3 .item-2,
+.receiver-quan .receiver-quan-item-3 .item-3,
+.receiver-quan .receiver-quan-item-3 .item-4,
+.receiver-quan .receiver-quan-item-3 .item-5,
+.receiver-quan .receiver-quan-item-4 .item-1,
+.receiver-quan .receiver-quan-item-4 .item-2,
+.receiver-quan .receiver-quan-item-4 .item-3,
+.receiver-quan .receiver-quan-item-4 .item-4,
+.receiver-quan .receiver-quan-item-4 .item-5,
+.receiver-quan .receiver-quan-item-5 .item-1,
+.receiver-quan .receiver-quan-item-5 .item-2,
+.receiver-quan .receiver-quan-item-5 .item-3,
+.receiver-quan .receiver-quan-item-5 .item-4,
+.receiver-quan .receiver-quan-item-5 .item-5 {
+  height: 60%;
   background-color: #00a859;
 }
 
-.receiver-quan .receiver-quan-item .item-1 .title {
-  font-size: 48px;
-  font-family: "MyriadBold";
-}
-
-.receiver-quan .receiver-quan-item .item-1 .receiver-btn {
+.receiver-quan .receiver-quan-item-1 .item-1 .receiver-btn,
+.receiver-quan .receiver-quan-item-1 .item-2 .receiver-btn,
+.receiver-quan .receiver-quan-item-1 .item-3 .receiver-btn,
+.receiver-quan .receiver-quan-item-1 .item-4 .receiver-btn,
+.receiver-quan .receiver-quan-item-1 .item-5 .receiver-btn,
+.receiver-quan .receiver-quan-item-2 .item-1 .receiver-btn,
+.receiver-quan .receiver-quan-item-2 .item-2 .receiver-btn,
+.receiver-quan .receiver-quan-item-2 .item-3 .receiver-btn,
+.receiver-quan .receiver-quan-item-2 .item-4 .receiver-btn,
+.receiver-quan .receiver-quan-item-2 .item-5 .receiver-btn,
+.receiver-quan .receiver-quan-item-3 .item-1 .receiver-btn,
+.receiver-quan .receiver-quan-item-3 .item-2 .receiver-btn,
+.receiver-quan .receiver-quan-item-3 .item-3 .receiver-btn,
+.receiver-quan .receiver-quan-item-3 .item-4 .receiver-btn,
+.receiver-quan .receiver-quan-item-3 .item-5 .receiver-btn,
+.receiver-quan .receiver-quan-item-4 .item-1 .receiver-btn,
+.receiver-quan .receiver-quan-item-4 .item-2 .receiver-btn,
+.receiver-quan .receiver-quan-item-4 .item-3 .receiver-btn,
+.receiver-quan .receiver-quan-item-4 .item-4 .receiver-btn,
+.receiver-quan .receiver-quan-item-4 .item-5 .receiver-btn,
+.receiver-quan .receiver-quan-item-5 .item-1 .receiver-btn,
+.receiver-quan .receiver-quan-item-5 .item-2 .receiver-btn,
+.receiver-quan .receiver-quan-item-5 .item-3 .receiver-btn,
+.receiver-quan .receiver-quan-item-5 .item-4 .receiver-btn,
+.receiver-quan .receiver-quan-item-5 .item-5 .receiver-btn {
   width: 100%;
   top: 100%;
   left: 50%;
@@ -6821,8 +6995,102 @@ li {
           transform: translate(-50%, -100%);
 }
 
-.receiver-quan .receiver-quan-item .item-1 .description {
+.receiver-quan .receiver-quan-item-1 .item-1 .description,
+.receiver-quan .receiver-quan-item-1 .item-2 .description,
+.receiver-quan .receiver-quan-item-1 .item-3 .description,
+.receiver-quan .receiver-quan-item-1 .item-4 .description,
+.receiver-quan .receiver-quan-item-1 .item-5 .description,
+.receiver-quan .receiver-quan-item-2 .item-1 .description,
+.receiver-quan .receiver-quan-item-2 .item-2 .description,
+.receiver-quan .receiver-quan-item-2 .item-3 .description,
+.receiver-quan .receiver-quan-item-2 .item-4 .description,
+.receiver-quan .receiver-quan-item-2 .item-5 .description,
+.receiver-quan .receiver-quan-item-3 .item-1 .description,
+.receiver-quan .receiver-quan-item-3 .item-2 .description,
+.receiver-quan .receiver-quan-item-3 .item-3 .description,
+.receiver-quan .receiver-quan-item-3 .item-4 .description,
+.receiver-quan .receiver-quan-item-3 .item-5 .description,
+.receiver-quan .receiver-quan-item-4 .item-1 .description,
+.receiver-quan .receiver-quan-item-4 .item-2 .description,
+.receiver-quan .receiver-quan-item-4 .item-3 .description,
+.receiver-quan .receiver-quan-item-4 .item-4 .description,
+.receiver-quan .receiver-quan-item-4 .item-5 .description,
+.receiver-quan .receiver-quan-item-5 .item-1 .description,
+.receiver-quan .receiver-quan-item-5 .item-2 .description,
+.receiver-quan .receiver-quan-item-5 .item-3 .description,
+.receiver-quan .receiver-quan-item-5 .item-4 .description,
+.receiver-quan .receiver-quan-item-5 .item-5 .description {
   margin-bottom: 70px;
+}
+
+@media screen and (max-width: 575px) {
+  .receiver-quan .receiver-quan-item-1 .item-1,
+  .receiver-quan .receiver-quan-item-1 .item-2,
+  .receiver-quan .receiver-quan-item-1 .item-3,
+  .receiver-quan .receiver-quan-item-1 .item-4,
+  .receiver-quan .receiver-quan-item-1 .item-5,
+  .receiver-quan .receiver-quan-item-2 .item-1,
+  .receiver-quan .receiver-quan-item-2 .item-2,
+  .receiver-quan .receiver-quan-item-2 .item-3,
+  .receiver-quan .receiver-quan-item-2 .item-4,
+  .receiver-quan .receiver-quan-item-2 .item-5,
+  .receiver-quan .receiver-quan-item-3 .item-1,
+  .receiver-quan .receiver-quan-item-3 .item-2,
+  .receiver-quan .receiver-quan-item-3 .item-3,
+  .receiver-quan .receiver-quan-item-3 .item-4,
+  .receiver-quan .receiver-quan-item-3 .item-5,
+  .receiver-quan .receiver-quan-item-4 .item-1,
+  .receiver-quan .receiver-quan-item-4 .item-2,
+  .receiver-quan .receiver-quan-item-4 .item-3,
+  .receiver-quan .receiver-quan-item-4 .item-4,
+  .receiver-quan .receiver-quan-item-4 .item-5,
+  .receiver-quan .receiver-quan-item-5 .item-1,
+  .receiver-quan .receiver-quan-item-5 .item-2,
+  .receiver-quan .receiver-quan-item-5 .item-3,
+  .receiver-quan .receiver-quan-item-5 .item-4,
+  .receiver-quan .receiver-quan-item-5 .item-5 {
+    margin: 0px 40px;
+  }
+}
+
+.receiver-quan .receiver-quan-item-1 .item-1,
+.receiver-quan .receiver-quan-item-2 .item-1,
+.receiver-quan .receiver-quan-item-3 .item-1,
+.receiver-quan .receiver-quan-item-4 .item-1,
+.receiver-quan .receiver-quan-item-5 .item-1 {
+  background-color: #fbcc5d;
+}
+
+.receiver-quan .receiver-quan-item-1 .item-2,
+.receiver-quan .receiver-quan-item-2 .item-2,
+.receiver-quan .receiver-quan-item-3 .item-2,
+.receiver-quan .receiver-quan-item-4 .item-2,
+.receiver-quan .receiver-quan-item-5 .item-2 {
+  background-color: #fbaf5d;
+}
+
+.receiver-quan .receiver-quan-item-1 .item-3,
+.receiver-quan .receiver-quan-item-2 .item-3,
+.receiver-quan .receiver-quan-item-3 .item-3,
+.receiver-quan .receiver-quan-item-4 .item-3,
+.receiver-quan .receiver-quan-item-5 .item-3 {
+  background-color: #ff8041;
+}
+
+.receiver-quan .receiver-quan-item-1 .item-4,
+.receiver-quan .receiver-quan-item-2 .item-4,
+.receiver-quan .receiver-quan-item-3 .item-4,
+.receiver-quan .receiver-quan-item-4 .item-4,
+.receiver-quan .receiver-quan-item-5 .item-4 {
+  background-color: #09bdff;
+}
+
+.receiver-quan .receiver-quan-item-1 .item-5,
+.receiver-quan .receiver-quan-item-2 .item-5,
+.receiver-quan .receiver-quan-item-3 .item-5,
+.receiver-quan .receiver-quan-item-4 .item-5,
+.receiver-quan .receiver-quan-item-5 .item-5 {
+  background-color: #9ee5ff;
 }
 
 .index-Section-1-quan .index-Section-1-carousel-img {
@@ -6910,7 +7178,7 @@ li {
 
 @media screen and (max-width: 991px) {
   .my-account-main-quan .form-btn {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 }
 
@@ -6921,6 +7189,12 @@ li {
 
 .my-account-main-quan .content-form #text-2 {
   font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .my-account-main-quan {
+    padding: 0px !important;
+  }
 }
 
 .news-main-quan #news-banner {
@@ -6988,5 +7262,9 @@ li {
   .partner-quan .tieu-bieu-text {
     font-size: 20px !important;
   }
+}
+
+.partner-quan .active-tab {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */

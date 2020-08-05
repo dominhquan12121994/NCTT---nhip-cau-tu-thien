@@ -2323,6 +2323,12 @@ h2.bg-section-title::after {
     background-color: #fff;
 }
 
+#form-nhan {
+    @include under767() {
+        border-radius: 0px !important;
+    }
+}
+
 #form-trao .row,
 #form-nhan .row {
     position: relative;
@@ -3400,6 +3406,22 @@ body {
 
 #news_section-2 {
     padding: 15px 0;
+    .carousel-item {
+        background-color: #8a0438 !important;
+        border-radius: 10px;
+        padding: 50px 100px;
+    }
+    #news_section-2-carousel {
+        .thamgia-btn {
+            background-color: #00afef !important;
+            border-radius: 10px !important;
+        }
+        .carousel-item {
+            @include under575() {
+                padding: 10px !important;
+            }
+        }
+    }
 }
 #news_section-2 .news_section-2-title {
     background-color: #d81460;
@@ -3493,6 +3515,11 @@ body {
     padding: 5px;
     color: #fff;
     padding-right: 10%;
+}
+#news_section-3 {
+    .carousel-item-title {
+        color: #d81460;
+    }
 }
 #news_section-3 .tile img {
     margin-right: 20px;
@@ -5937,6 +5964,11 @@ $color-five: #00a859;
                 padding: 0px !important;
             }
         }
+        #login-quan {
+            label {
+                font-size: 12px;
+            }
+        }
     }
     #show-password-icon {
         font-size: 20px;
@@ -6068,8 +6100,9 @@ $color-five: #00a859;
 }
 // ..DANG KY TRA0, DANG KY NHAN
 
-// USER-ADMIN
-#user-admin-main {
+// USER-ADMIN, USER-SEARCH-QUAN
+#user-admin-main,
+#user-search-main {
     // padding: 5%;
     background-color: #959595;
 
@@ -6108,9 +6141,26 @@ $color-five: #00a859;
     }
     .title {
         color: $color-four;
+        @include under575() {
+            font-size: 30px !important;
+        }
     }
 }
-// ..USER-ADMIN
+
+.user-search-result {
+    .search-result-title {
+        color: #8a0438;
+        @include under575() {
+            font-size: 30px !important;
+        }
+    }
+    .search-result-img {
+        @include under575() {
+            padding-top: 20px;
+        }
+    }
+}
+// ..USER-ADMIN, USER-SEARCH-QUAN
 
 // CONTACT-MAIN-QUAN
 #contact-main-quan {
@@ -6376,17 +6426,14 @@ $color-five: #00a859;
     }
 }
 .tro-thanh-nguoi-tai-tro-quan {
-    .tai-tro-item-1 {
+    .tai-tro-item-1,
+    .tai-tro-item-2,
+    .tai-tro-item-3,
+    .tai-tro-item-4,
+    .tai-tro-item-5 {
         width: 20%;
         clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 10% 50%, 0 0);
         background-color: $color-four;
-        @include under991() {
-            width: 100%;
-            clip-path: none;
-            background-color: #ebebeb;
-            text-align: center;
-            color: black !important;
-        }
         .title {
             font-size: 48px;
             @include under991() {
@@ -6398,22 +6445,57 @@ $color-five: #00a859;
                 text-align: center !important;
             }
         }
+        @include under991() {
+            width: 100%;
+            clip-path: none;
+            background-color: #ebebeb;
+            text-align: center;
+            color: black !important;
+        }
+        @include under575() {
+            margin: 30px 50px;
+            border-radius: 5px;
+        }
+    }
+    .tai-tro-item-1 {
+        background-color: #038ABB;
+    }
+    .tai-tro-item-2 {
+        background-color: #009DD6;
+    }
+    .tai-tro-item-3 {
+        background-color: #03AEEF;
+    }
+    .tai-tro-item-4 {
+        background-color: #0DBCFF;
+    }
+    .tai-tro-item-5 {
+        background-color: #25C5FE;
     }
 }
 .receiver-quan {
-    .receiver-quan-item {
+    .receiver-quan-item-1,
+    .receiver-quan-item-2,
+    .receiver-quan-item-3,
+    .receiver-quan-item-4,
+    .receiver-quan-item-5 {
         text-align: center;
         width: 20%;
         @include under991() {
             width: 100%;
         }
-        .item-1 {
-            height: 100%;
+        .title {
+            font-size: 48px;
+            font-family: "MyriadBold";
+            color: #00a859;
+        }
+        .item-1,
+        .item-2,
+        .item-3,
+        .item-4,
+        .item-5 {
+            height: 60%;
             background-color: $color-five;
-            .title {
-                font-size: 48px;
-                font-family: "MyriadBold";
-            }
             .receiver-btn {
                 width: 100%;
                 top: 100%;
@@ -6423,6 +6505,24 @@ $color-five: #00a859;
             .description {
                 margin-bottom: 70px;
             }
+            @include under575() {
+                margin: 0px 40px;
+            }
+        }
+        .item-1 {
+            background-color: #fbcc5d;
+        }
+        .item-2 {
+            background-color: #fbaf5d;
+        }
+        .item-3 {
+            background-color: #ff8041;
+        }
+        .item-4 {
+            background-color: #09bdff;
+        }
+        .item-5 {
+            background-color: #9ee5ff;
         }
     }
 }
@@ -6506,7 +6606,7 @@ $color-five: #00a859;
         border-radius: 20px;
         color: white;
         @include under991() {
-            font-size: 16px !important;
+            font-size: 14px !important;
         }
     }
     .form-btn:hover {
@@ -6517,6 +6617,9 @@ $color-five: #00a859;
         #text-2 {
             font-size: 18px;
         }
+    }
+    @include under767() {
+        padding: 0px !important;
     }
 }
 // ..MY-ACCOUNT-QUAN
@@ -6586,6 +6689,9 @@ $color-five: #00a859;
         @include under575() {
             font-size: 20px !important;
         }
+    }
+    .active-tab {
+        color: red;
     }
 }
 // ..PARTNER-QUAN

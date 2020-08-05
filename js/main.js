@@ -17,13 +17,15 @@ $(document).ready(function () {
 
 // banner-slick
 $(document).ready(function () {
-    $('#index-slick').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
-    });
+    if ($('#index-slick')) {
+        $('#index-slick').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+        });
+    }
 });
 // end-banner-slick
 
@@ -411,10 +413,12 @@ $(document).ready(function () {
 
 // start news index style flex
 $(document).ready(function () {
-    $("#demo-btn").click(function(){
-        $("#demo").toggle();
-    });
-    document.querySelectorAll(".index-Section-5 .index-news-box")[0].style.flexDirection = "column";
+    if ($("#demo-btn")) {
+        $("#demo-btn").click(function(){
+            $("#demo").toggle();
+        });
+        // document.querySelectorAll(".index-Section-5 .index-news-box")[0].style.flexDirection = "column";
+    }
 })
 // end news index style flex
 
@@ -479,6 +483,37 @@ $(document).ready(function () {
         }
     });
 })
-console.log("js loaded");
 // ..dominhquan-show password
 
+// dominhquan-active tab partner
+$(document).ready(function() {
+    if (document.getElementsByClassName("partner-tab-item-quan")) {
+        let allTab = document.querySelectorAll(".partner-tab-item-quan");
+        // console.log(allTab);
+        $("#partner-tab-item-1").click(function() {
+            console.log("clicked1");
+            for (let i = 0; i < allTab.length; i++) {
+                console.log(allTab[i].id);
+                document.getElementById(allTab[i].id).classList.remove("active-tab");
+            }
+            document.getElementById("partner-tab-item-1").classList.add("active-tab");
+        });
+        $("#partner-tab-item-2").click(function() {
+            console.log("clicked2");
+            for (let i = 0; i < allTab.length; i++) {
+                console.log(allTab[i].id);
+                document.getElementById(allTab[i].id).classList.remove("active-tab");
+            }
+            document.getElementById("partner-tab-item-2").classList.add("active-tab");
+        });
+        $("#partner-tab-item-3").click(function() {
+            console.log("clicked3");
+            for (let i = 0; i < allTab.length; i++) {
+                console.log(allTab[i].id);
+                document.getElementById(allTab[i].id).classList.remove("active-tab");
+            }
+            document.getElementById("partner-tab-item-3").classList.add("active-tab");
+        });
+    }
+});
+// ..dominhquan-active tab partner
