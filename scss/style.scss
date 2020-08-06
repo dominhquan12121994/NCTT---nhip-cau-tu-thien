@@ -6587,20 +6587,29 @@ $color-five: #00a859;
     }
 }
 .icon-left {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 32px;
+    font-weight: bold;
     position: absolute;
     z-index: 1;
     top: 50%;
-    font-size: 50px;
     left: 5%;
     transform: translate(-50%, -50%);
 }
+.icon-left:hover {
+    color: rgba(255, 255, 255, 1);
+}
 .icon-right {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 32px;
     position: absolute;
     z-index: 1;
     top: 50%;
-    font-size: 50px;
     left: 95%;
     transform: translate(-50%, -50%);
+}
+.icon-right:hover {
+    color: rgba(255, 255, 255, 1);
 }
 // ..INDEX-QUAN
 // MY-ACCOUNT-QUAN
@@ -6711,4 +6720,18 @@ $color-five: #00a859;
     }
 }
 // ..PARTNER-QUAN
+// ACCOUNT DETAIL-QUAN
+.account-detail {
+    .account-detail-label {
+        color: $color-four;
+    }
+}
+// ..ACCOUNT DETAIL-QUAN
+// MY-ACCOUNT-QUAN
+.account-change-password {
+    .change-password-label {
+        color: $color-four;
+    }
+}
+// ..MY-ACCOUNT-QUAN
 // dominhquan

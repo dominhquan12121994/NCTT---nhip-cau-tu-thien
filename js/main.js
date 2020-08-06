@@ -528,8 +528,8 @@ $(document).ready(function() {
         fade: false,
         autoplay: false,
         autoplaySpeed: 3000,
-        prevArrow: "<i class='fas fa-chevron-left icon-left'></i>",
-        nextArrow: "<i class='fas fa-chevron-right icon-right'></i>",
+        prevArrow: "<i class='fas fa-angle-left icon-left'></i>",
+        nextArrow: "<i class='fas fa-angle-right icon-right'></i>",
         responsive: [
             {
                 breakpoint: 575,

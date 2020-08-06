@@ -96,49 +96,53 @@
 		</div>
 		<!-- ..header-quan -->
 		<!-- main -->
-		<div class="main my-account-main-quan" style="background-color: #959595;padding: 40px 80px;">
-			<div id="form-nhan">
-				<div class="title text-center">
-					<button class="title-btn font-weight-bold btn display-2 py-3 px-5 mt-5">ĐỔI MẬT KHẨU ĐĂNG NHẬP</button>
+        <div id="user-admin-main" class="container text-center px-0">
+            <div class="main-block p-3">
+                <ul class="nav justify-content-start">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase font-weight-bold px-2 display-5" href="#">Quản lý gói</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase font-weight-bold px-2 display-5" href="#">Thông tin tài
+                            khoản</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase font-weight-bold px-2 display-5" href="#">Đổi mật
+                            khẩu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase font-weight-bold px-2 display-5" href="#">Đăng
+                            Xuất</a>
+                    </li>
+                </ul>
+                <h1 class="title text-uppercase font-weight-bold mt-4 display-1">Đổi mật khẩu</h1>
+            </div>
+        </div>
+		<!-- main -->
+		<!-- change-password -->
+		<div class="account-change-password">
+			<div class="row">
+				<div class="col-10 col-sm-5 mx-auto">
+					<form>
+						<label class="change-password-label font-weight-bold mt-4" for="old-pwd">Nhập mật khẩu cũ:</label>
+						<input class="form-control" type="password" id="old-pwd">
+						<label class="change-password-label font-weight-bold mt-4" for="new-pwd">Nhập mật khẩu mới:</label>
+						<input class="form-control" type="password" id="new-pwd">
+						<label class="change-password-label font-weight-bold mt-4" for="confirm-new-pwd">Xác nhận mật khẩu mới:</label>
+						<input class="form-control" type="password" id="confirm-new-pwd">
+					</form>
 				</div>
-				<div class="content-form">
-					<div id="form-2" class="form-item">
-						<div class="row">
-							<div class="col-lg-6 title-form">
-								<p id="text-2" class="text px-0">Nhập mật khẩu mới:</p>
-							</div>
-							<div class="col-lg-6 option">
-								<input class="form-control" type="password" name="password" placeholder="Ô điền mật khẩu mới">
-							</div>
-						</div>
-					</div>
-					<div id="form-2" class="form-item">
-						<div class="row">
-							<div class="col-lg-6 title-form">
-								<p id="text-2" class="text px-0">Nhập lại mật khẩu mới:</p>
-							</div>
-							<div class="col-lg-6 option">
-								<input class="form-control" type="password" name="password2" placeholder="Ô nhập lại mật khẩu mới">
-							</div>
-						</div>
-					</div>
+			</div>
+			<div class="row py-5">
+				<div class="col-6 col-sm-6 text-center">
+					<a href="#" class="btn btn-primary text-uppercase font-weight-bold px-4 py-2">Đổi mật khẩu</a>
 				</div>
-				<div class="container pb-5">
-					<div class="row">
-						<div class="col-6 col-sm-6 text-center">
-							<button type="submit"
-								class="form-btn btn btn-light px-4 py-2 text-uppercase font-weight-bold display-4">Lưu mật khẩu mới</button>
-						</div>
-						<div class="col-6 col-sm-6 text-center">
-							<a href="./index.html"><button
-									class="form-btn btn btn-light px-4 py-2 text-uppercase font-weight-bold display-4">Quay
-									về trang chủ</button></a>
-						</div>
-					</div>
+				<div class="col-6 col-sm-6 text-center">
+					<a href="./index.html" class="btn btn-primary text-uppercase font-weight-bold px-4 py-2">Quay về trang chủ</a>
 				</div>
 			</div>
 		</div>
-		<!-- main -->
+		<!-- ..change-password -->
 
 		<!------Footer---- -->
 		<div id="footer">

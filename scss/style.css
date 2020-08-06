@@ -7154,23 +7154,34 @@ li {
 }
 
 .icon-left {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 32px;
+  font-weight: bold;
   position: absolute;
   z-index: 1;
   top: 50%;
-  font-size: 50px;
   left: 5%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
 
+.icon-left:hover {
+  color: white;
+}
+
 .icon-right {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 32px;
   position: absolute;
   z-index: 1;
   top: 50%;
-  font-size: 50px;
   left: 95%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.icon-right:hover {
+  color: white;
 }
 
 .my-account-main-quan .title-btn {
@@ -7286,5 +7297,13 @@ li {
 
 .partner-quan .active-tab {
   color: red;
+}
+
+.account-detail .account-detail-label {
+  color: #1aa5dd;
+}
+
+.account-change-password .change-password-label {
+  color: #1aa5dd;
 }
 /*# sourceMappingURL=style.css.map */
