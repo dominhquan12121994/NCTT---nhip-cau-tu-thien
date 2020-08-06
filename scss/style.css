@@ -7153,6 +7153,26 @@ li {
   }
 }
 
+.icon-left {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  font-size: 50px;
+  left: 5%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.icon-right {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  font-size: 50px;
+  left: 95%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .my-account-main-quan .title-btn {
   border-radius: 20px;
   color: white !important;

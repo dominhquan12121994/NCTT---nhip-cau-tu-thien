@@ -6586,6 +6586,22 @@ $color-five: #00a859;
         }
     }
 }
+.icon-left {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    font-size: 50px;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+.icon-right {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    font-size: 50px;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
 // ..INDEX-QUAN
 // MY-ACCOUNT-QUAN
 .my-account-main-quan {

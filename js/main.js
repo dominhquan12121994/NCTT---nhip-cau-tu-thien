@@ -423,44 +423,44 @@ $(document).ready(function () {
 // end news index style flex
 
 // dominhquan - set pause youtube
-var tag = document.createElement("script");
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName("script")[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+// var tag = document.createElement("script");
+// tag.src = "https://www.youtube.com/iframe_api";
+// var firstScriptTag = document.getElementsByTagName("script")[0];
+// firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-var src1, src2, src3;
-if (document.getElementById("carousel-video-1")) {
-    src1 = document.getElementById("carousel-video-1").getAttribute("src");
-    src2 = document.getElementById("carousel-video-2").getAttribute("src");
-    src3 = document.getElementById("carousel-video-3").getAttribute("src");
-}
+// var src1, src2, src3;
+// if (document.getElementById("carousel-video-1")) {
+//     src1 = document.getElementById("carousel-video-1").getAttribute("src");
+//     src2 = document.getElementById("carousel-video-2").getAttribute("src");
+//     src3 = document.getElementById("carousel-video-3").getAttribute("src");
+// }
 
-var player1, player2, player3;
-function onYouTubeIframeAPIReady() {
-    player1 = new YT.Player("video-1", {
-        width: '100%',
-        height: '280',
-        videoId: src1
-    });
+// var player1, player2, player3;
+// function onYouTubeIframeAPIReady() {
+//     player1 = new YT.Player("video-1", {
+//         width: '100%',
+//         height: '280',
+//         videoId: src1
+//     });
 
-    player2 = new YT.Player("video-2", {
-        width: '100%',
-        height: '280',
-        videoId: src2
-    });
+//     player2 = new YT.Player("video-2", {
+//         width: '100%',
+//         height: '280',
+//         videoId: src2
+//     });
 
-    player3 = new YT.Player("video-3", {
-        width: '100%',
-        height: '280',
-        videoId: src3
-    });
-}
+//     player3 = new YT.Player("video-3", {
+//         width: '100%',
+//         height: '280',
+//         videoId: src3
+//     });
+// }
 
-function pauseVid() {
-    player1.pauseVideo();
-    player2.pauseVideo();
-    player3.pauseVideo();
-}
+// function pauseVid() {
+//     player1.pauseVideo();
+//     player2.pauseVideo();
+//     player3.pauseVideo();
+// }
 // ..dominhquan - set pause youtube
 
 // dominhquan - toggle login
@@ -517,3 +517,50 @@ $(document).ready(function() {
     }
 });
 // ..dominhquan-active tab partner
+
+// dominhquan-slick index video
+$(document).ready(function() {
+    $('.index-youtube-video').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        fade: false,
+        autoplay: false,
+        autoplaySpeed: 3000,
+        prevArrow: "<i class='fas fa-chevron-left icon-left'></i>",
+        nextArrow: "<i class='fas fa-chevron-right icon-right'></i>",
+        responsive: [
+            {
+                breakpoint: 575,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+});
+// ..dominhquan-slick index video
+
+// dominhquan-pause index video
+$(document).ready(function() {
+    if ($("iframe")) {
+        let videoIframe = $("iframe");
+        $(".icon-left").click(function() {
+            changeSrc();
+        });
+        $(".icon-right").click(function() {
+            changeSrc();
+        });
+        changeSrc = () => {
+            for (let i = 0; i < videoIframe.length; i++) {
+                let videoSrc = videoIframe[i].src;
+                videoIframe[i].src = videoSrc;
+            }
+        }
+    }
+});
+// ..dominhquan-pause index video
