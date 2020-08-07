@@ -6513,6 +6513,10 @@ li {
   }
 }
 
+#user-admin-main .user-admin-title {
+  color: #1aa5dd;
+}
+
 .user-search-result .search-result-title {
   color: #8a0438;
 }

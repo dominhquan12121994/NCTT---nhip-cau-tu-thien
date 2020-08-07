@@ -6147,6 +6147,12 @@ $color-five: #00a859;
     }
 }
 
+#user-admin-main {
+    .user-admin-title {
+        color: $color-four;
+    }
+}
+
 .user-search-result {
     .search-result-title {
         color: #8a0438;
