@@ -99,23 +99,6 @@
         <!-- main -->
         <div id="user-admin-main" class="container text-center px-0">
             <div class="main-block p-3">
-                <ul class="nav justify-content-start">
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase font-weight-bold px-2 display-5" href="#">Quản lý gói</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase font-weight-bold px-2 display-5" href="#">Thông tin tài
-                            khoản</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase font-weight-bold px-2 display-5" href="#">Đổi mật
-                            khẩu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase font-weight-bold px-2 display-5" href="#">Đăng
-                            Xuất</a>
-                    </li>
-                </ul>
                 <h1 class="title text-uppercase font-weight-bold my-4 display-1">Thông tin tài khoản</h1>
             </div>
         </div>
@@ -125,27 +108,46 @@
             <div class="container pb-5">
                 <form>
                     <div class="row">
-                        <div class="col-12 col-sm-12 col-md-6 px-5">
-                            <label class="account-detail-label text-uppercase font-weight-bold d-block mt-3" for="user-id">user id</label>
-                            <input class="d-block w-100" type="text" name="user-id" value="user-id" readonly>
-                            <label class="account-detail-label text-uppercase font-weight-bold d-block mt-3" for="user-id">first name</label>
-                            <input class="d-block w-100" type="text" name="user-id" value="Lorem ipsum dolor sit amet consectetur." readonly>
-                            <label class="account-detail-label text-uppercase font-weight-bold d-block mt-3" for="user-id">last name</label>
-                            <input class="d-block w-100" type="text" name="user-id" value="m dolor sit amet conse" readonly>
-                            <label class="account-detail-label text-uppercase font-weight-bold d-block mt-3" for="user-id">email</label>
-                            <input class="d-block w-100" type="text" name="user-id" value="amet consectetur" readonly>
+                        <h4 class="account-detail-title pl-5 text-uppercase font-weight-bold pb-4">Thông tin tài khoản</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 px-5">
+                            <label class="account-detail-label text-uppercase font-weight-bold d-block pt-2" for="user-id">user id</label>
+                            <p class="text-secondary">9217471928391832</p>
+                            <label class="account-detail-label text-uppercase font-weight-bold d-block pt-2" for="user-name">user name</label>
+                            <p class="text-secondary">accountusername</p>
+                            <label class="account-detail-label text-uppercase font-weight-bold d-block pt-2" for="user-email">user email</label>
+                            <p class="text-secondary">accountusermail@gmail.com</p>
+                            <label class="account-detail-label text-uppercase font-weight-bold d-block pt-2" for="user-tel">user tel</label>
+                            <p class="text-secondary">0979999999</p>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-6 px-5">
-                            <label class="account-detail-label text-uppercase font-weight-bold d-block mt-3" for="user-id">user id</label>
-                            <input class="d-block w-100" type="text" name="user-id" value="user-id" readonly>
-                            <label class="account-detail-label text-uppercase font-weight-bold d-block mt-3" for="user-id">first name</label>
-                            <input class="d-block w-100" type="text" name="user-id" value="Lorem ipsum dolor sit amet consectetur." readonly>
-                            <label class="account-detail-label text-uppercase font-weight-bold d-block mt-3" for="user-id">last name</label>
-                            <input class="d-block w-100" type="text" name="user-id" value="m dolor sit amet conse" readonly>
-                            <label class="account-detail-label text-uppercase font-weight-bold d-block mt-3" for="user-id">email</label>
-                            <input class="d-block w-100" type="text" name="user-id" value="amet consectetur" readonly>
+                    </div>
+                </form>
+                <form class="pt-4">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 px-5">
+                            <h4 class="account-detail-title text-uppercase font-weight-bold">Chi tiết thông tin đăng ký</h4>
                         </div>
-                        <button type="submit" class="btn btn-primary text-uppercase font-weight-bold px-4 py-2 mt-5 mb-4 ml-5">Sửa thông tin</button>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 px-5">
+                            <label class="account-detail-label text-uppercase font-weight-bold d-block mt-3" for="user-id">user id</label>
+                            <input class="d-block w-100 form-control font-italic" type="text" name="user-id" value="user-id" readonly>
+                            <label class="account-detail-label text-uppercase font-weight-bold d-block mt-3" for="user-id">first name</label>
+                            <input class="d-block w-100 form-control font-italic" type="text" name="user-id" value="Lorem ipsum dolor sit amet consectetur." readonly>
+                            <label class="account-detail-label text-uppercase font-weight-bold d-block mt-3" for="user-id">last name</label>
+                            <input class="d-block w-100 form-control font-italic" type="text" name="user-id" value="m dolor sit amet conse" readonly>
+                            <label class="account-detail-label text-uppercase font-weight-bold d-block mt-3" for="user-id">email</label>
+                            <input class="d-block w-100 form-control font-italic" type="text" name="user-id" value="amet consectetur" readonly>
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-6 px-5">
+                                    <button type="submit" class="btn btn-primary text-uppercase font-weight-bold px-4 py-2 mt-5 mb-4 d-block mx-auto">Xác nhận</button>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6 px-5 text-center">
+                                    <a href="./index.html" class="btn btn-primary text-uppercase font-weight-bold px-4 py-2 mt-5 mb-4">Quay về trang chủ</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </form>
             </div>
