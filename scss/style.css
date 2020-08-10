@@ -2686,6 +2686,13 @@ body {
   grid-gap: 5% 5%;
   -webkit-transform: translateY(10%);
           transform: translateY(10%);
+  padding-bottom: 150px !important;
+}
+
+@media screen and (max-width: 1199px) {
+  .grid-container {
+    padding-bottom: 30px !important;
+  }
 }
 
 .grid-item {
@@ -2815,6 +2822,18 @@ body {
   font-size: 30px;
 }
 
+@media screen and (max-width: 991px) {
+  .index-Section-5 #more-view {
+    top: 96%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .index-Section-5 #more-view {
+    top: 96%;
+  }
+}
+
 .index-Section-5 #news a {
   position: absolute;
   background-color: #fc49a6;
@@ -2829,6 +2848,18 @@ body {
           clip-path: polygon(70% 0, 100% 50%, 70% 100%, 0 100%, 0 0);
   cursor: pointer;
   z-index: 9999;
+}
+
+@media screen and (max-width: 767px) {
+  .index-Section-5 #news a {
+    height: 30px !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .index-Section-5 #news a {
+    height: 24px !important;
+  }
 }
 
 .index-Section-5 #news a p {
@@ -3033,6 +3064,18 @@ body {
   width: 70%;
 }
 
+@media screen and (max-width: 1099px) {
+  #about-main li img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #about-main li img {
+    width: 100%;
+  }
+}
+
 #about-main li:hover a {
   cursor: pointer;
   color: #fffb94;
@@ -3102,9 +3145,15 @@ body {
 #about_tab-content h3 {
   color: #00a859;
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 30px;
   letter-spacing: 2px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 991px) {
+  #about_tab-content h3 {
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -3115,7 +3164,13 @@ body {
 
 #about_tab-content p {
   text-indent: 30px;
-  font-size: 16px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  #about_tab-content p {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -3172,12 +3227,19 @@ body {
 }
 
 #contact-main img {
-  width: 90%;
+  width: 95%;
+  height: 100px;
+}
+
+@media screen and (max-width: 1199px) {
+  #contact-main img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 575px) {
   #contact-main img {
-    width: 100%;
+    height: 100%;
   }
 }
 
@@ -3311,8 +3373,18 @@ body {
   padding: 0;
 }
 
+#partner_tab-2 .top-partner {
+  width: 14% !important;
+}
+
+@media screen and (max-width: 991px) {
+  #partner_tab-2 .top-partner {
+    width: 100% !important;
+  }
+}
+
 #partner_tab-2 .tabs {
-  padding: 0 10%;
+  padding: 0px;
 }
 
 #partner_tab-2 ul {
@@ -3340,7 +3412,7 @@ body {
   font-weight: bold;
   border-radius: 40px;
   outline: none;
-  min-width: 100px;
+  min-width: 90px;
 }
 
 #partner_tab-2 .partner_tab2-active {
@@ -3762,7 +3834,7 @@ body {
 /* /* start trang goi tu thien */
 /* /* start banner */
 #goituthien-banner {
-  min-height: 150px;
+  height: 100%;
 }
 
 /* /* end banner */
@@ -4402,7 +4474,7 @@ li {
     margin-bottom: 10px;
   }
   .index-Section-5 #more-view {
-    top: 95%;
+    top: 96%;
     font-size: 18px;
   }
   .index-Section-4 {
@@ -4424,7 +4496,7 @@ li {
     height: 30px;
   }
   .index-Section-5 #more-view {
-    top: 95%;
+    top: 96%;
     font-size: 20px;
   }
   .messenger {
@@ -6408,7 +6480,7 @@ li {
   #dang-ky-nhan-quan #form-trao .title .title-btn,
   #dang-ky-trao-quan #form-nhan .title .title-btn,
   #dang-ky-trao-quan #form-trao .title .title-btn {
-    font-size: 24px;
+    font-size: 18px;
     width: 80%;
   }
 }
@@ -6517,6 +6589,21 @@ li {
   color: #1aa5dd;
 }
 
+@media screen and (max-width: 575px) {
+  #user-admin-main {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #user-admin-main .nav-link, #user-admin-main .nav-item {
+    font-size: 13px !important;
+    display: block;
+    width: 100%;
+  }
+}
+
 .user-search-result .search-result-title {
   color: #8a0438;
 }
@@ -6537,6 +6624,10 @@ li {
   position: relative;
   max-width: 100%;
   margin-left: 0px;
+}
+
+#contact-main-quan .block-img img {
+  height: 100px;
 }
 
 #contact-main-quan .title {
@@ -7131,7 +7222,19 @@ li {
 
 .index-Section-3-quan .index-Section-3-quan-btn {
   background-color: #1aa5dd;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 991px) {
+  .index-Section-3-quan .index-Section-3-quan-btn {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .index-Section-3-quan .index-Section-3-quan-btn {
+    font-size: 13px;
+  }
 }
 
 .index-Section-3-quan .index-Section-3-quan-btn:hover {
@@ -7142,6 +7245,60 @@ li {
   font-size: 24px;
   top: 45%;
   text-shadow: 0px 0px 5px #888;
+}
+
+@media screen and (max-width: 1199px) {
+  .index-Section-4-quan .title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .index-Section-4-quan .title {
+    position: static;
+    -webkit-transform: unset;
+            transform: unset;
+    padding: 30px 0px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .index-Section-4-quan .grid-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: unset;
+            transform: unset;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0 15px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    grid-gap: 0px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .index-Section-4-quan .grid-container .grid-item {
+    -webkit-transform: unset;
+            transform: unset;
+    width: calc(50% - 15px);
+    margin-bottom: 30px;
+    height: 250px;
+  }
+  .index-Section-4-quan .grid-container .grid-item img {
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .index-Section-4-quan .grid-container .grid-item {
+    height: 180px;
+  }
+  .index-Section-4-quan .grid-container .grid-item img {
+    height: 120px;
+  }
 }
 
 .index-Section-7-quan .left-item img {
@@ -7307,7 +7464,31 @@ li {
   color: #1aa5dd;
 }
 
+@media screen and (max-width: 575px) {
+  .account-detail .account-detail-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .account-detail .account-detail-btn {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .account-detail .account-detail-btn {
+    font-size: 13px;
+  }
+}
+
 .account-change-password .change-password-label {
   color: #1aa5dd;
+}
+
+@media screen and (max-width: 767px) {
+  #footer .contact-info {
+    padding-left: 0px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

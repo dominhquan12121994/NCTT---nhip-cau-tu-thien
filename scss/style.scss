@@ -2757,6 +2757,10 @@ body {
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 5% 5%;
     transform: translateY(10%);
+    padding-bottom: 150px !important;
+        @include under1199() {
+            padding-bottom: 30px !important;
+        }
 }
 .grid-item {
     background-color: #cccccc;
@@ -2840,6 +2844,12 @@ body {
     transform: translateX(-50%) translateY(-50%);
     cursor: pointer;
     font-size: 30px;
+    @include under991() {
+        top: 96%;
+    }
+    @include under575() {
+        top: 96%;
+    }
 }
 .index-Section-5 #news a {
     position: absolute;
@@ -2853,6 +2863,12 @@ body {
     clip-path: polygon(70% 0, 100% 50%, 70% 100%, 0 100%, 0 0);
     cursor: pointer;
     z-index: 9999;
+    @include under767() {
+        height: 30px !important;
+    }
+    @include under575() {
+        height: 24px !important;
+    }
 }
 .index-Section-5 #news a p {
     position: absolute;
@@ -3020,6 +3036,12 @@ body {
 }
 #about-main li img {
     width: 70%;
+    @include under1099() {
+        width: 80%;
+    }
+    @include under991() {
+        width: 100%;
+    }
 }
 #about-main li:hover a {
     cursor: pointer;
@@ -3076,16 +3098,22 @@ body {
 #about_tab-content h3 {
     color: #00a859;
     margin-bottom: 30px;
-    font-size: 24px;
+    font-size: 30px;
     letter-spacing: 2px;
     font-weight: 600;
+    @include under991() {
+        font-size: 24px;
+    }
     @include under575() {
         text-align: center;
     }
 }
 #about_tab-content p {
     text-indent: 30px;
-    font-size: 16px;
+    font-size: 20px;
+    @include under991() {
+        font-size: 16px;
+    }
     @include under575() {
         text-align: justify;
     }
@@ -3124,9 +3152,13 @@ body {
     }
 }
 #contact-main img {
-    width: 90%;
-    @include under575() {
+    width: 95%;
+    height: 100px;
+    @include under1199() {
         width: 100%;
+    }
+    @include under575() {
+        height: 100%;
     }
 }
 #contact-main figcaption {
@@ -3227,9 +3259,15 @@ body {
 /* ---start-partner-section-2--- */
 #partner_tab-2 {
     padding: 0;
+    .top-partner {
+        width: 14% !important;
+        @include under991() {
+            width: 100% !important;
+        }
+    }
 }
 #partner_tab-2 .tabs {
-    padding: 0 10%;
+    padding: 0px;
 }
 #partner_tab-2 ul {
     display: flex;
@@ -3248,7 +3286,7 @@ body {
     font-weight: bold;
     border-radius: 40px;
     outline: none;
-    min-width: 100px;
+    min-width: 90px;
 }
 #partner_tab-2 .partner_tab2-active {
     background-color: #0364ae;
@@ -3577,7 +3615,8 @@ body {
 /* /* start trang goi tu thien */
 /* /* start banner */
 #goituthien-banner {
-    min-height: 150px;
+    // min-height: 150px;
+    height: 100%;
 }
 /* /* end banner */
 #goituthien-btn-nhan-tu-thien {
@@ -4077,7 +4116,7 @@ li {
         margin-bottom: 10px;
     }
     .index-Section-5 #more-view {
-        top: 95%;
+        top: 96%;
         font-size: 18px;
     }
     .index-Section-4 {
@@ -4097,7 +4136,7 @@ li {
         height: 30px;
     }
     .index-Section-5 #more-view {
-        top: 95%;
+        top: 96%;
         font-size: 20px;
     }
     .messenger {
@@ -6060,7 +6099,7 @@ $color-five: #00a859;
                 }
 
                 @include under991() {
-                    font-size: 24px;
+                    font-size: 18px;
                     width: 80%;
                 }
 
@@ -6151,6 +6190,17 @@ $color-five: #00a859;
     .user-admin-title {
         color: $color-four;
     }
+    @include under575() {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .nav-link, .nav-item {
+        @include under767() {
+            font-size: 13px !important;
+            display: block;
+            width: 100%;
+        }
+    }
 }
 
 .user-search-result {
@@ -6174,6 +6224,9 @@ $color-five: #00a859;
         position: relative;
         max-width: 100%;
         margin-left: 0px;
+        img {
+            height: 100px;
+        }
     }
     .title {
         font-size: 24px;
@@ -6566,7 +6619,13 @@ $color-five: #00a859;
     }
     .index-Section-3-quan-btn {
         background-color: $color-four;
-        font-size: 18px;
+        font-size: 16px;
+        @include under991() {
+            font-size: 14px;
+        }
+        @include under767() {
+            font-size: 13px;
+        }
     }
     .index-Section-3-quan-btn:hover {
         background-color: $color-five;
@@ -6577,6 +6636,44 @@ $color-five: #00a859;
         font-size: 24px;
         top: 45%;
         text-shadow: 0px 0px 5px #888;
+        @include under1199() {
+            font-size: 20px;
+        }
+        @include under991() {
+            position: static;
+            transform: unset;
+            padding: 30px 0px;
+        }
+    }
+
+    .grid-container{
+        @include under991() {
+            display: flex;
+            transform:unset;
+            flex-wrap: wrap;
+            padding: 0 15px;
+            justify-content: space-between;
+            grid-gap: 0px;
+        }
+
+        .grid-item {
+            @include under991() {
+                transform: unset;
+                width: calc(50% - 15px);
+                margin-bottom: 30px;
+                height: 250px;
+                img {
+                    height: 180px;
+                }
+            }
+            @include under767() {
+                height: 180px;
+                img {
+                    height: 120px;
+                }
+            }
+        }
+
     }
 }
 .index-Section-7-quan {
@@ -6733,6 +6830,17 @@ $color-five: #00a859;
     }
     .account-detail-title {
         color: $color-four;
+        @include under575() {
+            font-size: 20px;
+        }
+    }
+    .account-detail-btn {
+        @include under767() {
+            font-size: 14px;
+        }
+        @include under575() {
+            font-size: 13px;
+        }
     }
 }
 // ..ACCOUNT DETAIL-QUAN
@@ -6744,3 +6852,8 @@ $color-five: #00a859;
 }
 // ..MY-ACCOUNT-QUAN
 // dominhquan
+#footer .contact-info {
+    @include under767() {
+        padding-left: 0px;
+    }
+}
