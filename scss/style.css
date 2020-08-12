@@ -6578,10 +6578,17 @@ li {
   color: #1aa5dd;
 }
 
+@media screen and (max-width: 767px) {
+  #user-admin-main .title,
+  #user-search-main .title {
+    font-size: 28px !important;
+  }
+}
+
 @media screen and (max-width: 575px) {
   #user-admin-main .title,
   #user-search-main .title {
-    font-size: 30px !important;
+    font-size: 26px !important;
   }
 }
 
@@ -7480,6 +7487,11 @@ li {
   .account-detail .account-detail-btn {
     font-size: 13px;
   }
+}
+
+.account-avatar-img {
+  -webkit-box-shadow: 0px 0px 25px #333;
+          box-shadow: 0px 0px 25px #333;
 }
 
 .account-change-password .change-password-label {
