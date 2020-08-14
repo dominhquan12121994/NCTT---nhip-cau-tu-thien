@@ -6048,10 +6048,27 @@ $color-five: #00a859;
         }
         .footer-form {
             .form-btn {
+                display: inline-block;
                 color: white;
                 font-size: 18px;
                 border-radius: 20px;
                 background-color: $color-five;
+                @include under1099() {
+                    font-size: 16px;
+                }
+                @include under991() {
+                    padding: 12px 12px !important;
+                    font-size: 14px;
+                }
+                @include under575() {
+                    padding: 10px !important;
+                }
+            }
+
+            .form-btn-link {
+                display: inline-block;
+                font-family: "NeoRegu";
+                padding: 16px 24px !important;
                 @include under1099() {
                     font-size: 16px;
                 }
@@ -6456,6 +6473,12 @@ $color-five: #00a859;
         background-color: $color-five;
     }
     .hay-tham-gia-content-btn:hover {
+        background-color: $color-four;
+    }
+    .hay-tham-gia-content-link {
+        background-color: $color-five;
+    }
+    .hay-tham-gia-content-link:hover {
         background-color: $color-four;
     }
     .hay-tham-gia-content-link {

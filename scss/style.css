@@ -6378,6 +6378,7 @@ li {
 #dang-ky-nhan-quan #form-trao .footer-form .form-btn,
 #dang-ky-trao-quan #form-nhan .footer-form .form-btn,
 #dang-ky-trao-quan #form-trao .footer-form .form-btn {
+  display: inline-block;
   color: white;
   font-size: 18px;
   border-radius: 20px;
@@ -6408,6 +6409,43 @@ li {
   #dang-ky-nhan-quan #form-trao .footer-form .form-btn,
   #dang-ky-trao-quan #form-nhan .footer-form .form-btn,
   #dang-ky-trao-quan #form-trao .footer-form .form-btn {
+    padding: 10px !important;
+  }
+}
+
+#dang-ky-nhan-quan #form-nhan .footer-form .form-btn-link,
+#dang-ky-nhan-quan #form-trao .footer-form .form-btn-link,
+#dang-ky-trao-quan #form-nhan .footer-form .form-btn-link,
+#dang-ky-trao-quan #form-trao .footer-form .form-btn-link {
+  display: inline-block;
+  font-family: "NeoRegu";
+  padding: 16px 24px !important;
+}
+
+@media screen and (max-width: 1099px) {
+  #dang-ky-nhan-quan #form-nhan .footer-form .form-btn-link,
+  #dang-ky-nhan-quan #form-trao .footer-form .form-btn-link,
+  #dang-ky-trao-quan #form-nhan .footer-form .form-btn-link,
+  #dang-ky-trao-quan #form-trao .footer-form .form-btn-link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #dang-ky-nhan-quan #form-nhan .footer-form .form-btn-link,
+  #dang-ky-nhan-quan #form-trao .footer-form .form-btn-link,
+  #dang-ky-trao-quan #form-nhan .footer-form .form-btn-link,
+  #dang-ky-trao-quan #form-trao .footer-form .form-btn-link {
+    padding: 12px 12px !important;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #dang-ky-nhan-quan #form-nhan .footer-form .form-btn-link,
+  #dang-ky-nhan-quan #form-trao .footer-form .form-btn-link,
+  #dang-ky-trao-quan #form-nhan .footer-form .form-btn-link,
+  #dang-ky-trao-quan #form-trao .footer-form .form-btn-link {
     padding: 10px !important;
   }
 }
@@ -6885,6 +6923,14 @@ li {
 }
 
 .hay-tham-gia-content .hay-tham-gia-content-btn:hover {
+  background-color: #1aa5dd;
+}
+
+.hay-tham-gia-content .hay-tham-gia-content-link {
+  background-color: #00a859;
+}
+
+.hay-tham-gia-content .hay-tham-gia-content-link:hover {
   background-color: #1aa5dd;
 }
 
