@@ -2672,7 +2672,7 @@ body {
 }
 
 .index-Section-4 img {
-  max-width: 100%;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 5px;
@@ -6630,6 +6630,27 @@ li {
   }
 }
 
+#user-admin-main .user-admin-label {
+  color: #73879C;
+}
+
+#user-admin-main .user-admin-img {
+  -webkit-box-shadow: 0px 0px 10px #333;
+          box-shadow: 0px 0px 10px #333;
+  margin-bottom: 16px;
+}
+
+#user-admin-main .user-admin-input {
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+#user-admin-main .user-admin-link {
+  margin-bottom: 16px;
+}
+
 #user-admin-main .user-admin-title {
   color: #1aa5dd;
 }
@@ -7294,6 +7315,42 @@ li {
   background-color: #00a859;
 }
 
+.index-Section-4-quan .together-block {
+  display: none;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 60%;
+}
+
+.index-Section-4-quan .together-block .together-text {
+  padding: 60px 85px;
+  top: 0px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1365px) {
+  .index-Section-4-quan .together-block .together-text {
+    font-size: 15px;
+    padding: 50px 75px 0px 70px;
+  }
+}
+
+@media screen and (max-width: 1365px) {
+  .index-Section-4-quan .together-block {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .index-Section-4-quan .together-block {
+    display: none !important;
+  }
+}
+
 .index-Section-4-quan .title {
   font-size: 24px;
   top: 45%;
@@ -7352,6 +7409,10 @@ li {
   .index-Section-4-quan .grid-container .grid-item img {
     height: 120px;
   }
+}
+
+.grid-item:hover .together-block {
+  display: block;
 }
 
 .index-Section-7-quan .left-item img {
@@ -7511,6 +7572,26 @@ li {
 
 .partner-quan .active-tab {
   color: red;
+}
+
+.partner-quan .icon-left {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  font-size: 30px;
+  left: 0%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.partner-quan .icon-right {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  font-size: 30px;
+  left: 100%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .account-detail .account-detail-title {

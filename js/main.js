@@ -153,7 +153,7 @@ $(document).ready(function () {
         document.getElementById("khac").onclick = function (event) {
             openTab1(event, 'tab_content-item-7');
             $('.khac').css('display', 'block');
-            $('.khac').get(0).slick.setPosition();
+            // $('.khac').get(0).slick.setPosition();
         }
     }
 });
@@ -564,3 +564,256 @@ $(document).ready(function() {
     }
 });
 // ..dominhquan-pause index video
+
+// dominhquan-slick-partner-image
+$('.show-all-slick').slick({
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    dots: false,
+    fade: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    prevArrow: "<i class='fas fa-chevron-left icon-left'></i>",
+    nextArrow: "<i class='fas fa-chevron-right icon-right'></i>",
+    responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 4,
+                slidesToScroll: 4,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        }
+    ]
+});
+
+$('.tai-chinh-slick').slick({
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    dots: false,
+    fade: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    prevArrow: "<i class='fas fa-chevron-left icon-left'></i>",
+    nextArrow: "<i class='fas fa-chevron-right icon-right'></i>",
+    responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 4,
+                slidesToScroll: 4,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        }
+    ]
+});
+
+$('.hang-hoa-slick').slick({
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    dots: false,
+    fade: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    prevArrow: "<i class='fas fa-chevron-left icon-left'></i>",
+    nextArrow: "<i class='fas fa-chevron-right icon-right'></i>",
+    responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 4,
+                slidesToScroll: 4,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        }
+    ]
+});
+
+$('.to-chuc-slick').slick({
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    dots: false,
+    fade: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    prevArrow: "<i class='fas fa-chevron-left icon-left'></i>",
+    nextArrow: "<i class='fas fa-chevron-right icon-right'></i>",
+    responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 4,
+                slidesToScroll: 4,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        }
+    ]
+});
+
+$('.dong-hanh-slick').slick({
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    dots: false,
+    fade: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    prevArrow: "<i class='fas fa-chevron-left icon-left'></i>",
+    nextArrow: "<i class='fas fa-chevron-right icon-right'></i>",
+    responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 4,
+                slidesToScroll: 4,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        }
+    ]
+});
+
+$('.truyen-thong-slick').slick({
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    dots: false,
+    fade: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    prevArrow: "<i class='fas fa-chevron-left icon-left'></i>",
+    nextArrow: "<i class='fas fa-chevron-right icon-right'></i>",
+    responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 4,
+                slidesToScroll: 4,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        }
+    ]
+});
+
+$('.khac-slick').slick({
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    dots: false,
+    fade: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    prevArrow: "<i class='fas fa-chevron-left icon-left'></i>",
+    nextArrow: "<i class='fas fa-chevron-right icon-right'></i>",
+    responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 4,
+                slidesToScroll: 4,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        }
+    ]
+});
+// ..dominhquan-slick-partner-image
+// dominhquan-hover-gui tu thien
+$(".grid-item").hover(function (e) {
+    e.stopPropagation();
+        // over
+        $(".together-block").css("display", "block");
+    }, function (e) {
+    e.stopPropagation();
+        // out
+        $(".together-block").css("display", "none");
+    }
+);
+
+// ..dominhquan-hover-gui tu thien
