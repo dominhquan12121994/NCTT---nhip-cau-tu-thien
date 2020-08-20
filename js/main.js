@@ -109,51 +109,51 @@ $(document).ready(function () {
     if (document.getElementById("show-all")) {
         document.getElementById("show-all").onclick = function (event) {
             openTab1(event, 'tab_content-item-1');
-            $('.showAll').css('display', 'block');
-            // $('.showAll').get(0).slick.setPosition();
+            $('.show-all-slick').css('display', 'block');
+            $('.show-all-slick').get(0).slick.setPosition();
         }
         document.getElementById("show-all").click();
     }
     if (document.getElementById("tai-chinh")) {
         document.getElementById("tai-chinh").onclick = function (event) {
             openTab1(event, 'tab_content-item-2');
-            $('.taiChinh').css('display', 'block');
-            $('.taiChinh').get(0).slick.setPosition();
+            $('.tai-chinh-slick').css('display', 'block');
+            $('.tai-chinh-slick').get(0).slick.setPosition();
         }
     }
     if (document.getElementById("hang-hoa")) {
         document.getElementById("hang-hoa").onclick = function (event) {
             openTab1(event, 'tab_content-item-3');
-            $('.hangHoa').css('display', 'block');
-            $('.hangHoa').get(0).slick.setPosition();
+            $('.hang-hoa-slick').css('display', 'block');
+            $('.hang-hoa-slick').get(0).slick.setPosition();
         }
     }
     if (document.getElementById("to-chuc")) {
         document.getElementById("to-chuc").onclick = function (event) {
             openTab1(event, 'tab_content-item-4');
-            $('.toChuc').css('display', 'block');
-            $('.toChuc').get(0).slick.setPosition();
+            $('.to-chuc-slick').css('display', 'block');
+            $('.to-chuc-slick').get(0).slick.setPosition();
         }
     }
     if (document.getElementById("dong-hanh")) {
         document.getElementById("dong-hanh").onclick = function (event) {
             openTab1(event, 'tab_content-item-5');
-            $('.dongHanh').css('display', 'block');
-            $('.dongHanh').get(0).slick.setPosition();
+            $('.dong-hanh-slick').css('display', 'block');
+            $('.dong-hanh-slick').get(0).slick.setPosition();
         }
     }
     if (document.getElementById("truyen-thong")) {
         document.getElementById("truyen-thong").onclick = function (event) {
             openTab1(event, 'tab_content-item-6');
-            $('.truyenThong').css('display', 'block');
-            $('.truyenThong').get(0).slick.setPosition();
+            $('.truyen-thong-slick').css('display', 'block');
+            $('.truyen-thong-slick').get(0).slick.setPosition();
         }
     }
     if (document.getElementById("khac")) {
         document.getElementById("khac").onclick = function (event) {
             openTab1(event, 'tab_content-item-7');
-            $('.khac').css('display', 'block');
-            // $('.khac').get(0).slick.setPosition();
+            $('.khac-slick').css('display', 'block');
+            $('.khac-slick').get(0).slick.setPosition();
         }
     }
 });
