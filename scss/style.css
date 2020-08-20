@@ -7512,6 +7512,15 @@ li {
   left: 100%;
   -webkit-transform: translate(-100%, 0%);
           transform: translate(-100%, 0%);
+  display: inline-block;
+  height: 78%;
+  background-color: #00a859;
+  border: 0px;
+}
+
+.news-main-quan #search-tintuc i {
+  line-height: 38px;
+  color: white;
 }
 
 .gioi-thieu-chung-quan #Gioi-thieu-chung .title {

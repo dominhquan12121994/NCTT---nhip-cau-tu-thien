@@ -6835,6 +6835,14 @@ $color-five: #00a859;
         top: 0px;
         left: 100%;
         transform: translate(-100%, 0%);
+        display: inline-block;
+        height: 78%;
+        background-color: #00a859;
+        border: 0px;
+    }
+    #search-tintuc i {
+        line-height: 38px;
+        color: white;
     }
 }
 // ..NEWS-QUAN
