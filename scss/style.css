@@ -3264,11 +3264,50 @@ body {
 }
 
 #contact-main h2 {
-  font-size: 24px;
+  font-size: 23px;
   text-align: center;
   color: #00a859;
   text-transform: uppercase;
   line-height: 1.25;
+  font-family: NeoBold;
+  letter-spacing: -1px;
+  word-spacing: -1px;
+}
+
+@media screen and (max-width: 1365px) {
+  #contact-main h2 {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  #contact-main h2 {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  #contact-main h2 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #contact-main h2 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #contact-main h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #contact-main h2 {
+    font-size: 16px;
+  }
 }
 
 #contact-main input,
@@ -3494,7 +3533,7 @@ body {
 }
 
 #news-section-1 .tintuc-item a {
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease-in;
@@ -7541,6 +7580,12 @@ li {
 .news-main-quan #search-tintuc i {
   line-height: 38px;
   color: white;
+}
+
+@media screen and (max-width: 575px) {
+  .news-main-quan #news-tabContent-1 img {
+    height: 30%;
+  }
 }
 
 .gioi-thieu-chung-quan #Gioi-thieu-chung .title {

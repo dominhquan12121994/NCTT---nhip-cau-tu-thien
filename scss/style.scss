@@ -3185,11 +3185,32 @@ body {
     text-decoration: none;
 }
 #contact-main h2 {
-    font-size: 24px;
+    font-size: 23px;
     text-align: center;
     color: #00a859;
     text-transform: uppercase;
     line-height: 1.25;
+    font-family: NeoBold;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+    @include under1366() {
+        font-size: 21px;
+    }
+    @include under1199() {
+        font-size: 19px;
+    }
+    @include under1099() {
+        font-size: 17px;
+    }
+    @include under991() {
+        font-size: 24px;
+    }
+    @include under767() {
+        font-size: 20px;
+    }
+    @include under575() {
+        font-size: 16px;
+    }
 }
 #contact-main input,
 #contact-main textarea {
@@ -3359,7 +3380,7 @@ body {
     padding: 8px;
 }
 #news-section-1 .tintuc-item a {
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     letter-spacing: 1px;
     transition: all 0.3s ease-in;
@@ -6861,6 +6882,11 @@ $color-five: #00a859;
     #search-tintuc i {
         line-height: 38px;
         color: white;
+    }
+    #news-tabContent-1 img{
+        @include under575() {
+            height: 30%;
+        }
     }
 }
 // ..NEWS-QUAN
