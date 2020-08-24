@@ -6046,33 +6046,19 @@ $color-five: #00a859;
             }
         }
         #language {
-            cursor: pointer;
-            outline: none;
-            .language-wrapper {
-                .language-list {
-                    border-radius: 4px;
-                    outline: none;
-                    border: 0px;
-                    overflow: hidden;
-                    text-align: center;
-                    margin-top: 5px;
-                    width: 150%;
-                    position: relative;
-                    transform: translate(-33.33%, 0px);
-                    z-index: 10;
-                    background-color: #00a859;
-                    .language-list-item {
-                        font-size: 16px;
-                        padding: 0px;
-                        font-weight: bold;
-                        margin: 0px;
-                        color: white;
-                        padding-top: 10px;
-                        padding-bottom: 10px;
-                        cursor: pointer;
-                        appearance: none;
-                    }
-                }
+            form {
+                height: 100%;
+            }
+            #language-select {
+                height: 100%;
+                border: 1px solid #00a859;
+                border-radius: 4px;
+                color: #00a859;
+                font-weight: bold;
+                outline: none;
+                padding-left: 5px;
+                padding-top: 10px;
+                padding-bottom: 10px;
             }
         }
     }

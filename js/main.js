@@ -414,7 +414,7 @@ $(document).ready(function () {
 // start news index style flex
 $(document).ready(function () {
     if ($("#demo-btn")) {
-        $("#demo-btn").click(function(){
+        $("#demo-btn").click(function () {
             $("#demo").toggle();
         });
         // document.querySelectorAll(".index-Section-5 .index-news-box")[0].style.flexDirection = "column";
@@ -465,7 +465,7 @@ $(document).ready(function () {
 
 // dominhquan - toggle login
 $(document).ready(function () {
-    $("#login-btn-quan").click(function(){
+    $("#login-btn-quan").click(function () {
         $("#login-quan").toggleClass("d-block");
     });
 })
@@ -473,7 +473,7 @@ $(document).ready(function () {
 
 // dominhquan-show password
 $(document).ready(function () {
-    $("#show-password-icon").click(function(){
+    $("#show-password-icon").click(function () {
         console.log("clicked");
         console.log($("#exampleInputPassword1"));
         if ($("#exampleInputPassword1").attr("type") == "password") {
@@ -486,11 +486,11 @@ $(document).ready(function () {
 // ..dominhquan-show password
 
 // dominhquan-active tab partner
-$(document).ready(function() {
+$(document).ready(function () {
     if (document.getElementsByClassName("partner-tab-item-quan")) {
         let allTab = document.querySelectorAll(".partner-tab-item-quan");
         // console.log(allTab);
-        $("#partner-tab-item-1").click(function() {
+        $("#partner-tab-item-1").click(function () {
             console.log("clicked1");
             for (let i = 0; i < allTab.length; i++) {
                 console.log(allTab[i].id);
@@ -498,7 +498,7 @@ $(document).ready(function() {
             }
             document.getElementById("partner-tab-item-1").classList.add("active-tab");
         });
-        $("#partner-tab-item-2").click(function() {
+        $("#partner-tab-item-2").click(function () {
             console.log("clicked2");
             for (let i = 0; i < allTab.length; i++) {
                 console.log(allTab[i].id);
@@ -506,7 +506,7 @@ $(document).ready(function() {
             }
             document.getElementById("partner-tab-item-2").classList.add("active-tab");
         });
-        $("#partner-tab-item-3").click(function() {
+        $("#partner-tab-item-3").click(function () {
             console.log("clicked3");
             for (let i = 0; i < allTab.length; i++) {
                 console.log(allTab[i].id);
@@ -519,7 +519,7 @@ $(document).ready(function() {
 // ..dominhquan-active tab partner
 
 // dominhquan-slick index video
-$(document).ready(function() {
+$(document).ready(function () {
     $('.index-youtube-video').slick({
         infinite: true,
         slidesToShow: 1,
@@ -546,13 +546,13 @@ $(document).ready(function() {
 // ..dominhquan-slick index video
 
 // dominhquan-pause index video
-$(document).ready(function() {
+$(document).ready(function () {
     if ($("iframe")) {
         let videoIframe = $("iframe");
-        $(".icon-left").click(function() {
+        $(".icon-left").click(function () {
             changeSrc();
         });
-        $(".icon-right").click(function() {
+        $(".icon-right").click(function () {
             changeSrc();
         });
         changeSrc = () => {
@@ -804,19 +804,23 @@ $('.khac-slick').slick({
     ]
 });
 // ..dominhquan-slick-partner-image
-// dominhquan-hover-gui tu thien
-$(".grid-item").hover(function (e) {
-    e.stopPropagation();
-        // over
-        $(".together-block").css("display", "block");
-    }, function (e) {
-    e.stopPropagation();
-        // out
-        $(".together-block").css("display", "none");
-    }
-);
 
-// ..dominhquan-hover-gui tu thien
+// dominhquan-hover-index
+if ($(".grid-item")) {
+    $(".grid-item").mouseover(function () {
+        $(".together-block").css("display", "block");
+    });
+    $(".grid-item").mouseout(function () {
+        $(".together-block").css("display", "none");
+    });
+    $(".together-block").mouseover(function () {
+        $(".together-block").css("display", "block");
+    });
+    $(".together-block").mouseout(function () {
+        $(".together-block").css("display", "none");
+    });
+}
+// ..dominhquan-hover-index
 
 // dominhquan-change-language
 if (document.getElementById('language')) {
@@ -833,14 +837,10 @@ if (document.getElementById('language')) {
     function setVn() {
         console.log('vn clicked');
         document.getElementById('language-img').src = 'images/vn-icon.png';
-        // document.querySelector('.vn-language').style.color = 'red';
-        // document.querySelector('.en-language').style.color = 'white';
     }
     function setEn() {
         console.log('en clicked');
         document.getElementById('language-img').src = 'images/en-icon.png';
-        // document.querySelector('.en-language').style.color = 'blue';
-        // document.querySelector('.vn-language').style.color = 'white';
     }
 }
 // dominhquan-change-language

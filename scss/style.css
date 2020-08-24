@@ -6370,38 +6370,20 @@ li {
   font-size: 12px;
 }
 
-#header #header-left #language {
-  cursor: pointer;
-  outline: none;
+#header #header-left #language form {
+  height: 100%;
 }
 
-#header #header-left #language .language-wrapper .language-list {
+#header #header-left #language #language-select {
+  height: 100%;
+  border: 1px solid #00a859;
   border-radius: 4px;
-  outline: none;
-  border: 0px;
-  overflow: hidden;
-  text-align: center;
-  margin-top: 5px;
-  width: 150%;
-  position: relative;
-  -webkit-transform: translate(-33.33%, 0px);
-          transform: translate(-33.33%, 0px);
-  z-index: 10;
-  background-color: #00a859;
-}
-
-#header #header-left #language .language-wrapper .language-list .language-list-item {
-  font-size: 16px;
-  padding: 0px;
+  color: #00a859;
   font-weight: bold;
-  margin: 0px;
-  color: white;
+  outline: none;
+  padding-left: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
-  cursor: pointer;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
 }
 
 #header #show-password-icon {
