@@ -7393,13 +7393,15 @@ li {
 }
 
 .index-Section-4-quan .together-block .together-text {
-  padding: 60px 85px;
+  padding: 70px 90px;
   top: 0px;
   text-align: justify;
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
 }
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1619px) {
   .index-Section-4-quan .together-block .together-text {
     font-size: 15px;
     padding: 50px 75px 0px 70px;
@@ -7407,8 +7409,15 @@ li {
 }
 
 @media screen and (max-width: 1365px) {
+  .index-Section-4-quan .together-block .together-text {
+    font-size: 13px;
+    padding: 40px 75px 0px 70px;
+  }
+}
+
+@media screen and (max-width: 1365px) {
   .index-Section-4-quan .together-block {
-    width: 70%;
+    width: 60%;
   }
 }
 
