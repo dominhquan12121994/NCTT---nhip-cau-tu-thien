@@ -6371,6 +6371,7 @@ li {
 }
 
 #header #header-left #language {
+  cursor: pointer;
   outline: none;
 }
 
