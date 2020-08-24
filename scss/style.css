@@ -6370,6 +6370,40 @@ li {
   font-size: 12px;
 }
 
+#header #header-left #language {
+  outline: none;
+}
+
+#header #header-left #language .language-wrapper {
+  z-index: 10;
+}
+
+#header #header-left #language .language-wrapper .language-list {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+#header #header-left #language .language-wrapper .language-list .language-list-item {
+  font-weight: bold;
+  color: white;
+  position: relative;
+  background-color: #00a859;
+  width: 150%;
+  height: 40px;
+  font-size: 16px;
+  line-height: 40px;
+  display: inline-block;
+  -webkit-transform: translate(-33.33%, 0px);
+          transform: translate(-33.33%, 0px);
+}
+
+#header #header-left #language .language-wrapper .language-list .vn-language {
+  color: red;
+}
+
 #header #show-password-icon {
   font-size: 20px;
   top: 50%;

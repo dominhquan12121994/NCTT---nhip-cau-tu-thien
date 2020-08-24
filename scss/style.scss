@@ -6045,6 +6045,34 @@ $color-five: #00a859;
                 font-size: 12px;
             }
         }
+        #language {
+            outline: none;
+            .language-wrapper {
+                z-index: 10;
+                .language-list {
+                    margin: 0px;
+                    padding: 0px;
+                    text-align: center;
+                    border-radius: 4px;
+                    margin-top: 5px;
+                    .language-list-item {
+                        font-weight: bold;
+                        color: white;
+                        position: relative;
+                        background-color: #00a859;
+                        width: 150%;
+                        height: 40px;
+                        font-size: 16px;
+                        line-height: 40px;
+                        display: inline-block;
+                        transform: translate(-33.33%, 0px);
+                    }
+                    .vn-language {
+                        color: red;
+                    }
+                }
+            }
+        }
     }
     #show-password-icon {
         font-size: 20px;

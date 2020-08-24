@@ -817,3 +817,30 @@ $(".grid-item").hover(function (e) {
 );
 
 // ..dominhquan-hover-gui tu thien
+
+// dominhquan-change-language
+if (document.getElementById('language')) {
+    document.getElementById('language').addEventListener('click', showLang);
+    function showLang() {
+        if (document.querySelector('.language-wrapper').style.display == 'none') {
+            document.querySelector('.language-wrapper').style.display = 'block';
+        } else {
+            document.querySelector('.language-wrapper').style.display = 'none';
+        }
+    }
+    document.querySelector('.vn-language').addEventListener('click', setVn);
+    document.querySelector('.en-language').addEventListener('click', setEn);
+    function setVn() {
+        console.log('vn clicked');
+        document.getElementById('language-img').src = 'images/vn-icon.png';
+        document.querySelector('.vn-language').style.color = 'red';
+        document.querySelector('.en-language').style.color = 'white';
+    }
+    function setEn() {
+        console.log('en clicked');
+        document.getElementById('language-img').src = 'images/en-icon.png';
+        document.querySelector('.en-language').style.color = 'blue';
+        document.querySelector('.vn-language').style.color = 'white';
+    }
+}
+// dominhquan-change-language
