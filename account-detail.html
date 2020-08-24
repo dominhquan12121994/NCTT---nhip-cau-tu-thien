@@ -68,10 +68,12 @@
                         <button type="button" id="language" class="border-0 position-relative">
 							<img id="language-img" class="language-icon" src="images/vn-icon.png" alt="vn-icon" />
 							<div class="language-wrapper position-absolute w-100" style="display: none;">
-								<ul class="language-list">
-									<li class="language-list-item vn-language">Tiếng Việt</li>
-									<li class="language-list-item en-language">English</li>
-								</ul>
+								<form>
+									<select class="language-list" name="language-list" id="language-list" size="2">
+										<option class="language-list-item vn-language" value="vn" selected>Tiếng Việt</option>
+										<option class="language-list-item en-language" value="en">English</option>
+									</select>
+								</form>
 							</div>
 						</button>
                     </div>

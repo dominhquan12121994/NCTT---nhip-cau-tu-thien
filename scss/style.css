@@ -6374,34 +6374,33 @@ li {
   outline: none;
 }
 
-#header #header-left #language .language-wrapper {
-  z-index: 10;
-}
-
 #header #header-left #language .language-wrapper .language-list {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
   border-radius: 4px;
+  outline: none;
+  border: 0px;
+  overflow: hidden;
+  text-align: center;
   margin-top: 5px;
+  width: 150%;
+  position: relative;
+  -webkit-transform: translate(-33.33%, 0px);
+          transform: translate(-33.33%, 0px);
+  z-index: 10;
+  background-color: #00a859;
 }
 
 #header #header-left #language .language-wrapper .language-list .language-list-item {
-  font-weight: bold;
-  color: white;
-  position: relative;
-  background-color: #00a859;
-  width: 150%;
-  height: 40px;
   font-size: 16px;
-  line-height: 40px;
-  display: inline-block;
-  -webkit-transform: translate(-33.33%, 0px);
-          transform: translate(-33.33%, 0px);
-}
-
-#header #header-left #language .language-wrapper .language-list .vn-language {
-  color: red;
+  padding: 0px;
+  font-weight: bold;
+  margin: 0px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 #header #show-password-icon {

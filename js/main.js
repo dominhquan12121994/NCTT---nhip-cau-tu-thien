@@ -833,14 +833,15 @@ if (document.getElementById('language')) {
     function setVn() {
         console.log('vn clicked');
         document.getElementById('language-img').src = 'images/vn-icon.png';
-        document.querySelector('.vn-language').style.color = 'red';
-        document.querySelector('.en-language').style.color = 'white';
+        // document.querySelector('.vn-language').style.color = 'red';
+        // document.querySelector('.en-language').style.color = 'white';
     }
     function setEn() {
         console.log('en clicked');
         document.getElementById('language-img').src = 'images/en-icon.png';
-        document.querySelector('.en-language').style.color = 'blue';
-        document.querySelector('.vn-language').style.color = 'white';
+        // document.querySelector('.en-language').style.color = 'blue';
+        // document.querySelector('.vn-language').style.color = 'white';
     }
 }
 // dominhquan-change-language
+
