@@ -6047,6 +6047,7 @@ $color-five: #00a859;
             }
         }
         #login-quan {
+            height: 0px;
             label {
                 font-size: 12px;
             }
@@ -6716,11 +6717,15 @@ $color-five: #00a859;
 .index-Section-3-quan {
     a {
         background-color: transparent;
+        height: 100%;
         padding: 0px;
+        display: inline-block;
     }
     .index-Section-3-quan-btn {
         background-color: $color-four;
         font-size: 16px;
+        height: 100%;
+        display: inline-flex;
         @include under991() {
             font-size: 14px;
         }

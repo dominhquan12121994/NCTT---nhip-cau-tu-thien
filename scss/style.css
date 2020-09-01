@@ -6366,6 +6366,10 @@ li {
   }
 }
 
+#header #header-left #login-quan {
+  height: 0px;
+}
+
 #header #header-left #login-quan label {
   font-size: 12px;
 }
@@ -7358,12 +7362,18 @@ li {
 
 .index-Section-3-quan a {
   background-color: transparent;
+  height: 100%;
   padding: 0px;
+  display: inline-block;
 }
 
 .index-Section-3-quan .index-Section-3-quan-btn {
   background-color: #1aa5dd;
   font-size: 16px;
+  height: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 @media screen and (max-width: 991px) {
