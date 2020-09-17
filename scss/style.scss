@@ -218,7 +218,7 @@
 #header #nav-header li a {
     display: inline-block;
     padding: 10px 15px;
-    font-size: 14px;
+    font-size: 18px;
     font-family: NeoBold;
     color: black;
     text-transform: uppercase;
@@ -2705,7 +2705,7 @@ body {
 /* ---start-section-1--- */
 .index-Section-1 img {
     height: 350px;
-    object-fit: cover;
+    // object-fit: cover;
 }
 /* ---end-section-1--- */
 /* ---start-section-2--- */
@@ -2905,7 +2905,8 @@ body {
 /* ---end-section-5--- */
 /* ---start-section-6--- */
 .index-Section-6 {
-    background-image: url(../images/bg-form-1024x351.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/bg-form-1024x351.jpg);
+    // background-image: url(../images/bg-form-1024x351.jpg);
     position: relative;
     color: white;
     text-align: center;
@@ -6047,6 +6048,7 @@ $color-five: #00a859;
             }
         }
         #login-quan {
+            position: absolute;
             height: 0px;
             label {
                 font-size: 12px;
@@ -7060,4 +7062,24 @@ $color-five: #00a859;
     @include under767() {
         padding-left: 0px;
     }
+}
+
+//hieu style
+#user-admin-main {
+    .main-block-table{
+        td{
+            vertical-align: middle;
+        }
+    }
+} 
+
+#user-admin-main .main-block{
+    &>.row:last-child{
+        align-items: baseline;
+    }
+}
+
+
+#header-left > div:nth-child(2) > form{
+    height: 100%;
 }
