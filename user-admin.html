@@ -143,40 +143,88 @@
                         </form>
                     </div>
                 </div>
-                <table class="main-block-table table table-bordered table-hover my-5">
-                    <thead>
+                <div style="overflow-x: auto;">
+                    <table class="main-block-table table table-bordered table-hover my-5">
+                        <thead>
+                            <tr>
+                                <th>Mã gói trao</th>
+                                <th>Tên</th>
+                                <th>Nguyện vọng</th>
+                                <th>Giá trị ước tính</th>
+                                <th>Hình thức tổ chức</th>
+                                <th>Đối tượng hướng tới</th>
+                                <th>Trạng thái gói</th>
+                                <th>Xem chi tiết</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbl-content">
                         <tr>
-                            <th>STT</th>
-                            <th>Tên</th>
-                            <th>Yêu cầu 1</th>
-                            <th>Yêu cầu 2</th>
-                            <th>Yêu cầu 3</th>
+                            <td>GT000002</td>
+                            <td>jasđfjkàd;sjk</td>
+                            <td>asdfjk;kadfsjasfd;jk</td>
+                            <td>200010</td>
+                            <td>asdfkdjksjkl;</td>
+                            <td>lasdfjkdsf;kl</td>
+                            <td style="text-align:center;">
+                                <span class="btn btn-primary w-100">Đã duyệt</span>
+                            </td>
+                            <td style="text-align:center;">
+                                <a href="#" data-id="2" class="btn-edit"><i class="fas fa-edit"></i></a> ||
+                                <a href="/Donnor/ViewDonnorPackageDetail/2" id="btnViewDetail" data-id="2"><i class="fa fa-eye"></i></a>
+                            </td>
                         </tr>
-                    </thead>
-                    <tbody>
+                    
                         <tr>
-                            <td>1</td>
-                            <td>Nguyen Van A</td>
-                            <td>Lorem ipsum dolor sit amet.</td>
-                            <td>Lorem ipsum dolor sit amet.</td>
-                            <td>Lorem ipsum dolor sit amet.</td>
+                            <td>GT000001</td>
+                            <td>Gói trao 1</td>
+                            <td>dfjasdfjkasdf;l</td>
+                            <td>200000</td>
+                            <td>asdfkljafsd;kldfsj</td>
+                            <td>asdfkl;jsdf;kljfasd</td>
+                            <td style="text-align:center;">
+                                <span class="btn btn-primary w-100">Đang xử lý</span>
+                            </td>
+                            <td style="text-align:center;">
+                                <a href="#" data-id="1" class="btn-edit"><i class="fas fa-edit"></i></a> ||
+                                <a href="/Donnor/ViewDonnorPackageDetail/1" id="btnViewDetail" data-id="1"><i class="fa fa-eye"></i></a>
+                            </td>
                         </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Tran Thi B</td>
-                            <td>Lorem ipsum dolor sit amet.</td>
-                            <td>Lorem ipsum dolor sit amet.</td>
-                            <td>Lorem ipsum dolor sit amet.</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Nguyen Van C</td>
-                            <td>Lorem ipsum dolor sit amet.</td>
-                            <td>Lorem ipsum dolor sit amet.</td>
-                            <td>Lorem ipsum dolor sit amet.</td>
-                        </tr>
-                    </tbody>
-                </table>
+                    </tbody></table>
+                </div>
+                <div class="row">
+                    <div class="col-sm-push-6">
+                        <div class="dataTables_info" id="datatable-checkbox_info" role="status" aria-live="polite">
+                            Tổng số bản ghi: <strong id="lbl-total-records">2</strong>
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="dataTables_paginate paging_simple_numbers" id="datatable-checkbox_paginate">
+                            <ul id="paginationURL" class="pagination">
+                                <li class="page-item first disabled">
+                                    <a href="#" class="page-link"><i class="fas fa-angle-double-left"></i></a>
+                                </li>
+                                <li class="page-item prev disabled">
+                                    <a href="#" class="page-link"><i class="fas fa-angle-left"></i></a>
+                                </li>
+                                <li class="page-item active">
+                                    <a href="#" class="page-link">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link">3</a>
+                                </li>
+                                <li class="page-item next disabled">
+                                    <a href="#" class="page-link"><i class="fas fa-angle-right"></i></a>
+                                </li>
+                                <li class="page-item last disabled">
+                                    <a href="#" class="page-link"><i class="fas fa-angle-double-right"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- main -->
@@ -187,8 +235,7 @@
 				<div class="contact-info col-lg-4 col-md-5 col-sm-12">
 					<h4>LIÊN HỆ</h4>
 					<p><strong>Công Ty CP Kỹ Thuật Môi Trường Và Xây Dựng VINACEE Việt Nam</strong></p>
-					<p>Phòng 412, Nơ 9, KĐT Pháp Vân,
-						quận Hoàng Mai, Hà Nội</p>
+					<p>Số 5/2 Ngõ 1295. Đường Giải Phóng, Hoàng Liệt, Hoàng Mai, Hà Nội</p>
 					<p>Email: <a class="text-is-email"
 							href="mailto:nhipcaututhienvn@gmail.com">nhipcaututhienvn@gmail.com</a></p>
 					<p>Fanpage: <a
