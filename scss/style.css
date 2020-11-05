@@ -7600,6 +7600,11 @@ li {
   line-height: 38px;
   color: white;
 }
+.main-block-table{
+  max-width: 975px;
+  width: 100vw !important;
+}
+
 @media screen and (max-width: 575px) {
   .news-main-quan #news-tabContent-1 img {
     height: 30%;
