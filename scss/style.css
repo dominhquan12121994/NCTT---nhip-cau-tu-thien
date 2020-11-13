@@ -7736,5 +7736,32 @@ li {
 #header-left > div:nth-child(2) > form {
   height: 100%;
 }
-
+.user-search-result .container > div:last-child {
+  display: flex;
+  align-items: center;
+}
+.user-search-result .container > div:last-child .pagination{
+  margin: 0;
+}
+.main-block-table.table btn{
+  width: 100%;
+}
+.user-search-result .search-result-img {
+  height: 10rem;
+  object-fit: cover;
+}
+.user-search-result .row{
+  margin-bottom:1.5rem;
+}
+.entry-image img{
+  min-height: 20vh;
+  width:100%;
+  object-fit: cover;
+  max-height:50vh;
+}
+@media screen and (max-width: 991px) {
+  .user-search-result .search-result-img {
+    height: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
