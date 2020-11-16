@@ -4374,27 +4374,27 @@ li {
 
   /*----Field----*/
   #field p,
-#goi-tu-thien p {
+  #goi-tu-thien p {
     font-size: 28px;
   }
 
   #field .nhan-tu-thien,
-#goi-tu-thien .nhan-tu-thien {
+  #goi-tu-thien .nhan-tu-thien {
     font-size: 18px;
   }
 
   #field .nhan-tu-thien i,
-#goi-tu-thien .nhan-tu-thien i {
+  #goi-tu-thien .nhan-tu-thien i {
     font-size: 24px;
   }
 
   #field .field-item .text-item,
-#goi-tu-thien .field-item .text-item {
+  #goi-tu-thien .field-item .text-item {
     font-size: 14px;
   }
 
   #field .goi-tu-thien-text .inner-text,
-#goi-tu-thien .goi-tu-thien-text .inner-text {
+  #goi-tu-thien .goi-tu-thien-text .inner-text {
     font-size: 14px;
     top: 40px;
   }
@@ -4899,56 +4899,56 @@ li {
   /*----End In the media----*/
   /*----Trao-nhận từ thiện----*/
   #form-trao .title #header-form-bg,
-#form-trao .footer-form #header-form-bg,
-#form-nhan .title #header-form-bg,
-#form-nhan .footer-form #header-form-bg {
+  #form-trao .footer-form #header-form-bg,
+  #form-nhan .title #header-form-bg,
+  #form-nhan .footer-form #header-form-bg {
     top: 30px;
     left: 29px;
   }
 
   #form-trao .title #footer-form-bg,
-#form-trao .footer-form #footer-form-bg,
-#form-nhan .title #footer-form-bg,
-#form-nhan .footer-form #footer-form-bg {
+  #form-trao .footer-form #footer-form-bg,
+  #form-nhan .title #footer-form-bg,
+  #form-nhan .footer-form #footer-form-bg {
     left: -30px;
   }
 
   #form-trao .title h1,
-#form-trao .footer-form h1,
-#form-nhan .title h1,
-#form-nhan .footer-form h1 {
+  #form-trao .footer-form h1,
+  #form-nhan .title h1,
+  #form-nhan .footer-form h1 {
     font-size: 26px;
   }
 
   #form-trao .title h4,
-#form-trao .footer-form h4,
-#form-nhan .title h4,
-#form-nhan .footer-form h4 {
+  #form-trao .footer-form h4,
+  #form-nhan .title h4,
+  #form-nhan .footer-form h4 {
     font-size: 20px;
     bottom: 40px;
   }
 
   #form-trao .title a,
-#form-trao .footer-form a,
-#form-nhan .title a,
-#form-nhan .footer-form a {
+  #form-trao .footer-form a,
+  #form-nhan .title a,
+  #form-nhan .footer-form a {
     bottom: 40px;
     font-size: 16px;
     padding: 4px 10px;
   }
 
   #form-trao .text,
-#form-nhan .text {
+  #form-nhan .text {
     width: 96%;
   }
 
   #form-trao .form-item,
-#form-nhan .form-item {
+  #form-nhan .form-item {
     margin-bottom: 50px;
   }
 
   #form-trao .option .row .col-lg-6,
-#form-nhan .option .row .col-lg-6 {
+  #form-nhan .option .row .col-lg-6 {
     margin-bottom: 15px;
   }
 
@@ -5124,32 +5124,32 @@ li {
   /*----End Registry----*/
   /*----Field----*/
   #field p,
-#goi-tu-thien p {
+  #goi-tu-thien p {
     font-size: 20px;
   }
 
   #field .nhan-tu-thien,
-#goi-tu-thien .nhan-tu-thien {
+  #goi-tu-thien .nhan-tu-thien {
     font-size: 16px;
   }
 
   #field .nhan-tu-thien i,
-#goi-tu-thien .nhan-tu-thien i {
+  #goi-tu-thien .nhan-tu-thien i {
     font-size: 20px;
   }
 
   #field .field-item,
-#goi-tu-thien .field-item {
+  #goi-tu-thien .field-item {
     padding: 5px;
   }
 
   #field .field-item .text-item,
-#goi-tu-thien .field-item .text-item {
+  #goi-tu-thien .field-item .text-item {
     font-size: 13px;
   }
 
   #field .goi-tu-thien-text .inner-text,
-#goi-tu-thien .goi-tu-thien-text .inner-text {
+  #goi-tu-thien .goi-tu-thien-text .inner-text {
     font-size: 12px;
     top: 20px;
   }
@@ -5853,53 +5853,53 @@ li {
   /*----End In the media----*/
   /*----Trao-nhận từ thiện----*/
   #form-trao,
-#form-nhan {
+  #form-nhan {
     padding-top: 0px;
   }
 
   #form-trao .content-form,
-#form-nhan .content-form {
+  #form-nhan .content-form {
     padding-left: 36px;
     padding-right: 36px;
     padding-top: 150px;
   }
 
   #form-trao .title #header-form-bg,
-#form-trao .footer-form #header-form-bg,
-#form-nhan .title #header-form-bg,
-#form-nhan .footer-form #header-form-bg {
+  #form-trao .footer-form #header-form-bg,
+  #form-nhan .title #header-form-bg,
+  #form-nhan .footer-form #header-form-bg {
     top: 30px;
     left: 24px;
   }
 
   #form-trao .title #footer-form-bg,
-#form-trao .footer-form #footer-form-bg,
-#form-nhan .title #footer-form-bg,
-#form-nhan .footer-form #footer-form-bg {
+  #form-trao .footer-form #footer-form-bg,
+  #form-nhan .title #footer-form-bg,
+  #form-nhan .footer-form #footer-form-bg {
     left: -25px;
   }
 
   #form-trao .title h1,
-#form-trao .footer-form h1,
-#form-nhan .title h1,
-#form-nhan .footer-form h1 {
+  #form-trao .footer-form h1,
+  #form-nhan .title h1,
+  #form-nhan .footer-form h1 {
     font-size: 18px;
     top: 35px;
   }
 
   #form-trao .title h4,
-#form-trao .footer-form h4,
-#form-nhan .title h4,
-#form-nhan .footer-form h4 {
+  #form-trao .footer-form h4,
+  #form-nhan .title h4,
+  #form-nhan .footer-form h4 {
     font-size: 14px;
     bottom: 30px;
     left: 0;
   }
 
   #form-trao .title a,
-#form-trao .footer-form a,
-#form-nhan .title a,
-#form-nhan .footer-form a {
+  #form-trao .footer-form a,
+  #form-nhan .title a,
+  #form-nhan .footer-form a {
     bottom: 33px;
     font-size: 12px;
     right: 25px;
@@ -5907,18 +5907,18 @@ li {
   }
 
   #form-trao .text,
-#form-nhan .text {
+  #form-nhan .text {
     width: 96%;
     font-size: 16px;
   }
 
   #form-trao .form-item,
-#form-nhan .form-item {
+  #form-nhan .form-item {
     margin-bottom: 50px;
   }
 
   #form-trao .option .row .col-lg-6,
-#form-nhan .option .row .col-lg-6 {
+  #form-nhan .option .row .col-lg-6 {
     margin-bottom: 15px;
   }
 
@@ -5947,7 +5947,7 @@ li {
   }
 
   #we-768 .card-body p,
-#we-768 .card-body a {
+  #we-768 .card-body a {
     font-size: 14px;
   }
 
@@ -5997,17 +5997,17 @@ li {
   /*----End Contact Page----*/
   /*----Dang ky nhan Page----*/
   #form-trao .title #header-form-bg,
-#form-nhan .title #header-form-bg {
+  #form-nhan .title #header-form-bg {
     left: 22px;
   }
 
   #form-trao .footer-form #footer-form-bg,
-#form-nhan .footer-form #footer-form-bg {
+  #form-nhan .footer-form #footer-form-bg {
     left: -22px;
   }
 
   #form-trao #form-3,
-#form-nhan #form-3 {
+  #form-nhan #form-3 {
     margin-bottom: 30px;
   }
 
@@ -6020,22 +6020,22 @@ li {
   /*----End Gioi thieu chung Page---*/
   /*----Goi tu thien Page----*/
   #field .nhan-tu-thien,
-#goi-tu-thien .nhan-tu-thien {
+  #goi-tu-thien .nhan-tu-thien {
     font-size: 14px;
   }
 
   #field .field-item .text-item,
-#goi-tu-thien .field-item .text-item {
+  #goi-tu-thien .field-item .text-item {
     font-size: 10px;
   }
 
   #field .goi-tu-thien-text img,
-#goi-tu-thien .goi-tu-thien-text img {
+  #goi-tu-thien .goi-tu-thien-text img {
     width: 120%;
   }
 
   #field .goi-tu-thien-text .inner-text,
-#goi-tu-thien .goi-tu-thien-text .inner-text {
+  #goi-tu-thien .goi-tu-thien-text .inner-text {
     width: 100%;
     font-size: 11px;
   }
@@ -6262,7 +6262,7 @@ li {
   }
 
   #field p,
-#goi-tu-thien p {
+  #goi-tu-thien p {
     font-size: 18px;
   }
 
@@ -6544,9 +6544,9 @@ li {
 
 @media screen and (max-width: 767px) {
   #dang-ky-nhan-quan #form-nhan,
-#dang-ky-nhan-quan #form-trao,
-#dang-ky-trao-quan #form-nhan,
-#dang-ky-trao-quan #form-trao {
+  #dang-ky-nhan-quan #form-trao,
+  #dang-ky-trao-quan #form-nhan,
+  #dang-ky-trao-quan #form-trao {
     border-radius: 0px;
   }
 }
@@ -6559,9 +6559,9 @@ li {
 }
 @media screen and (max-width: 767px) {
   #dang-ky-nhan-quan #form-nhan .content-form,
-#dang-ky-nhan-quan #form-trao .content-form,
-#dang-ky-trao-quan #form-nhan .content-form,
-#dang-ky-trao-quan #form-trao .content-form {
+  #dang-ky-nhan-quan #form-trao .content-form,
+  #dang-ky-trao-quan #form-nhan .content-form,
+  #dang-ky-trao-quan #form-trao .content-form {
     padding-left: 10px !important;
     padding-right: 10px !important;
     padding-top: 20px !important;
@@ -6596,26 +6596,26 @@ li {
 }
 @media screen and (max-width: 1099px) {
   #dang-ky-nhan-quan #form-nhan .footer-form .form-btn,
-#dang-ky-nhan-quan #form-trao .footer-form .form-btn,
-#dang-ky-trao-quan #form-nhan .footer-form .form-btn,
-#dang-ky-trao-quan #form-trao .footer-form .form-btn {
+  #dang-ky-nhan-quan #form-trao .footer-form .form-btn,
+  #dang-ky-trao-quan #form-nhan .footer-form .form-btn,
+  #dang-ky-trao-quan #form-trao .footer-form .form-btn {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 991px) {
   #dang-ky-nhan-quan #form-nhan .footer-form .form-btn,
-#dang-ky-nhan-quan #form-trao .footer-form .form-btn,
-#dang-ky-trao-quan #form-nhan .footer-form .form-btn,
-#dang-ky-trao-quan #form-trao .footer-form .form-btn {
+  #dang-ky-nhan-quan #form-trao .footer-form .form-btn,
+  #dang-ky-trao-quan #form-nhan .footer-form .form-btn,
+  #dang-ky-trao-quan #form-trao .footer-form .form-btn {
     padding: 12px 12px !important;
     font-size: 14px;
   }
 }
 @media screen and (max-width: 575px) {
   #dang-ky-nhan-quan #form-nhan .footer-form .form-btn,
-#dang-ky-nhan-quan #form-trao .footer-form .form-btn,
-#dang-ky-trao-quan #form-nhan .footer-form .form-btn,
-#dang-ky-trao-quan #form-trao .footer-form .form-btn {
+  #dang-ky-nhan-quan #form-trao .footer-form .form-btn,
+  #dang-ky-trao-quan #form-nhan .footer-form .form-btn,
+  #dang-ky-trao-quan #form-trao .footer-form .form-btn {
     padding: 10px !important;
   }
 }
@@ -6629,26 +6629,26 @@ li {
 }
 @media screen and (max-width: 1099px) {
   #dang-ky-nhan-quan #form-nhan .footer-form .form-btn-link,
-#dang-ky-nhan-quan #form-trao .footer-form .form-btn-link,
-#dang-ky-trao-quan #form-nhan .footer-form .form-btn-link,
-#dang-ky-trao-quan #form-trao .footer-form .form-btn-link {
+  #dang-ky-nhan-quan #form-trao .footer-form .form-btn-link,
+  #dang-ky-trao-quan #form-nhan .footer-form .form-btn-link,
+  #dang-ky-trao-quan #form-trao .footer-form .form-btn-link {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 991px) {
   #dang-ky-nhan-quan #form-nhan .footer-form .form-btn-link,
-#dang-ky-nhan-quan #form-trao .footer-form .form-btn-link,
-#dang-ky-trao-quan #form-nhan .footer-form .form-btn-link,
-#dang-ky-trao-quan #form-trao .footer-form .form-btn-link {
+  #dang-ky-nhan-quan #form-trao .footer-form .form-btn-link,
+  #dang-ky-trao-quan #form-nhan .footer-form .form-btn-link,
+  #dang-ky-trao-quan #form-trao .footer-form .form-btn-link {
     padding: 12px 12px !important;
     font-size: 14px;
   }
 }
 @media screen and (max-width: 575px) {
   #dang-ky-nhan-quan #form-nhan .footer-form .form-btn-link,
-#dang-ky-nhan-quan #form-trao .footer-form .form-btn-link,
-#dang-ky-trao-quan #form-nhan .footer-form .form-btn-link,
-#dang-ky-trao-quan #form-trao .footer-form .form-btn-link {
+  #dang-ky-nhan-quan #form-trao .footer-form .form-btn-link,
+  #dang-ky-trao-quan #form-nhan .footer-form .form-btn-link,
+  #dang-ky-trao-quan #form-trao .footer-form .form-btn-link {
     padding: 10px !important;
   }
 }
@@ -6667,17 +6667,17 @@ li {
 }
 @media screen and (max-width: 991px) {
   #dang-ky-nhan-quan #form-nhan .footer-form .column-btn,
-#dang-ky-nhan-quan #form-trao .footer-form .column-btn,
-#dang-ky-trao-quan #form-nhan .footer-form .column-btn,
-#dang-ky-trao-quan #form-trao .footer-form .column-btn {
+  #dang-ky-nhan-quan #form-trao .footer-form .column-btn,
+  #dang-ky-trao-quan #form-nhan .footer-form .column-btn,
+  #dang-ky-trao-quan #form-trao .footer-form .column-btn {
     padding: 5px;
   }
 }
 @media screen and (max-width: 575px) {
   #dang-ky-nhan-quan #form-nhan .footer-form .column-btn,
-#dang-ky-nhan-quan #form-trao .footer-form .column-btn,
-#dang-ky-trao-quan #form-nhan .footer-form .column-btn,
-#dang-ky-trao-quan #form-trao .footer-form .column-btn {
+  #dang-ky-nhan-quan #form-trao .footer-form .column-btn,
+  #dang-ky-trao-quan #form-nhan .footer-form .column-btn,
+  #dang-ky-trao-quan #form-trao .footer-form .column-btn {
     padding: 0px;
   }
 }
@@ -6694,34 +6694,34 @@ li {
 }
 @media screen and (max-width: 1199px) {
   #dang-ky-nhan-quan #form-nhan .title .title-btn,
-#dang-ky-nhan-quan #form-trao .title .title-btn,
-#dang-ky-trao-quan #form-nhan .title .title-btn,
-#dang-ky-trao-quan #form-trao .title .title-btn {
+  #dang-ky-nhan-quan #form-trao .title .title-btn,
+  #dang-ky-trao-quan #form-nhan .title .title-btn,
+  #dang-ky-trao-quan #form-trao .title .title-btn {
     font-size: 28px;
   }
 }
 @media screen and (max-width: 1099px) {
   #dang-ky-nhan-quan #form-nhan .title .title-btn,
-#dang-ky-nhan-quan #form-trao .title .title-btn,
-#dang-ky-trao-quan #form-nhan .title .title-btn,
-#dang-ky-trao-quan #form-trao .title .title-btn {
+  #dang-ky-nhan-quan #form-trao .title .title-btn,
+  #dang-ky-trao-quan #form-nhan .title .title-btn,
+  #dang-ky-trao-quan #form-trao .title .title-btn {
     font-size: 26px;
   }
 }
 @media screen and (max-width: 991px) {
   #dang-ky-nhan-quan #form-nhan .title .title-btn,
-#dang-ky-nhan-quan #form-trao .title .title-btn,
-#dang-ky-trao-quan #form-nhan .title .title-btn,
-#dang-ky-trao-quan #form-trao .title .title-btn {
+  #dang-ky-nhan-quan #form-trao .title .title-btn,
+  #dang-ky-trao-quan #form-nhan .title .title-btn,
+  #dang-ky-trao-quan #form-trao .title .title-btn {
     font-size: 18px;
     width: 80%;
   }
 }
 @media screen and (max-width: 767px) {
   #dang-ky-nhan-quan #form-nhan .title .title-btn,
-#dang-ky-nhan-quan #form-trao .title .title-btn,
-#dang-ky-trao-quan #form-nhan .title .title-btn,
-#dang-ky-trao-quan #form-trao .title .title-btn {
+  #dang-ky-nhan-quan #form-trao .title .title-btn,
+  #dang-ky-trao-quan #form-nhan .title .title-btn,
+  #dang-ky-trao-quan #form-trao .title .title-btn {
     font-size: 18px;
     padding: 0px !important;
     color: #00a859;
@@ -6731,9 +6731,9 @@ li {
 }
 @media screen and (max-width: 575px) {
   #dang-ky-nhan-quan #form-nhan .title .title-btn,
-#dang-ky-nhan-quan #form-trao .title .title-btn,
-#dang-ky-trao-quan #form-nhan .title .title-btn,
-#dang-ky-trao-quan #form-trao .title .title-btn {
+  #dang-ky-nhan-quan #form-trao .title .title-btn,
+  #dang-ky-trao-quan #form-nhan .title .title-btn,
+  #dang-ky-trao-quan #form-trao .title .title-btn {
     font-size: 15px;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -6741,9 +6741,9 @@ li {
 }
 @media screen and (max-width: 991px) {
   #dang-ky-nhan-quan #form-nhan .checkbox,
-#dang-ky-nhan-quan #form-trao .checkbox,
-#dang-ky-trao-quan #form-nhan .checkbox,
-#dang-ky-trao-quan #form-trao .checkbox {
+  #dang-ky-nhan-quan #form-trao .checkbox,
+  #dang-ky-trao-quan #form-nhan .checkbox,
+  #dang-ky-trao-quan #form-trao .checkbox {
     width: 10px;
     margin-left: 30px;
   }
@@ -6757,9 +6757,9 @@ li {
 }
 @media screen and (max-width: 767px) {
   #dang-ky-nhan-quan .main-nhan,
-#dang-ky-nhan-quan .main-trao,
-#dang-ky-trao-quan .main-nhan,
-#dang-ky-trao-quan .main-trao {
+  #dang-ky-nhan-quan .main-trao,
+  #dang-ky-trao-quan .main-nhan,
+  #dang-ky-trao-quan .main-trao {
     padding: 0px !important;
   }
 }
@@ -6800,13 +6800,13 @@ li {
 }
 @media screen and (max-width: 767px) {
   #user-admin-main .title,
-#user-search-main .title {
+  #user-search-main .title {
     font-size: 28px !important;
   }
 }
 @media screen and (max-width: 575px) {
   #user-admin-main .title,
-#user-search-main .title {
+  #user-search-main .title {
     font-size: 26px !important;
   }
 }
@@ -6899,17 +6899,17 @@ li {
 }
 @media screen and (max-width: 767px) {
   #contact-main-quan .address,
-#contact-main-quan .tel,
-#contact-main-quan .email,
-#contact-main-quan .hotline {
+  #contact-main-quan .tel,
+  #contact-main-quan .email,
+  #contact-main-quan .hotline {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 575px) {
   #contact-main-quan .address,
-#contact-main-quan .tel,
-#contact-main-quan .email,
-#contact-main-quan .hotline {
+  #contact-main-quan .tel,
+  #contact-main-quan .email,
+  #contact-main-quan .hotline {
     font-size: 14px;
   }
 }
@@ -6954,10 +6954,10 @@ li {
 }
 @media screen and (max-width: 991px) {
   #contact-main-quan form .input-name,
-#contact-main-quan form .input-phone,
-#contact-main-quan form .input-address,
-#contact-main-quan form .input-email,
-#contact-main-quan form .input-content {
+  #contact-main-quan form .input-phone,
+  #contact-main-quan form .input-address,
+  #contact-main-quan form .input-email,
+  #contact-main-quan form .input-content {
     font-size: 14px;
   }
 }
@@ -7127,28 +7127,28 @@ li {
 }
 @media screen and (max-width: 991px) {
   .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 .title,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2 .title,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3 .title,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4 .title,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 .title {
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2 .title,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3 .title,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4 .title,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 .title {
     color: #00a859;
   }
 }
 @media screen and (max-width: 991px) {
   .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1 .description,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2 .description,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3 .description,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4 .description,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 .description {
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2 .description,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3 .description,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4 .description,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 .description {
     text-align: center !important;
   }
 }
 @media screen and (max-width: 991px) {
   .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 {
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 {
     width: 100%;
     clip-path: none;
     background-color: #ebebeb;
@@ -7158,10 +7158,10 @@ li {
 }
 @media screen and (max-width: 575px) {
   .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-1,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4,
-.tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 {
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-2,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-3,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-4,
+  .tro-thanh-nguoi-tai-tro-quan .tai-tro-item-5 {
     margin: 30px 50px;
     border-radius: 5px;
   }
@@ -7192,10 +7192,10 @@ li {
 }
 @media screen and (max-width: 991px) {
   .receiver-quan .receiver-quan-item-1,
-.receiver-quan .receiver-quan-item-2,
-.receiver-quan .receiver-quan-item-3,
-.receiver-quan .receiver-quan-item-4,
-.receiver-quan .receiver-quan-item-5 {
+  .receiver-quan .receiver-quan-item-2,
+  .receiver-quan .receiver-quan-item-3,
+  .receiver-quan .receiver-quan-item-4,
+  .receiver-quan .receiver-quan-item-5 {
     width: 100%;
   }
 }
@@ -7295,30 +7295,30 @@ li {
 }
 @media screen and (max-width: 575px) {
   .receiver-quan .receiver-quan-item-1 .item-1,
-.receiver-quan .receiver-quan-item-1 .item-2,
-.receiver-quan .receiver-quan-item-1 .item-3,
-.receiver-quan .receiver-quan-item-1 .item-4,
-.receiver-quan .receiver-quan-item-1 .item-5,
-.receiver-quan .receiver-quan-item-2 .item-1,
-.receiver-quan .receiver-quan-item-2 .item-2,
-.receiver-quan .receiver-quan-item-2 .item-3,
-.receiver-quan .receiver-quan-item-2 .item-4,
-.receiver-quan .receiver-quan-item-2 .item-5,
-.receiver-quan .receiver-quan-item-3 .item-1,
-.receiver-quan .receiver-quan-item-3 .item-2,
-.receiver-quan .receiver-quan-item-3 .item-3,
-.receiver-quan .receiver-quan-item-3 .item-4,
-.receiver-quan .receiver-quan-item-3 .item-5,
-.receiver-quan .receiver-quan-item-4 .item-1,
-.receiver-quan .receiver-quan-item-4 .item-2,
-.receiver-quan .receiver-quan-item-4 .item-3,
-.receiver-quan .receiver-quan-item-4 .item-4,
-.receiver-quan .receiver-quan-item-4 .item-5,
-.receiver-quan .receiver-quan-item-5 .item-1,
-.receiver-quan .receiver-quan-item-5 .item-2,
-.receiver-quan .receiver-quan-item-5 .item-3,
-.receiver-quan .receiver-quan-item-5 .item-4,
-.receiver-quan .receiver-quan-item-5 .item-5 {
+  .receiver-quan .receiver-quan-item-1 .item-2,
+  .receiver-quan .receiver-quan-item-1 .item-3,
+  .receiver-quan .receiver-quan-item-1 .item-4,
+  .receiver-quan .receiver-quan-item-1 .item-5,
+  .receiver-quan .receiver-quan-item-2 .item-1,
+  .receiver-quan .receiver-quan-item-2 .item-2,
+  .receiver-quan .receiver-quan-item-2 .item-3,
+  .receiver-quan .receiver-quan-item-2 .item-4,
+  .receiver-quan .receiver-quan-item-2 .item-5,
+  .receiver-quan .receiver-quan-item-3 .item-1,
+  .receiver-quan .receiver-quan-item-3 .item-2,
+  .receiver-quan .receiver-quan-item-3 .item-3,
+  .receiver-quan .receiver-quan-item-3 .item-4,
+  .receiver-quan .receiver-quan-item-3 .item-5,
+  .receiver-quan .receiver-quan-item-4 .item-1,
+  .receiver-quan .receiver-quan-item-4 .item-2,
+  .receiver-quan .receiver-quan-item-4 .item-3,
+  .receiver-quan .receiver-quan-item-4 .item-4,
+  .receiver-quan .receiver-quan-item-4 .item-5,
+  .receiver-quan .receiver-quan-item-5 .item-1,
+  .receiver-quan .receiver-quan-item-5 .item-2,
+  .receiver-quan .receiver-quan-item-5 .item-3,
+  .receiver-quan .receiver-quan-item-5 .item-4,
+  .receiver-quan .receiver-quan-item-5 .item-5 {
     margin: 0px 40px;
   }
 }
@@ -7752,23 +7752,38 @@ li {
 .main-block-table.table .btn{
   width: 100%;
 }
-.user-search-result .search-result-img {
-  height: 10rem;
-  object-fit: cover;
-}
 .user-search-result .row{
   margin-bottom:1.5rem;
 }
-.entry-image img{
-  min-height: 20vh;
-  max-height: 50vh;
-  width:100%;
-  object-fit: cover;
+.entry-image,
+#news-section-1 .post-item > .post-thumbnail,
+#news_section-2-carousel .featured-post{
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
 }
+post-thumbnail{
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+.entry-image img,
+.post-thumbnail img,
+#news-section-1 .post-item > .post-thumbnail > a > img,
+#news_section-2-carousel .featured-post img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.user-search-result .search-result-img{
+  height: 35vh;
+}
+
 @media screen and (max-width: 991px) {
-  .user-search-result .search-result-img {
-    height: 100%;
-  }
 }
 #partner_section-2 .slick-slide img{
   object-fit: contain;
